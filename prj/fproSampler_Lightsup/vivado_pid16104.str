@@ -1,0 +1,145 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:35 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 16104
+License: Customer
+
+Current time: 	Sat Apr 10 19:12:12 EET 2021
+Time zone: 	Eastern European Standard Time (Europe/Istanbul)
+
+OS: Ubuntu
+OS Version: 5.8.0-48-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0
+Screen size: 1366x768
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/tools/Xilinx/Vivado/2020.1/tps/lnx64/jre9.0.4
+Java executable location: 	/tools/Xilinx/Vivado/2020.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	egoncu
+User home directory: /home/egoncu
+User working directory: /home/egoncu/Desktop/github/lightsup/prj/fproSampler_Lightsup
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2020.1
+RDI_DATADIR: /tools/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: /tools/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: /home/egoncu/.Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: /home/egoncu/.Xilinx/Vivado/2020.1/
+Vivado layouts directory: /home/egoncu/.Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	/tools/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/egoncu/Desktop/github/lightsup/prj/fproSampler_Lightsup/vivado.log
+Vivado journal file location: 	/home/egoncu/Desktop/github/lightsup/prj/fproSampler_Lightsup/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-16104-egoncu-Lenovo-IdeaPad-L340-15API
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /tools/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: /tools/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: /tools/Xilinx/Vivado/2020.1
+XILINX_SDK: /tools/Xilinx/Vitis/2020.1
+XILINX_VITIS: /tools/Xilinx/Vitis/2020.1
+XILINX_VIVADO: /tools/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	193 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,367 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 118 MB (+121160kb) [00:00:10]
+// [Engine Memory]: 1,353 MB (+1267415kb) [00:00:10]
+// Opening Vivado Project: fproSampler_Lightsup.xpr. Version: Vivado v2020.1 
+// bz (cs):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project fproSampler_Lightsup.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,339 MB. GUI used memory: 46 MB. Current time: 4/10/21, 7:12:13 PM EET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  4496 ms.
+// Tcl Message: open_project fproSampler_Lightsup.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:10 . Memory (MB): peak = 7009.242 ; gain = 36.074 ; free physical = 123 ; free virtual = 3791 
+// Project name: fproSampler_Lightsup; location: /home/egoncu/Desktop/github/lightsup/prj/fproSampler_Lightsup; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bz (cs)
+// [Engine Memory]: 1,510 MB (+93454kb) [00:00:23]
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [Engine Memory]: 1,849 MB (+276369kb) [00:00:27]
+// Tcl Message: update_compile_order -fileset sources_1 
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aA (aL, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,521 MB. GUI used memory: 71 MB. Current time: 4/10/21, 7:12:29 PM EET
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd)]", 1); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd)]", 4); // B (F, cs)
+// PAPropertyPanels.initPanels (chu_timer.vhd) elapsed time: 0.2s
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd), timer_slot0 : chu_timer(arch) (chu_timer.vhd)]", 6, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd), timer_slot0 : chu_timer(arch) (chu_timer.vhd)]", 6, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd)]", 4, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd)]", 4, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// [GUI Memory]: 130 MB (+6364kb) [00:01:12]
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chu_timer.vhd", 1); // m (l, cs)
+selectCodeEditor("chu_timer.vhd", 52, 113); // bP (w, cs)
+selectCodeEditor("chu_timer.vhd", 52, 113, false, false, false, false, true); // bP (w, cs) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // l (au, cs)
+typeControlKey(null, null, 'z');
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "read"); // l (au, cs)
+typeControlKey(null, null, 'z');
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "read"); // l (au, cs)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// HMemoryUtils.trashcanNow. Engine heap size: 1,535 MB. GUI used memory: 75 MB. Current time: 4/10/21, 7:42:29 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,513 MB. GUI used memory: 65 MB. Current time: 4/10/21, 8:12:29 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,513 MB. GUI used memory: 65 MB. Current time: 4/10/21, 8:42:29 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,513 MB. GUI used memory: 65 MB. Current time: 4/10/21, 9:12:29 PM EET

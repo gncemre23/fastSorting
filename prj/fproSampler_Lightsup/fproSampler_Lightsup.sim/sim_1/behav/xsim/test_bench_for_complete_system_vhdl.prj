@@ -1,0 +1,56 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../hw/ip/bd_0/ip/ip_0/sim/bd_3914_microblaze_I_0.vhd" \
+"../../../../../../hw/ip/bd_0/ip/ip_1/sim/bd_3914_rst_0_0.vhd" \
+"../../../../../../hw/ip/bd_0/ip/ip_2/sim/bd_3914_ilmb_0.vhd" \
+"../../../../../../hw/ip/bd_0/ip/ip_3/sim/bd_3914_dlmb_0.vhd" \
+"../../../../../../hw/ip/bd_0/ip/ip_4/sim/bd_3914_dlmb_cntlr_0.vhd" \
+"../../../../../../hw/ip/bd_0/ip/ip_5/sim/bd_3914_ilmb_cntlr_0.vhd" \
+"../../../../../../hw/ip/bd_0/ip/ip_7/sim/bd_3914_mdm_0_0.vhd" \
+"../../../../../../hw/ip/bd_0/ip/ip_9/sim/bd_3914_iomodule_0_0.vhd" \
+"../../../../../../hw/ip/bd_0/sim/bd_3914.vhd" \
+"../../../../../../hw/ip/sim/cpu.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/adsr/adsr.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/uart/baud_gen.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/adsr/chu_adsr_core.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/ddfs/sin_rom.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/ddfs/ddfs.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/ddfs/ds_1bit_dac.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/ddfs/chu_ddfs_core.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/debounce/debounce_counter.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/debounce/debounce_fsm.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/debounce/chu_debounce_core.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/mmio_basic/chu_gpi.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/mmio_basic/chu_gpo.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/i2c/i2c_master.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/i2c/chu_i2c_core.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/sys/bridge/chu_io_map.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/pwm/chu_io_pwm_core.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/led_mux/led_mux8.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/led_mux/chu_led_mux_core.vhd" \
+"../../../../../../hw/hdl/lfsr.vhd" \
+"../../../../../../hw/hdl/chu_lfsr.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/sys/bridge/chu_mcs_bridge.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/mmio_support/chu_mmio_controller.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/ps2/ps2tx.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/ps2/ps2rx.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/mmio_support/fifo/fifo_ctrl.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/mmio_support/fifo/reg_file.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/mmio_support/fifo/fifo.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/ps2/ps2_top.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/ps2/chu_ps2_core.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/spi/spi.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/spi/chu_spi_core.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/mmio_basic/chu_timer.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/uart/uart_rx.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/uart/uart_tx.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/uart/uart.vhd" \
+"../../../../../../hw/hdl/fpro_src/hdl/mmio/uart/chu_uart.vhd" \
+"../../../../../../hw/hdl/basys3_supplement/xadc_basys3/chu_xadc_core_basys3.vhd" \
+"../../../../../../hw/hdl/basys3_supplement/mmio_sys_sampler_basys3.vhd" \
+"../../../../../../hw/hdl/basys3_supplement/mcs_top_sampler_basys3.vhd" \
+"../../../../../../hw/hdl/basys3_supplement/xadc_basys3/xadc_fpro_basys3.vhd" \
+"../../../../fproSampler_Lightsup.srcs/sim_1/new/test_bench_for_complete_system.vhd" \
+
+# Do not sort compile order
+nosort

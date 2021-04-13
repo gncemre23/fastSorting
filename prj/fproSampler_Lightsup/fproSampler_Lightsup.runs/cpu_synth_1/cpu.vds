@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Apr  3 20:57:13 2021
+# Process ID: 44494
+# Current directory: /home/egoncu/Desktop/github/lightsup/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/cpu_synth_1
+# Command line: vivado -log cpu.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cpu.tcl
+# Log file: /home/egoncu/Desktop/github/lightsup/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/cpu_synth_1/cpu.vds
+# Journal file: /home/egoncu/Desktop/github/lightsup/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/cpu_synth_1/vivado.jou
+#-----------------------------------------------------------
+source cpu.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP cpu, cache-ID = 8e63486976282943.
+INFO: [Common 17-206] Exiting Vivado at Sat Apr  3 20:57:34 2021...

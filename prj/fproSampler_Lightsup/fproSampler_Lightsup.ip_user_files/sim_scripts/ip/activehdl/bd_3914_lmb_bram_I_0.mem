@@ -1,0 +1,16 @@
+// Mem file initialization records.
+//
+// SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+// Vivado v2020.1 (64-bit)
+// Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+// Created on Saturday April 03, 2021 - 08:57:14 pm, from:
+//
+//     Map file     - /home/egoncu/Desktop/github/lightsup/hw/ip/bd_0/bd_3914.bmm
+//     Data file(s) - /home/egoncu/Desktop/github/lightsup/hw/ip/bd_0/ip/ip_0/data/mb_bootloop_le.elf
+//
+// Address space 'mcs_0_U0_microblaze_I.mcs_0_U0_lmb_bram_I_ADDR_SPACE', bit lane [31:0].
+//
+// Bus width = 32 bits, number of bus blocks = 1.
+
+@00000000
+    B8000000

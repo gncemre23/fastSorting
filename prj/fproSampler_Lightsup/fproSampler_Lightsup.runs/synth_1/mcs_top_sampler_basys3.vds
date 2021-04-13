@@ -1,0 +1,636 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Apr 13 22:39:01 2021
+# Process ID: 4962
+# Current directory: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/synth_1
+# Command line: vivado -log mcs_top_sampler_basys3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mcs_top_sampler_basys3.tcl
+# Log file: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/synth_1/mcs_top_sampler_basys3.vds
+# Journal file: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source mcs_top_sampler_basys3.tcl -notrace
+Command: synth_design -top mcs_top_sampler_basys3 -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 4990
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2117.098 ; gain = 0.000 ; free physical = 704 ; free virtual = 4855
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mcs_top_sampler_basys3' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/basys3_supplement/mcs_top_sampler_basys3.vhd:67]
+	Parameter BRIDGE_BASE bound to: 32'b11000000000000000000000000000000 
+INFO: [Synth 8-3491] module 'cpu' declared at '/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/synth_1/.Xil/Vivado-4962-egoncu-Lenovo-IdeaPad-L340-15API/realtime/cpu_stub.vhdl:5' bound to instance 'mcs_0' of component 'cpu' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/basys3_supplement/mcs_top_sampler_basys3.vhd:148]
+INFO: [Synth 8-638] synthesizing module 'cpu' [/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/synth_1/.Xil/Vivado-4962-egoncu-Lenovo-IdeaPad-L340-15API/realtime/cpu_stub.vhdl:21]
+INFO: [Synth 8-638] synthesizing module 'chu_mcs_bridge' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/sys/bridge/chu_mcs_bridge.vhd:28]
+	Parameter BRG_BASE bound to: -1073741824 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'chu_mcs_bridge' (1#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/sys/bridge/chu_mcs_bridge.vhd:28]
+INFO: [Synth 8-638] synthesizing module 'mmio_sys_sampler_basys3' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/basys3_supplement/mmio_sys_sampler_basys3.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'chu_mmio_controller' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/mmio_support/chu_mmio_controller.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'chu_mmio_controller' (2#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/mmio_support/chu_mmio_controller.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'chu_timer' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/mmio_basic/chu_timer.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'chu_timer' (3#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/mmio_basic/chu_timer.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'chu_uart' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/uart/chu_uart.vhd:24]
+	Parameter FIFO_DEPTH_BIT bound to: 6 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'uart' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/uart/uart.vhd:25]
+	Parameter DBIT bound to: 8 - type: integer 
+	Parameter SB_TICK bound to: 16 - type: integer 
+	Parameter FIFO_W bound to: 6 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'baud_gen' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/uart/baud_gen.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'baud_gen' (4#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/uart/baud_gen.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'uart_rx' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/uart/uart_rx.vhd:18]
+	Parameter DBIT bound to: 8 - type: integer 
+	Parameter SB_TICK bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'uart_rx' (5#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/uart/uart_rx.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'uart_tx' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/uart/uart_tx.vhd:19]
+	Parameter DBIT bound to: 8 - type: integer 
+	Parameter SB_TICK bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'uart_tx' (6#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/uart/uart_tx.vhd:19]
+INFO: [Synth 8-638] synthesizing module 'fifo' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/mmio_support/fifo/fifo.vhd:19]
+	Parameter ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'fifo_ctrl' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/mmio_support/fifo/fifo_ctrl.vhd:15]
+	Parameter ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'fifo_ctrl' (7#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/mmio_support/fifo/fifo_ctrl.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'reg_file' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/mmio_support/fifo/reg_file.vhd:19]
+	Parameter ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg_file' (8#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/mmio_support/fifo/reg_file.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'fifo' (9#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/mmio_support/fifo/fifo.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'uart' (10#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/uart/uart.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'chu_uart' (11#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/uart/chu_uart.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'chu_gpo' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/mmio_basic/chu_gpo.vhd:20]
+	Parameter W bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'chu_gpo' (12#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/mmio_basic/chu_gpo.vhd:20]
+INFO: [Synth 8-638] synthesizing module 'chu_gpi' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/mmio_basic/chu_gpi.vhd:21]
+	Parameter W bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'chu_gpi' (13#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/mmio_basic/chu_gpi.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'chu_rotation_core' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/chu_rotation_core.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'rotation_core' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/rotation_core.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'rotation_core' (14#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/rotation_core.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'chu_rotation_core' (15#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/chu_rotation_core.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'chu_xadc_basys3_core' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/basys3_supplement/xadc_basys3/chu_xadc_core_basys3.vhd:27]
+INFO: [Synth 8-3491] module 'xadc_fpro_basys3' declared at '/home/egoncu/Desktop/github/fastSorting/hw/hdl/basys3_supplement/xadc_basys3/xadc_fpro_basys3.vhd:55' bound to instance 'xdac_unit' of component 'xadc_fpro_basys3' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/basys3_supplement/xadc_basys3/chu_xadc_core_basys3.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'xadc_fpro_basys3' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/basys3_supplement/xadc_basys3/xadc_fpro_basys3.vhd:84]
+	Parameter INIT_40 bound to: 16'b0000000000000000 
+	Parameter INIT_41 bound to: 16'b0010000110101111 
+	Parameter INIT_42 bound to: 16'b0000010000000000 
+	Parameter INIT_43 bound to: 16'b0000000000000000 
+	Parameter INIT_44 bound to: 16'b0000000000000000 
+	Parameter INIT_45 bound to: 16'b0000000000000000 
+	Parameter INIT_46 bound to: 16'b0000000000000000 
+	Parameter INIT_47 bound to: 16'b0000000000000000 
+	Parameter INIT_48 bound to: 16'b0000001100000000 
+	Parameter INIT_49 bound to: 16'b1100000011000000 
+	Parameter INIT_4A bound to: 16'b0000000000000000 
+	Parameter INIT_4B bound to: 16'b0000000000000000 
+	Parameter INIT_4C bound to: 16'b0000000000000000 
+	Parameter INIT_4D bound to: 16'b0000000000000000 
+	Parameter INIT_4E bound to: 16'b0000000000000000 
+	Parameter INIT_4F bound to: 16'b0000000000000000 
+	Parameter INIT_50 bound to: 16'b1011010111101101 
+	Parameter INIT_51 bound to: 16'b0101011111100100 
+	Parameter INIT_52 bound to: 16'b1010000101000111 
+	Parameter INIT_53 bound to: 16'b1100101000110011 
+	Parameter INIT_54 bound to: 16'b1010100100111010 
+	Parameter INIT_55 bound to: 16'b0101001011000110 
+	Parameter INIT_56 bound to: 16'b1001010101010101 
+	Parameter INIT_57 bound to: 16'b1010111001001110 
+	Parameter INIT_58 bound to: 16'b0101100110011001 
+	Parameter INIT_59 bound to: 16'b0000000000000000 
+	Parameter INIT_5A bound to: 16'b0000000000000000 
+	Parameter INIT_5B bound to: 16'b0000000000000000 
+	Parameter INIT_5C bound to: 16'b0101000100010001 
+	Parameter INIT_5D bound to: 16'b0000000000000000 
+	Parameter INIT_5E bound to: 16'b0000000000000000 
+	Parameter INIT_5F bound to: 16'b0000000000000000 
+	Parameter IS_CONVSTCLK_INVERTED bound to: 1'b0 
+	Parameter IS_DCLK_INVERTED bound to: 1'b0 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+	Parameter SIM_MONITOR_FILE bound to: design.txt - type: string 
+INFO: [Synth 8-113] binding component instance 'U0' to cell 'XADC' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/basys3_supplement/xadc_basys3/xadc_fpro_basys3.vhd:151]
+INFO: [Synth 8-256] done synthesizing module 'xadc_fpro_basys3' (16#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/basys3_supplement/xadc_basys3/xadc_fpro_basys3.vhd:84]
+INFO: [Synth 8-256] done synthesizing module 'chu_xadc_basys3_core' (17#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/basys3_supplement/xadc_basys3/chu_xadc_core_basys3.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'chu_io_pwm_core' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/pwm/chu_io_pwm_core.vhd:24]
+	Parameter W bound to: 8 - type: integer 
+	Parameter R bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'chu_io_pwm_core' (18#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/pwm/chu_io_pwm_core.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'chu_debounce_core' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/debounce/chu_debounce_core.vhd:21]
+	Parameter W bound to: 5 - type: integer 
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'debounce_counter' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/debounce/debounce_counter.vhd:12]
+	Parameter N bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'debounce_counter' (19#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/debounce/debounce_counter.vhd:12]
+INFO: [Synth 8-638] synthesizing module 'debounce_fsm' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/debounce/debounce_fsm.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'debounce_fsm' (20#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/debounce/debounce_fsm.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'chu_debounce_core' (21#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/debounce/chu_debounce_core.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'chu_led_mux_core' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/led_mux/chu_led_mux_core.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'led_mux8' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/led_mux/led_mux8.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'led_mux8' (22#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/led_mux/led_mux8.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'chu_led_mux_core' (23#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/led_mux/chu_led_mux_core.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'chu_spi_core' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/spi/chu_spi_core.vhd:24]
+	Parameter S bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'spi' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/spi/spi.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'spi' (24#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/spi/spi.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'chu_spi_core' (25#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/spi/chu_spi_core.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'chu_i2c_core' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/i2c/chu_i2c_core.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'i2c_master' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/i2c/i2c_master.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'i2c_master' (26#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/i2c/i2c_master.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'chu_i2c_core' (27#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/i2c/chu_i2c_core.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'chu_ps2_core' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ps2/chu_ps2_core.vhd:22]
+	Parameter W_SIZE bound to: 6 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ps2_top' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ps2/ps2_top.vhd:18]
+	Parameter W_SIZE bound to: 6 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ps2tx' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ps2/ps2tx.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'ps2tx' (28#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ps2/ps2tx.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'ps2rx' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ps2/ps2rx.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'ps2rx' (29#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ps2/ps2rx.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'ps2_top' (30#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ps2/ps2_top.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'chu_ps2_core' (31#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ps2/chu_ps2_core.vhd:22]
+INFO: [Synth 8-638] synthesizing module 'chu_ddfs_core' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ddfs/chu_ddfs_core.vhd:27]
+	Parameter PW bound to: 30 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ddfs' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ddfs/ddfs.vhd:20]
+	Parameter PW bound to: 30 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'sin_rom' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ddfs/sin_rom.vhd:16]
+	Parameter ADDR_WIDTH bound to: 8 - type: integer 
+	Parameter DATA_WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'sin_rom' (32#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ddfs/sin_rom.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'ddfs' (33#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ddfs/ddfs.vhd:20]
+INFO: [Synth 8-638] synthesizing module 'ds_1bit_dac' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ddfs/ds_1bit_dac.vhd:14]
+	Parameter W bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ds_1bit_dac' (34#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ddfs/ds_1bit_dac.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'chu_ddfs_core' (35#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ddfs/chu_ddfs_core.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'chu_adsr_core' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/adsr/chu_adsr_core.vhd:28]
+INFO: [Synth 8-638] synthesizing module 'adsr' [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/adsr/adsr.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'adsr' (36#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/adsr/adsr.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'chu_adsr_core' (37#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/adsr/chu_adsr_core.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'mmio_sys_sampler_basys3' (38#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/basys3_supplement/mmio_sys_sampler_basys3.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'mcs_top_sampler_basys3' (39#1) [/home/egoncu/Desktop/github/fastSorting/hw/hdl/basys3_supplement/mcs_top_sampler_basys3.vhd:67]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2518.992 ; gain = 401.895 ; free physical = 681 ; free virtual = 4833
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2518.992 ; gain = 401.895 ; free physical = 687 ; free virtual = 4840
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2518.992 ; gain = 401.895 ; free physical = 687 ; free virtual = 4840
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.08 . Memory (MB): peak = 2518.992 ; gain = 0.000 ; free physical = 679 ; free virtual = 4831
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/egoncu/Desktop/github/fastSorting/hw/ip/cpu/cpu_in_context.xdc] for cell 'mcs_0'
+Finished Parsing XDC File [/home/egoncu/Desktop/github/fastSorting/hw/ip/cpu/cpu_in_context.xdc] for cell 'mcs_0'
+Parsing XDC File [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc]
+WARNING: [Vivado 12-584] No ports matched 'PS2Clk'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:142]
+WARNING: [Vivado 12-584] No ports matched 'rgb[8]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:151]
+WARNING: [Vivado 12-584] No ports matched 'rgb[8]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:152]
+WARNING: [Vivado 12-584] No ports matched 'rgb[9]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:153]
+WARNING: [Vivado 12-584] No ports matched 'rgb[9]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:154]
+WARNING: [Vivado 12-584] No ports matched 'rgb[10]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:155]
+WARNING: [Vivado 12-584] No ports matched 'rgb[10]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:156]
+WARNING: [Vivado 12-584] No ports matched 'rgb[11]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:157]
+WARNING: [Vivado 12-584] No ports matched 'rgb[11]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:158]
+WARNING: [Vivado 12-584] No ports matched 'rgb[4]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:159]
+WARNING: [Vivado 12-584] No ports matched 'rgb[4]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:160]
+WARNING: [Vivado 12-584] No ports matched 'rgb[5]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:161]
+WARNING: [Vivado 12-584] No ports matched 'rgb[5]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:162]
+WARNING: [Vivado 12-584] No ports matched 'rgb[6]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:163]
+WARNING: [Vivado 12-584] No ports matched 'rgb[6]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:164]
+WARNING: [Vivado 12-584] No ports matched 'rgb[7]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:165]
+WARNING: [Vivado 12-584] No ports matched 'rgb[7]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:166]
+WARNING: [Vivado 12-584] No ports matched 'rgb[0]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:167]
+WARNING: [Vivado 12-584] No ports matched 'rgb[0]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:168]
+WARNING: [Vivado 12-584] No ports matched 'rgb[1]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:169]
+WARNING: [Vivado 12-584] No ports matched 'rgb[1]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:170]
+WARNING: [Vivado 12-584] No ports matched 'rgb[2]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:171]
+WARNING: [Vivado 12-584] No ports matched 'rgb[2]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:172]
+WARNING: [Vivado 12-584] No ports matched 'rgb[3]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:173]
+WARNING: [Vivado 12-584] No ports matched 'rgb[3]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:174]
+WARNING: [Vivado 12-584] No ports matched 'hsync'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:175]
+WARNING: [Vivado 12-584] No ports matched 'hsync'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:176]
+WARNING: [Vivado 12-584] No ports matched 'vsync'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:177]
+WARNING: [Vivado 12-584] No ports matched 'vsync'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:178]
+Finished Parsing XDC File [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/mcs_top_sampler_basys3_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mcs_top_sampler_basys3_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/mcs_top_sampler_basys3_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2551.008 ; gain = 0.000 ; free physical = 568 ; free virtual = 4734
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2551.008 ; gain = 0.000 ; free physical = 568 ; free virtual = 4734
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 2551.008 ; gain = 433.910 ; free physical = 657 ; free virtual = 4823
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 2551.008 ; gain = 433.910 ; free physical = 657 ; free virtual = 4823
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for mcs_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 2551.008 ; gain = 433.910 ; free physical = 657 ; free virtual = 4823
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'uart_rx'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'uart_tx'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'debounce_fsm'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'spi'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'i2c_master'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'ps2tx'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'ps2rx'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'adsr'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                   start |                               01 |                               01
+                    data |                               10 |                               10
+                    stop |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'uart_rx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                   start |                               01 |                               01
+                    data |                               10 |                               10
+                    stop |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'uart_tx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    zero |                         00000001 |                              000
+                 wait1_1 |                         00000010 |                              001
+                 wait1_2 |                         00000100 |                              010
+                 wait1_3 |                         00001000 |                              011
+                     one |                         00010000 |                              100
+                 wait0_1 |                         00100000 |                              101
+                 wait0_2 |                         01000000 |                              110
+                 wait0_3 |                         10000000 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'one-hot' in module 'debounce_fsm'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              001 |                               00
+                      p0 |                              010 |                               01
+                      p1 |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'one-hot' in module 'spi'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                             0000 |                             0000
+                  start1 |                             0001 |                             0010
+                  start2 |                             0010 |                             0011
+                    hold |                             0011 |                             0001
+                 restart |                             0100 |                             1001
+                   stop1 |                             0101 |                             1010
+                   stop2 |                             0110 |                             1011
+                   data1 |                             0111 |                             0100
+                   data2 |                             1000 |                             0101
+                   data3 |                             1001 |                             0110
+                   data4 |                             1010 |                             0111
+                data_end |                             1011 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'i2c_master'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                           000001 |                              000
+                   waitr |                           000010 |                              001
+                     rts |                           000100 |                              010
+                   start |                           001000 |                              011
+                    data |                           010000 |                              100
+                    stop |                           100000 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'one-hot' in module 'ps2tx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              001 |                               00
+                     dps |                              010 |                               01
+                    load |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'one-hot' in module 'ps2rx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              000 |                              000
+                  launch |                              001 |                              001
+                  attack |                              010 |                              010
+                   decay |                              011 |                              011
+                 sustain |                              100 |                              100
+                 release |                              101 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'adsr'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 2551.008 ; gain = 433.910 ; free physical = 640 ; free virtual = 4807
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   48 Bit       Adders := 1     
+	   3 Input   32 Bit       Adders := 2     
+	   2 Input   32 Bit       Adders := 2     
+	   3 Input   30 Bit       Adders := 1     
+	   2 Input   30 Bit       Adders := 1     
+	   3 Input   17 Bit       Adders := 1     
+	   2 Input   16 Bit       Adders := 2     
+	   2 Input   13 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 12    
+	   2 Input    5 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 3     
+	   2 Input    3 Bit       Adders := 3     
++---XORs : 
+	   8 Input      1 Bit         XORs := 1     
++---Registers : 
+	               48 Bit    Registers := 1     
+	               32 Bit    Registers := 11    
+	               30 Bit    Registers := 5     
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 13    
+	               13 Bit    Registers := 1     
+	               11 Bit    Registers := 11    
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 263   
+	                6 Bit    Registers := 6     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 5     
+	                1 Bit    Registers := 16    
++---ROMs : 
+	                    ROMs := 1     
++---Muxes : 
+	   2 Input   64 Bit        Muxes := 1     
+	   2 Input   48 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 2     
+	   6 Input   32 Bit        Muxes := 2     
+	   3 Input   32 Bit        Muxes := 1     
+	   2 Input   30 Bit        Muxes := 2     
+	   3 Input   16 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 3     
+	  12 Input   16 Bit        Muxes := 1     
+	   6 Input   13 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 1     
+	  12 Input    9 Bit        Muxes := 1     
+	   6 Input    9 Bit        Muxes := 1     
+	   4 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 294   
+	   8 Input    8 Bit        Muxes := 6     
+	   3 Input    8 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 4     
+	   4 Input    5 Bit        Muxes := 2     
+	  12 Input    4 Bit        Muxes := 2     
+	   3 Input    4 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 1     
+	   6 Input    4 Bit        Muxes := 1     
+	   4 Input    3 Bit        Muxes := 2     
+	   3 Input    3 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 8     
+	   6 Input    3 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 8     
+	   3 Input    2 Bit        Muxes := 5     
+	   2 Input    1 Bit        Muxes := 42    
+	   3 Input    1 Bit        Muxes := 270   
+	   4 Input    1 Bit        Muxes := 29    
+	   8 Input    1 Bit        Muxes := 10    
+	  12 Input    1 Bit        Muxes := 9     
+	   6 Input    1 Bit        Muxes := 12    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP ddfs_unit/modu, operation Mode is: A*B2.
+DSP Report: register ddfs_unit/sin_rom_unit/dout_reg is absorbed into DSP ddfs_unit/modu.
+DSP Report: operator ddfs_unit/modu is absorbed into DSP ddfs_unit/modu.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 2551.008 ; gain = 433.910 ; free physical = 593 ; free virtual = 4774
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++--------------+------------+---------------+----------------+
+|Module Name   | RTL Object | Depth x Width | Implemented As | 
++--------------+------------+---------------+----------------+
+|chu_ddfs_core | p_0_out    | 256x16        | LUT            | 
++--------------+------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
++--------------------------+----------------------------------------------------+-----------+----------------------+-------------+
+|Module Name               | RTL Object                                         | Inference | Size (Depth x Width) | Primitives  | 
++--------------------------+----------------------------------------------------+-----------+----------------------+-------------+
+|mmio_sys_unit/uart1_slot1 | uart_unit/fifo_tx_unit/reg_file_unit/array_reg_reg | Implied   | 64 x 8               | RAM64M x 3	 | 
+|mmio_sys_unit/uart1_slot1 | uart_unit/fifo_rx_unit/reg_file_unit/array_reg_reg | Implied   | 64 x 8               | RAM64M x 3	 | 
+|mmio_sys_unit/ps2_slot11  | ps2_unit/rx_fifo_unit/reg_file_unit/array_reg_reg  | Implied   | 64 x 8               | RAM64M x 3	 | 
++--------------------------+----------------------------------------------------+-----------+----------------------+-------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping	Report (see note below)
++--------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name   | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++--------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|chu_ddfs_core | A*B2        | 16     | 16     | -      | -      | 32     | 0    | 1    | -    | -    | -     | 0    | 0    | 
++--------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:53 ; elapsed = 00:00:58 . Memory (MB): peak = 2551.008 ; gain = 433.910 ; free physical = 474 ; free virtual = 4662
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:57 ; elapsed = 00:01:02 . Memory (MB): peak = 2551.008 ; gain = 433.910 ; free physical = 466 ; free virtual = 4654
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping	Report
++--------------------------+----------------------------------------------------+-----------+----------------------+-------------+
+|Module Name               | RTL Object                                         | Inference | Size (Depth x Width) | Primitives  | 
++--------------------------+----------------------------------------------------+-----------+----------------------+-------------+
+|mmio_sys_unit/uart1_slot1 | uart_unit/fifo_tx_unit/reg_file_unit/array_reg_reg | Implied   | 64 x 8               | RAM64M x 3	 | 
+|mmio_sys_unit/uart1_slot1 | uart_unit/fifo_rx_unit/reg_file_unit/array_reg_reg | Implied   | 64 x 8               | RAM64M x 3	 | 
+|mmio_sys_unit/ps2_slot11  | ps2_unit/rx_fifo_unit/reg_file_unit/array_reg_reg  | Implied   | 64 x 8               | RAM64M x 3	 | 
++--------------------------+----------------------------------------------------+-----------+----------------------+-------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:59 ; elapsed = 00:01:04 . Memory (MB): peak = 2551.008 ; gain = 433.910 ; free physical = 466 ; free virtual = 4654
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6030] Inout pin 'jc_btm[7]' is read and/or written without using tristate logic. Proper direction of connection may be wrongly inferred. Please use specific direction to avoid any incorrect logic issue [/home/egoncu/Desktop/github/fastSorting/hw/hdl/basys3_supplement/mcs_top_sampler_basys3.vhd:17]
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:02 ; elapsed = 00:01:07 . Memory (MB): peak = 2551.008 ; gain = 433.910 ; free physical = 466 ; free virtual = 4654
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:02 ; elapsed = 00:01:07 . Memory (MB): peak = 2551.008 ; gain = 433.910 ; free physical = 466 ; free virtual = 4654
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:02 ; elapsed = 00:01:08 . Memory (MB): peak = 2551.008 ; gain = 433.910 ; free physical = 466 ; free virtual = 4654
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:02 ; elapsed = 00:01:08 . Memory (MB): peak = 2551.008 ; gain = 433.910 ; free physical = 466 ; free virtual = 4654
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:02 ; elapsed = 00:01:08 . Memory (MB): peak = 2551.008 ; gain = 433.910 ; free physical = 466 ; free virtual = 4654
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:02 ; elapsed = 00:01:08 . Memory (MB): peak = 2551.008 ; gain = 433.910 ; free physical = 466 ; free virtual = 4654
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++-----------------------+------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name            | RTL Name                                                   | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++-----------------------+------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|mcs_top_sampler_basys3 | mmio_sys_unit/ps2_slot11/ps2_unit/ps2_rx_unit/b_reg_reg[8] | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++-----------------------+------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |cpu           |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |cpu_bbox |     1|
+|2     |BUFG     |     1|
+|3     |CARRY4   |   128|
+|4     |DSP48E1  |     1|
+|5     |LUT1     |    32|
+|6     |LUT2     |   228|
+|7     |LUT3     |   134|
+|8     |LUT4     |   300|
+|9     |LUT5     |   120|
+|10    |LUT6     |   457|
+|11    |MUXF7    |    35|
+|12    |MUXF8    |    13|
+|13    |RAM64M   |     9|
+|14    |SRL16E   |     1|
+|15    |XADC     |     1|
+|16    |FDRE     |  1134|
+|17    |IBUF     |    32|
+|18    |IOBUF    |     3|
+|19    |OBUF     |    43|
+|20    |OBUFT    |     1|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:02 ; elapsed = 00:01:08 . Memory (MB): peak = 2551.008 ; gain = 433.910 ; free physical = 466 ; free virtual = 4654
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:59 ; elapsed = 00:01:05 . Memory (MB): peak = 2551.008 ; gain = 401.895 ; free physical = 517 ; free virtual = 4704
+Synthesis Optimization Complete : Time (s): cpu = 00:01:02 ; elapsed = 00:01:08 . Memory (MB): peak = 2551.016 ; gain = 433.910 ; free physical = 517 ; free virtual = 4704
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2551.016 ; gain = 0.000 ; free physical = 589 ; free virtual = 4777
+INFO: [Netlist 29-17] Analyzing 190 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2551.016 ; gain = 0.000 ; free physical = 541 ; free virtual = 4729
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 12 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 3 instances
+  RAM64M => RAM64M (RAMD64E(x4)): 9 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+115 Infos, 30 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:12 ; elapsed = 00:01:15 . Memory (MB): peak = 2551.016 ; gain = 434.023 ; free physical = 688 ; free virtual = 4876
+INFO: [Common 17-1381] The checkpoint '/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/synth_1/mcs_top_sampler_basys3.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file mcs_top_sampler_basys3_utilization_synth.rpt -pb mcs_top_sampler_basys3_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 13 22:40:29 2021...

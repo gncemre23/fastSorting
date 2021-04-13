@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"test_bench_for_complete_system_func_synth.vhd" \
+"../../../../../fproSampler_Lightsup.srcs/sim_1/new/test_bench_for_complete_system.vhd" \
+
+# Do not sort compile order
+nosort

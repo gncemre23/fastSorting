@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Apr 13 21:51:43 2021
+# Process ID: 140667
+# Current directory: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup
+# Command line: vivado fproSampler_Lightsup.xpr
+# Log file: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/vivado.log
+# Journal file: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project fproSampler_Lightsup.xpr
+INFO: [Project 1-313] Project file moved from '/home/egoncu/Desktop/github/lightsup/prj/fproSampler_Lightsup' since last save.
+WARNING: [Project 1-312] File not found as '/home/egoncu/Desktop/github/fastSorting/hw/hdl/lfsr.vhd'; using path '/home/egoncu/Desktop/github/lightsup/hw/hdl/lfsr.vhd' instead.
+WARNING: [Project 1-312] File not found as '/home/egoncu/Desktop/github/fastSorting/hw/hdl/chu_lfsr.vhd'; using path '/home/egoncu/Desktop/github/lightsup/hw/hdl/chu_lfsr.vhd' instead.
+WARNING: [Project 1-312] File not found as '/home/egoncu/Desktop/github/fastSorting/prj/vitis/lights_app2/Debug/lights_app2.elf'; using path '/home/egoncu/Desktop/github/lightsup/prj/vitis/lights_app2/Debug/lights_app2.elf' instead.
+WARNING: [Project 1-312] File not found as '/home/egoncu/Desktop/github/fastSorting/prj/vitis/lights_app2/Debug/lights_app2.elf'; using path '/home/egoncu/Desktop/github/lightsup/prj/vitis/lights_app2/Debug/lights_app2.elf' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-312] File not found as '/home/egoncu/Desktop/github/fastSorting/hw/hdl/lfsr.vhd'; using path '/home/egoncu/Desktop/github/lightsup/hw/hdl/lfsr.vhd' instead.
+WARNING: [Project 1-312] File not found as '/home/egoncu/Desktop/github/fastSorting/hw/hdl/chu_lfsr.vhd'; using path '/home/egoncu/Desktop/github/lightsup/hw/hdl/chu_lfsr.vhd' instead.
+WARNING: [Project 1-312] File not found as '/home/egoncu/Desktop/github/fastSorting/prj/vitis/lights_app2/Debug/lights_app2.elf'; using path '/home/egoncu/Desktop/github/lightsup/prj/vitis/lights_app2/Debug/lights_app2.elf' instead.
+WARNING: [Project 1-312] File not found as '/home/egoncu/Desktop/github/fastSorting/hw/hdl/lfsr.vhd'; using path '/home/egoncu/Desktop/github/lightsup/hw/hdl/lfsr.vhd' instead.
+WARNING: [Project 1-312] File not found as '/home/egoncu/Desktop/github/fastSorting/hw/hdl/chu_lfsr.vhd'; using path '/home/egoncu/Desktop/github/lightsup/hw/hdl/chu_lfsr.vhd' instead.
+WARNING: [Project 1-312] File not found as '/home/egoncu/Desktop/github/fastSorting/prj/vitis/lights_app2/Debug/lights_app2.elf'; using path '/home/egoncu/Desktop/github/lightsup/prj/vitis/lights_app2/Debug/lights_app2.elf' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:11 . Memory (MB): peak = 6957.934 ; gain = 41.078 ; free physical = 114 ; free virtual = 572
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+export_ip_user_files -of_objects  [get_files /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.srcs/sources_1/new/as.vhd] -no_script -reset -force -quiet
+remove_files  /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.srcs/sources_1/new/as.vhd
+file delete -force /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.srcs/sources_1/new/as.vhd
+add_files -norecurse /home/egoncu/Desktop/github/fastSorting/hw/hdl/rotation_core.vhd
+update_compile_order -fileset sources_1
+close [ open /home/egoncu/Desktop/github/fastSorting/hw/hdl/chu_rotation_core.vhd w ]
+add_files /home/egoncu/Desktop/github/fastSorting/hw/hdl/chu_rotation_core.vhd
+update_compile_order -fileset sources_1
+set_property file_type {VHDL 2008} [get_files  /home/egoncu/Desktop/github/fastSorting/hw/hdl/rotation_core.vhd]

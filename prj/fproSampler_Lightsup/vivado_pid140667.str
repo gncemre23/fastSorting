@@ -1,0 +1,294 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:35 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 140667
+License: Customer
+
+Current time: 	Tue Apr 13 21:52:13 EET 2021
+Time zone: 	Eastern European Standard Time (Europe/Istanbul)
+
+OS: Ubuntu
+OS Version: 5.8.0-48-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0
+Screen size: 1366x768
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/tools/Xilinx/Vivado/2020.1/tps/lnx64/jre9.0.4
+Java executable location: 	/tools/Xilinx/Vivado/2020.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	egoncu
+User home directory: /home/egoncu
+User working directory: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2020.1
+RDI_DATADIR: /tools/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: /tools/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: /home/egoncu/.Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: /home/egoncu/.Xilinx/Vivado/2020.1/
+Vivado layouts directory: /home/egoncu/.Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	/tools/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/vivado.log
+Vivado journal file location: 	/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-140667-egoncu-Lenovo-IdeaPad-L340-15API
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /tools/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: /tools/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: /tools/Xilinx/Vivado/2020.1
+XILINX_SDK: /tools/Xilinx/Vitis/2020.1
+XILINX_VITIS: /tools/Xilinx/Vitis/2020.1
+XILINX_VIVADO: /tools/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	199 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,318 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 119 MB (+121993kb) [00:00:11]
+// [Engine Memory]: 1,304 MB (+1216252kb) [00:00:11]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: fproSampler_Lightsup.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project fproSampler_Lightsup.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,284 MB. GUI used memory: 47 MB. Current time: 4/13/21, 9:52:14 PM EET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  4693 ms.
+// Tcl Message: open_project fproSampler_Lightsup.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/egoncu/Desktop/github/lightsup/prj/fproSampler_Lightsup' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:11 . Memory (MB): peak = 6957.934 ; gain = 41.078 ; free physical = 114 ; free virtual = 572 
+// Project name: fproSampler_Lightsup; location: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bz (cs)
+// [Engine Memory]: 1,401 MB (+33295kb) [00:00:25]
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [Engine Memory]: 1,665 MB (+202818kb) [00:00:31]
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 134 MB (+9377kb) [00:00:33]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,439 MB. GUI used memory: 70 MB. Current time: 4/13/21, 9:52:34 PM EET
+// PAPropertyPanels.initPanels (as.vhd) elapsed time: 0.2s
+// Elapsed time: 782 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, as(Behavioral) (as.vhd)]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, as(Behavioral) (as.vhd)]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, as(Behavioral) (as.vhd)]", 2, false, false, false, false, true, false); // B (F, cs) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ai (ao, cs)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", true); // g (Q, aE): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Remove Sources"); // aE (cs)
+// Tcl Message: export_ip_user_files -of_objects  [get_files /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.srcs/sources_1/new/as.vhd] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// aE (cs): Remove Sources: addNotify
+// bz (aE):  Remove Sources : addNotify
+// Tcl Message: remove_files  /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.srcs/sources_1/new/as.vhd 
+// Tcl Message: file delete -force /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.srcs/sources_1/new/as.vhd 
+dismissDialog("Remove Sources"); // bz (aE)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (E, c)
+// Elapsed time: 11 seconds
+setFileChooser("/home/egoncu/Desktop/github/fastSorting/hw/hdl/rotation_core.vhd");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 17 seconds
+dismissDialog("Add Sources"); // c (cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse /home/egoncu/Desktop/github/fastSorting/hw/hdl/rotation_core.vhd 
+// bz (cs):  Add Sources  : addNotify
+dismissDialog("Add Sources"); // bz (cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 13 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd)]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd)]", 4, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd), gpo_slot2 : chu_gpo(arch) (chu_gpo.vhd)]", 8, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 45 seconds
+selectCodeEditor("mmio_sys_sampler_basys3.vhd", 193, 86); // bP (w, cs)
+selectCodeEditor("mmio_sys_sampler_basys3.vhd", 196, 111); // bP (w, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd), user_slot4 : chu_lfsr(arch) (chu_lfsr.vhd)]", 10, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd), user_slot4 : chu_lfsr(arch) (chu_lfsr.vhd)]", 10, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// Elapsed time: 14 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cs)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // af (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // af (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // af (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // af (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // af (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // af (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // af (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // af (cs)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // af (cs)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cs)
+selectCodeEditor("chu_lfsr.vhd", 262, 117); // bP (w, cs)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (g, cs)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cs): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_LOCATION, "Choose Location...", 1); // e (Q, F)
+// Elapsed time: 30 seconds
+setFolderChooser("/home/egoncu/Desktop/github/fastSorting/hw/hdl");
+// Elapsed time: 22 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "chu_rotation_core"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 65 seconds
+dismissDialog("Add Sources"); // c (cs)
+// Tcl Message: close [ open /home/egoncu/Desktop/github/fastSorting/hw/hdl/chu_rotation_core.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bz (cs):  Add Sources  : addNotify
+// Tcl Message: add_files /home/egoncu/Desktop/github/fastSorting/hw/hdl/chu_rotation_core.vhd 
+// I (cs): Define Module: addNotify
+dismissDialog("Add Sources"); // bz (cs)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton (v, C)
+dismissDialog("Define Module"); // I (cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, chu_rotation_core(Behavioral) (chu_rotation_core.vhd)]", 21, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, chu_rotation_core(Behavioral) (chu_rotation_core.vhd)]", 21, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, chu_rotation_core(Behavioral) (chu_rotation_core.vhd)]", 21, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chu_lfsr.vhd", 2); // m (l, cs)
+typeControlKey((HResource) null, "chu_lfsr.vhd", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chu_rotation_core.vhd", 3); // m (l, cs)
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 78, 80); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("chu_rotation_core.vhd", 109, 128); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 109, 128, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 52, 310); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 52, 310, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 171, 202); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 171, 202, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'v'); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rotation_core(arch) (rotation_core.vhd)]", 22, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rotation_core(arch) (rotation_core.vhd)]", 22, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("rotation_core.vhd", 2, 53); // bP (w, cs)
+typeControlKey((HResource) null, "rotation_core.vhd", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chu_rotation_core.vhd", 3); // m (l, cs)
+selectCodeEditor("chu_rotation_core.vhd", 81, 142); // bP (w, cs)
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 25, 142); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 103, 12); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 103, 12, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 65, 202); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 65, 202, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 258, 205); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 287, 206, true, false, false, false, false); // bP (w, cs) - Shift Key
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 77, 264); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 182, 259); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 41, 84); // bP (w, cs)
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 94, 285); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 93, 270); // bP (w, cs)
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 68, 98); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 68, 98, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 96, 287); // bP (w, cs)
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 114, 206); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 94, 221); // bP (w, cs)
+// Elapsed time: 30 seconds
+selectCodeEditor("chu_rotation_core.vhd", 9, 104); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 87, 55); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 4, 63); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 4, 63); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 2, 65); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 393, 67, true, false, false, false, false); // bP (w, cs) - Shift Key
+// Elapsed time: 10 seconds
+selectCodeEditor("chu_rotation_core.vhd", 1, 65); // bP (w, cs)
+// Elapsed time: 13 seconds
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'v'); // bP (w, cs)
+// Elapsed time: 19 seconds
+selectCodeEditor("chu_rotation_core.vhd", 330, 118); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 229, 79); // bP (w, cs)
+// Elapsed time: 12 seconds
+selectCodeEditor("chu_rotation_core.vhd", 203, 98); // bP (w, cs)
+// Elapsed time: 19 seconds
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'c'); // bP (w, cs)
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'v'); // bP (w, cs)
+// Elapsed time: 19 seconds
+selectCodeEditor("chu_rotation_core.vhd", 66, 279); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectCodeEditor("chu_rotation_core.vhd", 285, 280); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 457, 274, true, false, false, false, false); // bP (w, cs) - Shift Key
+// Elapsed time: 43 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rotation_core(arch) (rotation_core.vhd)]", 22, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rotation_core(arch) (rotation_core.vhd)]", 22, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 10 seconds
+selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "Properties", 1); // i (c, cs)
+selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "General", 0); // i (c, cs)
+selectButton(PAResourceQtoS.SrcFilePropPanels_TYPE, (String) null); // t (ci, cs)
+// ab (cs): Set Type: addNotify
+selectComboBox(PAResourceQtoS.SrcFileTypeComboBox_SOURCE_FILE_TYPE, "VHDL 2008", 4); // cj (Q, ab)

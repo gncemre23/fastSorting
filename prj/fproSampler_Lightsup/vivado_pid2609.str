@@ -1,0 +1,417 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:35 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 2609
+License: Customer
+
+Current time: 	Tue Apr 13 22:18:23 EET 2021
+Time zone: 	Eastern European Standard Time (Europe/Istanbul)
+
+OS: Ubuntu
+OS Version: 5.8.0-48-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0
+Screen size: 1366x768
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/tools/Xilinx/Vivado/2020.1/tps/lnx64/jre9.0.4
+Java executable location: 	/tools/Xilinx/Vivado/2020.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	egoncu
+User home directory: /home/egoncu
+User working directory: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2020.1
+RDI_DATADIR: /tools/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: /tools/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: /home/egoncu/.Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: /home/egoncu/.Xilinx/Vivado/2020.1/
+Vivado layouts directory: /home/egoncu/.Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	/tools/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/vivado.log
+Vivado journal file location: 	/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-2609-egoncu-Lenovo-IdeaPad-L340-15API
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /tools/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: /tools/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: /tools/Xilinx/Vivado/2020.1
+XILINX_SDK: /tools/Xilinx/Vitis/2020.1
+XILINX_VITIS: /tools/Xilinx/Vitis/2020.1
+XILINX_VIVADO: /tools/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	195 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,317 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 72 MB (+73264kb) [00:00:10]
+// [Engine Memory]: 1,304 MB (+1215437kb) [00:00:10]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: fproSampler_Lightsup.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project fproSampler_Lightsup.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,288 MB. GUI used memory: 46 MB. Current time: 4/13/21, 10:18:24 PM EET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 80 MB (+4793kb) [00:00:18]
+// [GUI Memory]: 99 MB (+15679kb) [00:00:19]
+// WARNING: HEventQueue.dispatchEvent() is taking  5089 ms.
+// Tcl Message: open_project fproSampler_Lightsup.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.1/data/ip'. 
+// [Engine Memory]: 1,369 MB (+596kb) [00:00:21]
+// Tcl Message: open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:10 . Memory (MB): peak = 6971.941 ; gain = 51.086 ; free physical = 1582 ; free virtual = 5888 
+// Project name: fproSampler_Lightsup; location: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bz (cs)
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [Engine Memory]: 1,632 MB (+203279kb) [00:00:27]
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,477 MB. GUI used memory: 70 MB. Current time: 4/13/21, 10:18:39 PM EET
+// PAPropertyPanels.initPanels (chu_rotation_core.vhd) elapsed time: 0.2s
+// [GUI Memory]: 130 MB (+27327kb) [00:00:45]
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, chu_rotation_core(Behavioral) (chu_rotation_core.vhd)]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, chu_rotation_core(Behavioral) (chu_rotation_core.vhd)]", 2, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, chu_rotation_core(Behavioral) (chu_rotation_core.vhd)]", 2, false, false, false, false, false, true); // B (F, cs) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (aI, cs)
+// Elapsed time: 10 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aA
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd)]", 1); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd)]", 4); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd), user_slot4 : chu_lfsr(arch) (chu_lfsr.vhd)]", 10, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd), user_slot4 : chu_lfsr(arch) (chu_lfsr.vhd)]", 10, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+typeControlKey((HResource) null, "chu_lfsr.vhd", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chu_rotation_core.vhd", 1); // m (l, cs)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chu_rotation_core.vhd", 1, false, true); // m (l, cs) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (aI, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chu_rotation_core.vhd", 1); // m (l, cs)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chu_rotation_core.vhd", 1, false, true); // m (l, cs) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (aI, cs)
+selectCodeEditor("chu_rotation_core.vhd", 301, 135); // bP (w, cs)
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 320, 259); // bP (w, cs)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aA
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd)]", 4); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rotation_core(arch) (rotation_core.vhd)]", 6, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rotation_core(arch) (rotation_core.vhd)]", 6, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectCodeEditor("rotation_core.vhd", 1, 174); // bP (w, cs)
+typeControlKey((HResource) null, "rotation_core.vhd", 'c'); // bP (w, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chu_lfsr.vhd", 2); // m (l, cs)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chu_rotation_core.vhd", 1); // m (l, cs)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chu_rotation_core.vhd", 1, false, true); // m (l, cs) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (aI, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chu_rotation_core.vhd", 1); // m (l, cs)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chu_rotation_core.vhd", 1, false, true); // m (l, cs) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (aI, cs)
+selectCodeEditor("chu_rotation_core.vhd", 33, 233); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 59, 211); // bP (w, cs)
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 29, 219); // bP (w, cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("chu_rotation_core.vhd", 94, 51); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 94, 51, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 58, 234); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 58, 234, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 261, 230); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 295, 230, true, false, false, false, false); // bP (w, cs) - Shift Key
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 42, 77); // bP (w, cs)
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // x (g, cs): TRUE
+selectCodeEditor("chu_rotation_core.vhd", 109, 185, true, false, false, false, false); // bP (w, cs) - Shift Key
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 83, 264); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 219, 308, true, false, false, false, false); // bP (w, cs) - Shift Key
+selectCodeEditor("chu_rotation_core.vhd", 135, 290); // bP (w, cs)
+// Elapsed time: 13 seconds
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 80, 265); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 3, 274); // bP (w, cs)
+// Elapsed time: 31 seconds
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // x (g, cs): FALSE
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // x (g, cs): TRUE
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 285, 367); // bP (w, cs)
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // x (g, cs): FALSE
+selectCodeEditor("chu_rotation_core.vhd", 40, 176); // bP (w, cs)
+// Elapsed time: 14 seconds
+selectCodeEditor("chu_rotation_core.vhd", 17, 124); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 7, 128); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 2, 113); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 3, 70); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 85, 96); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 85, 96, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("chu_rotation_core.vhd", 72, 96); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,521 MB. GUI used memory: 74 MB. Current time: 4/13/21, 10:22:44 PM EET
+selectCodeEditor("chu_rotation_core.vhd", 112, 109); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 64, 145); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 82, 145); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 249, 149); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 67, 157); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 248, 161); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 118, 168); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("chu_rotation_core.vhd", 280, 177); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 107, 169); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("chu_rotation_core.vhd", 84, 75); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 319, 120); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 64, 354); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 330, 352); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 510, 350, true, false, false, false, false); // bP (w, cs) - Shift Key
+// Elapsed time: 23 seconds
+selectCodeEditor("chu_rotation_core.vhd", 497, 355); // bP (w, cs)
+// Elapsed time: 14 seconds
+selectCodeEditor("chu_rotation_core.vhd", 454, 356); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 442, 347); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 518, 223); // bP (w, cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("chu_rotation_core.vhd", 58, 353); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 58, 353, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 164, 371); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 164, 371, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'v'); // bP (w, cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("chu_rotation_core.vhd", 309, 355); // bP (w, cs)
+// Elapsed time: 213 seconds
+selectCodeEditor("chu_rotation_core.vhd", 422, 433); // bP (w, cs)
+// Elapsed time: 29 seconds
+selectCodeEditor("chu_rotation_core.vhd", 353, 371); // bP (w, cs)
+// Elapsed time: 10 seconds
+selectCodeEditor("chu_rotation_core.vhd", 477, 368); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 316, 371); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 37, 384); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 37, 384, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("chu_rotation_core.vhd", 363, 381); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 29, 394); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 20, 402); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 327, 200); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 31 seconds
+selectCodeEditor("chu_rotation_core.vhd", 60, 363); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 45, 363); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 6, 390); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 28, 388); // bP (w, cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("chu_rotation_core.vhd", 27, 324); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 564, 320, true, false, false, false, false); // bP (w, cs) - Shift Key
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 34, 383); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 34, 383, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 43, 385); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 201, 387); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 201, 387, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("chu_rotation_core.vhd", 348, 369); // bP (w, cs)
+// Elapsed time: 22 seconds
+selectCodeEditor("chu_rotation_core.vhd", 30, 368); // bP (w, cs)
+// Elapsed time: 21 seconds
+selectCodeEditor("chu_rotation_core.vhd", 207, 385); // bP (w, cs)
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 282, 411); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("chu_rotation_core.vhd", 31, 396); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 422, 402, true, false, false, false, false); // bP (w, cs) - Shift Key
+selectCodeEditor("chu_rotation_core.vhd", 83, 353); // bP (w, cs)
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 66, 402); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 230, 401); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 230, 401, false, false, false, false, true); // bP (w, cs) - Double Click
+selectCodeEditor("chu_rotation_core.vhd", 422, 372); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("chu_rotation_core.vhd", 400, 440); // bP (w, cs)
+// Elapsed time: 20 seconds
+selectCodeEditor("chu_rotation_core.vhd", 375, 199); // bP (w, cs)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aA
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd)]", 4); // B (F, cs)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd)]", 4, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd)]", 4, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectCodeEditor("mmio_sys_sampler_basys3.vhd", 219, 157); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 22 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd)]", 4); // B (F, cs)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd)]", 4); // B (F, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "rotation_core.vhd", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chu_rotation_core.vhd", 1); // m (l, cs)
+selectCodeEditor("chu_rotation_core.vhd", 175, 339); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 77, 125); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 100, 128); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 100, 128, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 54, 311); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 54, 311, false, true, false, false, true); // bP (w, cs) - Control Key - Double Click
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 180, 339); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 180, 339, false, false, false, false, true); // bP (w, cs) - Double Click
+typeControlKey((HResource) null, "chu_rotation_core.vhd", 'v'); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 11 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd)]", 4); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd), user_slot4 : chu_rotation_core(arch) (chu_rotation_core.vhd)]", 10); // B (F, cs)
+selectCodeEditor("chu_rotation_core.vhd", 2, 9); // bP (w, cs)
+selectCodeEditor("chu_rotation_core.vhd", 61, 22); // bP (w, cs)
+// Elapsed time: 141 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// am (cs): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_CANCEL, "Cancel"); // a (am)
+// 'cD' command handler elapsed time: 7 seconds
+dismissDialog("Save Project"); // am (cs)
+selectCodeEditor("chu_rotation_core.vhd", 103, 110); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd), user_slot4 : chu_rotation_core(arch) (chu_rotation_core.vhd), rotation_core_unit : rotation_core(arch) (rotation_core.vhd)]", 11, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd), user_slot4 : chu_rotation_core(arch) (chu_rotation_core.vhd), rotation_core_unit : rotation_core(arch) (rotation_core.vhd)]", 11, false, false, false, false, false, true); // B (F, cs) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,680 MB. GUI used memory: 76 MB. Current time: 4/13/21, 10:36:39 PM EET
+// Elapsed time: 11 seconds
+unMinimizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // aA
+selectCodeEditor("rotation_core.vhd", 241, 186); // bP (w, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+// Elapsed time: 24 seconds
+selectComboBox(PAResourceItoN.NumJobsChooser_NUMBER_OF_JOBS, "4", 3); // e (be, f)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cD' command handler elapsed time: 26 seconds
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// bz (cs):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Tue Apr 13 22:37:21 2021] Launched synth_1... Run output will be captured here: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/synth_1/runme.log [Tue Apr 13 22:37:22 2021] Launched impl_1... Run output will be captured here: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ag (cs): Synthesis Failed: addNotify
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 69 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ag)
+dismissDialog("Synthesis Failed"); // ag (cs)
+unMinimizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // aA
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-690] width mismatch in assignment; target has 9 bits, source has 8 bits [/home/egoncu/Desktop/github/fastSorting/hw/hdl/chu_rotation_core.vhd:48]. ]", 16, false); // ah (J, cs)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/egoncu/Desktop/github/fastSorting/hw/hdl/chu_rotation_core.vhd;-;;-;16;-;line;-;48;-;;-;16;-;"); // ah (J, cs)
+selectCodeEditor("chu_rotation_core.vhd", 95, 172); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,700 MB. GUI used memory: 76 MB. Current time: 4/13/21, 10:38:54 PM EET
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // A (cs)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// bz (cs):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Tue Apr 13 22:38:58 2021] Launched synth_1... Run output will be captured here: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/synth_1/runme.log [Tue Apr 13 22:38:58 2021] Launched impl_1... Run output will be captured here: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// ag (cs): Bitstream Generation Completed: addNotify
+// Elapsed time: 469 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ag)
+dismissDialog("Bitstream Generation Completed"); // ag (cs)
