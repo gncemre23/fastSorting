@@ -415,3 +415,4 @@ dismissDialog("Generate Bitstream"); // bz (cs)
 // Elapsed time: 469 seconds
 selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ag)
 dismissDialog("Bitstream Generation Completed"); // ag (cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,703 MB. GUI used memory: 78 MB. Current time: 4/13/21, 11:08:54 PM EET
