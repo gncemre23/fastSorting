@@ -2,11 +2,11 @@
 # Webtalk v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Sat Apr  3 22:03:41 2021
-# Process ID: 9855
-# Current directory: /home/egoncu/Desktop/github/lightsup/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim
-# Command line: wbtcv -mode batch -source /home/egoncu/Desktop/github/lightsup/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim/xsim.dir/test_bench_for_complete_system_behav/webtalk/xsim_webtalk.tcl -notrace
-# Log file: /home/egoncu/Desktop/github/lightsup/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim/webtalk.log
-# Journal file: /home/egoncu/Desktop/github/lightsup/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim/webtalk.jou
+# Start of session at: Wed Apr 14 00:10:31 2021
+# Process ID: 18252
+# Current directory: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim/xsim.dir/test_bench_for_complete_system_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim/webtalk.jou
 #-----------------------------------------------------------
-source /home/egoncu/Desktop/github/lightsup/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim/xsim.dir/test_bench_for_complete_system_behav/webtalk/xsim_webtalk.tcl -notrace
+source /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim/xsim.dir/test_bench_for_complete_system_behav/webtalk/xsim_webtalk.tcl -notrace

@@ -1,0 +1,118 @@
+/*
+
+Xilinx Vitis v2020.1.0 (64-bit) [Major: 2020, Minor: 1]
+SW Build 2902540 on Wed May 27 19:55:13 MDT 2020
+
+Process ID (PID): 12969
+License: Customer
+
+Current time: 	Tue Apr 13 23:42:05 EET 2021
+Time zone: 	Eastern European Standard Time (Europe/Istanbul)
+
+OS: Ubuntu
+OS Version: 5.8.0-48-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0
+Screen size: 1366x768
+Available screens: 1
+Available disk space: 50 GB
+
+Java version: 	9.0.4 64-bit
+Java home: 	/tools/Xilinx/Vitis/2020.1/tps/lnx64/jre9.0.4
+Java executable location: 	/tools/Xilinx/Vitis/2020.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	64 MB
+Java maximum memory (-Xmx):	 4 GB
+
+Java library paths: /tools/Xilinx/Vitis/2020.1/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2020.1/lib/lnx64.o:/tools/Xilinx/Vitis/2020.1/tps/lnx64/jre9.0.4/lib/:/tools/Xilinx/Vitis/2020.1/tps/lnx64/jre9.0.4/lib//server:/tools/Xilinx/Vitis/2020.1/lib/lnx64.o:/tools/Xilinx/Vitis/2020.1/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2020.1/lib/lnx64.o:/tools/Xilinx/Vivado/2020.1/bin/../lnx64/tools/dot/lib:/tools/Xilinx/Vitis/2020.1/bin/../lnx64/tools/dot/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+
+Java class paths: /tools/Xilinx/Vitis/2020.1/eclipse/lnx64.o//plugins/org.eclipse.equinox.launcher_1.5.0.v20180512-1130.jar
+LD_LIBRARY_PATH: /tools/Xilinx/Vitis
+
+User name: 	egoncu
+User home directory: /home/egoncu
+User working directory: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vitis
+HDI_APPROOT: /tools/Xilinx/Vitis/2020.1
+RDI_DATADIR: /tools/Xilinx/Vitis/2020.1/data
+RDI_BINDIR: /tools/Xilinx/Vitis/2020.1/bin
+
+Vitis preferences directory: /home/egoncu/.Xilinx/Vitis/2020.1/
+Vitis workspace directory: /home/egoncu/Desktop/github/fastSorting/prj
+Vitis workspace log file location: /home/egoncu/Desktop/github/fastSorting/prj/.metadata/.log
+Engine tmp dir: 	
+
+Xilinx Environment Variables
+----------------------------
+XILINX_DSP: 
+XILINX_HLS: /tools/Xilinx/Vitis/2020.1
+XILINX_PLANAHEAD: /tools/Xilinx/Vitis/2020.1
+XILINX_SDK: /tools/Xilinx/Vitis/2020.1
+XILINX_VITIS: /tools/Xilinx/Vitis/2020.1
+XILINX_VIVADO: /tools/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2020.1
+_RDI_DONT_SET_XILINX_AS_PATH: True
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+setTextField("test_platform", "New Platform Project (Create new platform project)", "NewPlatformProjectWizard", "Text.PROJECT_NAME");
+selectButton("Next", "New Platform Project (Create new platform project)", "NewPlatformProjectWizard", "Button.NEXT");
+selectButton("Next", "New Platform Project (Platform Project)", "NewPlatformProjectWizard", "Button.NEXT");
+selectButton("Browse", "New Platform Project (Platform Project Specification)", "NewPlatformProjectWizard", "Button.BROWSE");
+setFileDialog("/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/mcs_top_sampler_basys3.xsa", "Hardware Specification File", "SDXFileDialog", "Button.OK");
+selectButton("Finish", "New Platform Project (Platform Project Specification)", "NewPlatformProjectWizard", "Button.FINISH");
+selectMenuItem("File", "test_platform", "WorkbenchWindow", "MenuItem.FILE");
+selectMenuItem("New", "test_platform", "WorkbenchWindow", "MenuItem.NEW");
+selectMenuItem("Application Project", "test_platform", "WorkbenchWindow", "MenuItem.APPLICATION_PROJECT");
+selectButton("Next", "New Application Project (Create a New Application Project)", "NewAppProjectWizard", "Button.NEXT");
+selectTreeTable("test_platform", "New Application Project (Platform)", "NewAppProjectWizard", "TreeViewer.ArrayTreeContentProvider");
+selectButton("Next", "New Application Project (Platform)", "NewAppProjectWizard", "Button.NEXT");
+setTextField("exercise5", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Text.APPLICATION_PROJECT_NAME");
+selectButton("Next", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Next", "New Application Project (Domain)", "NewAppProjectWizard", "Button.NEXT");
+selectTreeTable("Empty Application", "SW development templates", "New Application Project (Templates)", "NewAppProjectWizard", "TreeViewer.TemplateContentProvider");
+selectButton("Finish", "New Application Project (Templates)", "NewAppProjectWizard", "Button.FINISH");
+selectTree("exercise5_system", "exercise5_system", "SystemSettingsEditor", "Tree");
+selectTree("src", "exercise5_system > exercise5", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Paste", "Explorer", "ProjectExplorer", "MenuItem.PASTE");
+selectTree("exercise5", "exercise5_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("main_rotate.cpp", "exercise5_system > exercise5 > src > app", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectTree("exercise5", "exercise5_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectMenuItem("Edit", "exercise5", "WorkbenchWindow", "MenuItem.EDIT");
+selectMenuItem("Redo Typing", "exercise5", "WorkbenchWindow", "MenuItem.REDO_TYPING");
+selectTree("exercise5", "exercise5_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("exercise5", "exercise5_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("exercise5", "exercise5_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTable("sleep_us", "exercise5", "Table", "Table");
+selectTree("exercise5", "exercise5_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("exercise5", "exercise5_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("exercise5", "exercise5_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("exercise5", "exercise5_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("exercise5", "exercise5_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("rotation_core.cpp", "exercise5_system > exercise5 > src > drv", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "Tree");
+activateView("main_rotate.cpp", "exercise5/src/app/main_rotate.cpp", "CEditor", "CTabItem.MAIN_ROTATE_CPP");
+activateView("rotation_core.cpp", "exercise5/src/drv/rotation_core.cpp", "CEditor", "CTabItem.ROTATION_CORE_CPP");
+selectTree("rotation_core.h", "exercise5_system > exercise5 > src > drv", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "Tree");
+activateView("rotation_core.cpp", "exercise5/src/drv/rotation_core.cpp", "CEditor", "CTabItem.ROTATION_CORE_CPP");
+activateView("main_rotate.cpp", "exercise5/src/app/main_rotate.cpp", "CEditor", "CTabItem.MAIN_ROTATE_CPP");
+activateView("rotation_core.cpp", "exercise5/src/drv/rotation_core.cpp", "CEditor", "CTabItem.ROTATION_CORE_CPP");
+activateView("rotation_core.h", "exercise5/src/drv/rotation_core.h", "CEditor", "CTabItem.ROTATION_CORE_H");
+activateView("rotation_core.cpp", "exercise5/src/drv/rotation_core.cpp", "CEditor", "CTabItem.ROTATION_CORE_CPP");

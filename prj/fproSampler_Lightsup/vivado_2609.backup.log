@@ -1,0 +1,938 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Apr 13 22:17:55 2021
+# Process ID: 2609
+# Current directory: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup
+# Command line: vivado fproSampler_Lightsup.xpr
+# Log file: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/vivado.log
+# Journal file: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project fproSampler_Lightsup.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:10 . Memory (MB): peak = 6971.941 ; gain = 51.086 ; free physical = 1582 ; free virtual = 5888
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Apr 13 22:37:21 2021] Launched synth_1...
+Run output will be captured here: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/synth_1/runme.log
+[Tue Apr 13 22:37:22 2021] Launched impl_1...
+Run output will be captured here: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Apr 13 22:38:58 2021] Launched synth_1...
+Run output will be captured here: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/synth_1/runme.log
+[Tue Apr 13 22:38:58 2021] Launched impl_1...
+Run output will be captured here: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/impl_1/runme.log
+WARNING: [Vivado 12-818] No files matched ''
+ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+set_property pfm_name {} [get_files -all {}]
+WARNING: [Vivado 12-818] No files matched ''
+ERROR: [Common 17-55] 'set_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+write_hw_platform -fixed -include_bit -force -file /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/mcs_top_sampler_basys3.xsa
+INFO: [Vivado 12-4895] Creating Hardware Platform: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/mcs_top_sampler_basys3.xsa ...
+INFO: [Hsi 55-2053] elapsed time for repository (/tools/Xilinx/Vivado/2020.1/data/embeddedsw) loading 0 seconds
+INFO: [Vivado 12-4896] Successfully created Hardware Platform: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/mcs_top_sampler_basys3.xsa
+write_hw_platform: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 7211.051 ; gain = 0.000 ; free physical = 636 ; free virtual = 5131
+INFO: [Vivado 12-8231] Launching Vitis
+INFO: [Vivado 12-417] Running vitis
+INFO: [Vivado 12-8232] Vitis launch initiated. Please check console for any further messages.
+add_files -fileset cpu -norecurse /home/egoncu/Desktop/github/fastSorting/prj/exercise5/Debug/exercise5.elf
+add_files -fileset cpu -norecurse /home/egoncu/Desktop/github/fastSorting/prj/exercise5/Debug/exercise5.elf
+WARNING: [filemgmt 56-12] File '/home/egoncu/Desktop/github/fastSorting/prj/exercise5/Debug/exercise5.elf' cannot be added to the project because it already exists in the project, skipping this file
+export_ip_user_files -of_objects  [get_files /home/egoncu/Desktop/github/lightsup/prj/vitis/lights_app2/Debug/lights_app2.elf] -no_script -reset -force -quiet
+remove_files  /home/egoncu/Desktop/github/lightsup/prj/vitis/lights_app2/Debug/lights_app2.elf
+add_files -fileset cpu -norecurse /home/egoncu/Desktop/github/fastSorting/prj/exercise5/Debug/exercise5.elf
+WARNING: [filemgmt 56-12] File '/home/egoncu/Desktop/github/fastSorting/prj/exercise5/Debug/exercise5.elf' cannot be added to the project because it already exists in the project, skipping this file
+add_files -norecurse /home/egoncu/Desktop/github/fastSorting/prj/exercise5/Debug/exercise5.elf
+export_ip_user_files -of_objects  [get_files /home/egoncu/Desktop/github/fastSorting/prj/exercise5/Debug/exercise5.elf] -no_script -reset -force -quiet
+remove_files  -fileset cpu /home/egoncu/Desktop/github/fastSorting/prj/exercise5/Debug/exercise5.elf
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse /home/egoncu/Desktop/github/fastSorting/prj/exercise5/Debug/exercise5.elf
+set_property SCOPED_TO_REF cpu [get_files -all -of_objects [get_fileset sources_1] {/home/egoncu/Desktop/github/fastSorting/prj/exercise5/Debug/exercise5.elf}]
+set_property SCOPED_TO_CELLS { U0/microblaze_I } [get_files -all -of_objects [get_fileset sources_1] {/home/egoncu/Desktop/github/fastSorting/prj/exercise5/Debug/exercise5.elf}]
+set_property SCOPED_TO_REF "" [get_files -all -of_objects [get_fileset sim_1] {/home/egoncu/Desktop/github/lightsup/prj/vitis/lights_app2/Debug/lights_app2.elf}]
+set_property SCOPED_TO_CELLS { } [get_files -all -of_objects [get_fileset sim_1] {/home/egoncu/Desktop/github/lightsup/prj/vitis/lights_app2/Debug/lights_app2.elf}]
+set_property SCOPED_TO_REF cpu [get_files -all -of_objects [get_fileset sim_1] {/home/egoncu/Desktop/github/fastSorting/prj/exercise5/Debug/exercise5.elf}]
+set_property SCOPED_TO_CELLS { U0/microblaze_I } [get_files -all -of_objects [get_fileset sim_1] {/home/egoncu/Desktop/github/fastSorting/prj/exercise5/Debug/exercise5.elf}]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/tools/Xilinx/Vivado/2020.1/data/xsim/xsim.ini' copied to run dir:'/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-50] Design contains embedded sources, generating MEM files for simulation...
+Generating merged BMM file for the design top 'test_bench_for_complete_system'...
+Generating merged BMM file for the design top 'test_bench_for_complete_system'...
+INFO: [SIM-utils-54] Inspecting design source files for 'test_bench_for_complete_system' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj test_bench_for_complete_system_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_6/sim/bd_3914_lmb_bram_I_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_3914_lmb_bram_I_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_8/sim/bd_3914_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_3914_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+xvhdl --incr --relax -prj test_bench_for_complete_system_vhdl.prj
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_0/sim/bd_3914_microblaze_I_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_3914_microblaze_I_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_1/sim/bd_3914_rst_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_3914_rst_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_2/sim/bd_3914_ilmb_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_3914_ilmb_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_3/sim/bd_3914_dlmb_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_3914_dlmb_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_4/sim/bd_3914_dlmb_cntlr_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_3914_dlmb_cntlr_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_5/sim/bd_3914_ilmb_cntlr_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_3914_ilmb_cntlr_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_7/sim/bd_3914_mdm_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_3914_mdm_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_9/sim/bd_3914_iomodule_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_3914_iomodule_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/sim/bd_3914.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bd_3914'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/ip/sim/cpu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cpu'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/adsr/adsr.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'adsr'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/uart/baud_gen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'baud_gen'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/adsr/chu_adsr_core.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'chu_adsr_core'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ddfs/sin_rom.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sin_rom'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ddfs/ddfs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ddfs'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ddfs/ds_1bit_dac.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ds_1bit_dac'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ddfs/chu_ddfs_core.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'chu_ddfs_core'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/debounce/debounce_counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'debounce_counter'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/debounce/debounce_fsm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'debounce_fsm'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/debounce/chu_debounce_core.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'chu_debounce_core'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/mmio_basic/chu_gpi.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'chu_gpi'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/mmio_basic/chu_gpo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'chu_gpo'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/i2c/i2c_master.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'i2c_master'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/i2c/chu_i2c_core.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'chu_i2c_core'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/sys/bridge/chu_io_map.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/pwm/chu_io_pwm_core.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'chu_io_pwm_core'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/led_mux/led_mux8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'led_mux8'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/led_mux/chu_led_mux_core.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'chu_led_mux_core'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/sys/bridge/chu_mcs_bridge.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'chu_mcs_bridge'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/mmio_support/chu_mmio_controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'chu_mmio_controller'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ps2/ps2tx.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ps2tx'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ps2/ps2rx.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ps2rx'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/mmio_support/fifo/fifo_ctrl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fifo_ctrl'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/mmio_support/fifo/reg_file.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'reg_file'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/mmio_support/fifo/fifo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fifo'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ps2/ps2_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ps2_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/ps2/chu_ps2_core.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'chu_ps2_core'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/rotation_core.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'rotation_core'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/chu_rotation_core.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'chu_rotation_core'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/spi/spi.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'spi'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/spi/chu_spi_core.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'chu_spi_core'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/mmio_basic/chu_timer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'chu_timer'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/uart/uart_rx.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uart_rx'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/uart/uart_tx.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uart_tx'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/uart/uart.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uart'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/uart/chu_uart.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'chu_uart'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/basys3_supplement/xadc_basys3/chu_xadc_core_basys3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'chu_xadc_basys3_core'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/basys3_supplement/mmio_sys_sampler_basys3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mmio_sys_sampler_basys3'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/basys3_supplement/mcs_top_sampler_basys3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mcs_top_sampler_basys3'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/hw/hdl/basys3_supplement/xadc_basys3/xadc_fpro_basys3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'xadc_fpro_basys3'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.srcs/sim_1/new/test_bench_for_complete_system.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test_bench_for_complete_system'
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim'
+xelab -wto 5e41c5f2cd424ac79760eafb0f34802e --incr --debug typical --relax --mt 8 -L microblaze_v11_0_3 -L xil_defaultlib -L lib_cdc_v1_0_2 -L proc_sys_reset_v5_0_13 -L lmb_v10_v3_0_11 -L lmb_bram_if_cntlr_v4_0_18 -L blk_mem_gen_v8_4_4 -L axi_lite_ipif_v3_0_4 -L mdm_v3_2_18 -L xlconcat_v2_1_3 -L iomodule_v3_1_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_for_complete_system_behav xil_defaultlib.test_bench_for_complete_system xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2020.1/bin/unwrapped/lnx64.o/xelab -wto 5e41c5f2cd424ac79760eafb0f34802e --incr --debug typical --relax --mt 8 -L microblaze_v11_0_3 -L xil_defaultlib -L lib_cdc_v1_0_2 -L proc_sys_reset_v5_0_13 -L lmb_v10_v3_0_11 -L lmb_bram_if_cntlr_v4_0_18 -L blk_mem_gen_v8_4_4 -L axi_lite_ipif_v3_0_4 -L mdm_v3_2_18 -L xlconcat_v2_1_3 -L iomodule_v3_1_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_for_complete_system_behav xil_defaultlib.test_bench_for_complete_system xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.chu_io_map
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package lmb_bram_if_cntlr_v4_0_18.lmb_bram_if_funcs
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package iomodule_v3_1_6.iomodule_funcs
+Compiling package iomodule_v3_1_6.iomodule_vote_pkg
+Compiling package axi_lite_ipif_v3_0_4.ipif_pkg
+Compiling package mdm_v3_2_18.mdm_funcs
+Compiling package microblaze_v11_0_3.microblaze_types
+Compiling package microblaze_v11_0_3.microblaze_isa
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package ieee.std_logic_signed
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture fdse_v of entity unisim.FDSE [fdse_default]
+Compiling architecture fds_v of entity unisim.FDS [fds_default]
+Compiling architecture imp of entity lmb_v10_v3_0_11.lmb_v10 [\lmb_v10(c_lmb_num_slaves=2)\]
+Compiling architecture bd_3914_dlmb_0_arch of entity xil_defaultlib.bd_3914_dlmb_0 [bd_3914_dlmb_0_default]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_18.pselect_mask [\pselect_mask(c_bar="00000000000...]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_18.lmb_mux [\lmb_mux(c_target=artix7,c_basea...]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_18.lmb_bram_if_cntlr [\lmb_bram_if_cntlr(c_family="art...]
+Compiling architecture bd_3914_dlmb_cntlr_0_arch of entity xil_defaultlib.bd_3914_dlmb_cntlr_0 [bd_3914_dlmb_cntlr_0_default]
+Compiling architecture imp of entity lmb_v10_v3_0_11.lmb_v10 [\lmb_v10(c_lmb_num_slaves=1)\]
+Compiling architecture bd_3914_ilmb_0_arch of entity xil_defaultlib.bd_3914_ilmb_0 [bd_3914_ilmb_0_default]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_18.pselect_mask [\pselect_mask(c_bar="00000000000...]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_18.lmb_mux [\lmb_mux(c_target=artix7,c_basea...]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_18.lmb_bram_if_cntlr [\lmb_bram_if_cntlr(c_family="art...]
+Compiling architecture bd_3914_ilmb_cntlr_0_arch of entity xil_defaultlib.bd_3914_ilmb_cntlr_0 [bd_3914_ilmb_cntlr_0_default]
+Compiling architecture imp of entity iomodule_v3_1_6.pselect_mask [\pselect_mask(c_bar="00000000000...]
+Compiling architecture imp of entity iomodule_v3_1_6.pselect_mask [\pselect_mask(c_bar="00000000000...]
+Compiling architecture imp of entity iomodule_v3_1_6.UART_Core [\UART_Core(c_target=non_rtl,c_vo...]
+Compiling architecture imp of entity iomodule_v3_1_6.UART [\UART(c_target=non_rtl,c_vote_si...]
+Compiling architecture vhdl_rtl of entity iomodule_v3_1_6.FIT_Module [\FIT_Module(c_target=non_rtl,c_v...]
+Compiling architecture imp of entity iomodule_v3_1_6.PIT_Module [\PIT_Module(c_target=non_rtl,c_v...]
+Compiling architecture imp of entity iomodule_v3_1_6.GPO_Module [\GPO_Module(c_vote_size=32,c_use...]
+Compiling architecture imp of entity iomodule_v3_1_6.GPI_Module [\GPI_Module(c_use_gpi=0,c_gpi_si...]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture fdr_v of entity unisim.FDR [fdr_default]
+Compiling architecture imp of entity iomodule_v3_1_6.MB_FDR [\MB_FDR(c_target=non_rtl)\]
+Compiling architecture imp of entity iomodule_v3_1_6.intr_ctrl [\intr_ctrl(c_target=non_rtl,c_vo...]
+Compiling architecture imp of entity iomodule_v3_1_6.Iomodule_core [\Iomodule_core(c_target=non_rtl,...]
+Compiling architecture imp of entity iomodule_v3_1_6.iomodule [\iomodule(c_family="artix7",c_hi...]
+Compiling architecture bd_3914_iomodule_0_0_arch of entity xil_defaultlib.bd_3914_iomodule_0_0 [bd_3914_iomodule_0_0_default]
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.bd_3914_lmb_bram_I_0
+Compiling architecture bscane2_v of entity unisim.BSCANE2 [\BSCANE2(jtag_chain=2)(1,5)\]
+Compiling architecture imp of entity mdm_v3_2_18.MB_BSCANE2 [\MB_BSCANE2(c_target=artix7,jtag...]
+Compiling architecture lut1_v of entity unisim.LUT1 [\LUT1(init="10")(0,1)\]
+Compiling architecture imp of entity mdm_v3_2_18.MB_LUT1 [\MB_LUT1(c_target=artix7,init="1...]
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture imp of entity mdm_v3_2_18.MB_BUFG [\MB_BUFG(c_target=artix7)\]
+Compiling architecture imp of entity mdm_v3_2_18.xil_scan_reset_control [xil_scan_reset_control_default]
+Compiling architecture fdce_v of entity unisim.FDCE [fdce_default]
+Compiling architecture fdc_1_v of entity unisim.FDC_1 [fdc_1_default]
+Compiling architecture imp of entity mdm_v3_2_18.MB_FDC_1 [\MB_FDC_1(c_target=artix7)\]
+Compiling architecture fdre_1_v of entity unisim.FDRE_1 [fdre_1_default]
+Compiling architecture imp of entity mdm_v3_2_18.MB_FDRE_1 [\MB_FDRE_1(c_target=artix7)\]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0000000101100111")...]
+Compiling architecture imp of entity mdm_v3_2_18.MB_SRL16E [\MB_SRL16E(c_target=artix7,c_sta...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0100001010000111")...]
+Compiling architecture imp of entity mdm_v3_2_18.MB_SRL16E [\MB_SRL16E(c_target=artix7,c_sta...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0100010001000011")...]
+Compiling architecture imp of entity mdm_v3_2_18.MB_SRL16E [\MB_SRL16E(c_target=artix7,c_sta...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0101100001001101")...]
+Compiling architecture imp of entity mdm_v3_2_18.MB_SRL16E [\MB_SRL16E(c_target=artix7,c_sta...]
+Compiling architecture imp of entity mdm_v3_2_18.JTAG_CONTROL [\JTAG_CONTROL(c_target=artix7,c_...]
+Compiling architecture imp of entity mdm_v3_2_18.MDM_Core [\MDM_Core(c_target=artix7,c_jtag...]
+Compiling architecture imp of entity mdm_v3_2_18.MDM [\MDM(c_family="artix7",c_bscanid...]
+Compiling architecture bd_3914_mdm_0_0_arch of entity xil_defaultlib.bd_3914_mdm_0_0 [bd_3914_mdm_0_0_default]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="1111111111111111")...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_SRL16E [\MB_SRL16E(c_target=artix7,c_use...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0011111111111111")...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_SRL16E [\MB_SRL16E(c_target=artix7,c_use...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0000000000011011")...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_SRL16E [\MB_SRL16E(c_target=artix7,c_use...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(15,0)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_SRL16E [\MB_SRL16E(c_target=artix7,c_use...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0001000001100000")...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_SRL16E [\MB_SRL16E(c_target=artix7,c_use...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0010010100000000")...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_SRL16E [\MB_SRL16E(c_target=artix7,c_use...]
+Compiling architecture imp of entity microblaze_v11_0_3.mb_sync_bit [\mb_sync_bit(c_levels=1,c_reset_...]
+Compiling architecture imp of entity microblaze_v11_0_3.mb_sync_vec [\mb_sync_vec(c_levels=1,c_reset_...]
+Compiling architecture imp of entity microblaze_v11_0_3.mb_sync_bit [\mb_sync_bit(c_levels=1)\]
+Compiling architecture imp of entity microblaze_v11_0_3.mb_sync_vec [\mb_sync_vec(c_width=10)\]
+Compiling architecture srlc16e_v of entity unisim.SRLC16E [\SRLC16E(0,15)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_SRLC16E [\MB_SRLC16E(c_target=artix7,c_us...]
+Compiling architecture imp of entity microblaze_v11_0_3.address_hit [\address_hit(c_target=artix7,c_u...]
+Compiling architecture imp of entity microblaze_v11_0_3.xil_scan_reset_control [xil_scan_reset_control_default]
+Compiling architecture imp of entity microblaze_v11_0_3.Debug [\Debug(c_data_size=32,c_instr_si...]
+Compiling architecture imp of entity microblaze_v11_0_3.interrupt_mode_converter [\interrupt_mode_converter(c_edge...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_MUXCY [\MB_MUXCY(c_target=artix7)\]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000000000000000000...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT5 [\MB_LUT5(c_target=artix7,init="0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000000000000000000...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT5 [\MB_LUT5(c_target=artix7,init="0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0010000000000000")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000001000000000")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="0...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="00000100")(0,7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT3 [\MB_LUT3(c_target=artix7,init="0...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="00010101")(0,7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT3 [\MB_LUT3(c_target=artix7,init="0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1000010000100001")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="1...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="10010000")(0,7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT3 [\MB_LUT3(c_target=artix7,init="1...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1000000000000000")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="1...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_FDRE [\MB_FDRE(c_target=artix7)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000000011110000")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="0...]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1000")(0,3)\]
+Compiling architecture mult_and_v of entity unisim.MULT_AND [mult_and_default]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_MULT_AND [\MB_MULT_AND(c_target=artix7)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111111001010")(0...]
+Compiling architecture fdrse_v of entity unisim.FDRSE [fdrse_default]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_FDRSE [\MB_FDRSE(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_FDSE [\MB_FDSE(c_target=artix7)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="10110100")(0,7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT3 [\MB_LUT3(c_target=artix7,init="1...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1010101010111010")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="1...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(0,15)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_SRL16E [\MB_SRL16E(c_target=artix7,c_use...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture muxcy_l_v of entity unisim.MUXCY_L [muxcy_l_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_MUXCY_XORCY [\MB_MUXCY_XORCY(c_target=artix7)...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_FDS [\MB_FDS(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_FDR [\MB_FDR(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.PreFetch_Buffer [\PreFetch_Buffer(c_instr_size=32...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111100000000000")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="1...]
+Compiling architecture imp of entity microblaze_v11_0_3.Decode [\Decode(c_data_size=32,c_instr_s...]
+Compiling architecture ram32x1d_v of entity unisim.RAM32X1D [ram32x1d_default]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_RAM32X1D [\MB_RAM32X1D(c_target=artix7,c_u...]
+Compiling architecture imp of entity microblaze_v11_0_3.Register_File_Bit [\Register_File_Bit(c_target=arti...]
+Compiling architecture imp of entity microblaze_v11_0_3.Register_File [\Register_File(c_data_size=32,c_...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="111111110000000011...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture fde_v of entity unisim.FDE [fde_default]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_FDE [\MB_FDE(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.Operand_Select_Bit [\Operand_Select_Bit(c_target=art...]
+Compiling architecture imp of entity microblaze_v11_0_3.Operand_Select_Bit [\Operand_Select_Bit(c_target=art...]
+Compiling architecture imp of entity microblaze_v11_0_3.Operand_Select_Bit [\Operand_Select_Bit(c_target=art...]
+Compiling architecture imp of entity microblaze_v11_0_3.Operand_Select_Bit [\Operand_Select_Bit(c_target=art...]
+Compiling architecture imp of entity microblaze_v11_0_3.Operand_Select_Bit [\Operand_Select_Bit(c_target=art...]
+Compiling architecture imp of entity microblaze_v11_0_3.Operand_Select_Bit [\Operand_Select_Bit(c_target=art...]
+Compiling architecture imp of entity microblaze_v11_0_3.Operand_Select_Bit [\Operand_Select_Bit(c_target=art...]
+Compiling architecture imp of entity microblaze_v11_0_3.Operand_Select [\Operand_Select(c_data_size=32,c...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(0,7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT3 [\MB_LUT3(c_target=artix7)(0,7)\]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="011000000111101010...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture imp of entity microblaze_v11_0_3.ALU_Bit [\ALU_Bit(c_target=artix7,c_allow...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="01100000011110101010...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT6 [\MB_LUT6(c_target=artix7,init="0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111101000001010")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="1...]
+Compiling architecture imp of entity microblaze_v11_0_3.ALU_Bit [\ALU_Bit(c_target=artix7,c_allow...]
+Compiling architecture imp of entity microblaze_v11_0_3.ALU [\ALU(c_data_size=32,c_area_optim...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0100011010001110")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111110010101010")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="1...]
+Compiling architecture muxf7_v of entity unisim.MUXF7 [muxf7_default]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_MUXF7 [\MB_MUXF7(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.Shift_Logic_Bit [\Shift_Logic_Bit(c_target=artix7...]
+Compiling architecture imp of entity microblaze_v11_0_3.Shift_Logic_Module [\Shift_Logic_Module(c_use_pcmp_i...]
+Compiling architecture imp of entity microblaze_v11_0_3.mul_unit [\mul_unit(c_data_size=32,c_targe...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1110111111100000")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="1...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11100000010000001110...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT6 [\MB_LUT6(c_target=artix7,init="1...]
+Compiling architecture fd_v of entity unisim.FD [fd_default]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_FD [\MB_FD(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.Result_Mux_Bit [\Result_Mux_Bit(c_target=artix7)...]
+Compiling architecture imp of entity microblaze_v11_0_3.Result_Mux [\Result_Mux(c_data_size=32,c_tar...]
+Compiling architecture imp of entity microblaze_v11_0_3.Zero_Detect [\Zero_Detect(c_data_size=32,c_ta...]
+Compiling architecture imp of entity microblaze_v11_0_3.MSR_Reg_Bit [\MSR_Reg_Bit(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MSR_Reg [\MSR_Reg(c_target=artix7,c_data_...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111000001100110")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="1...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1010101011001010")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="1...]
+Compiling architecture imp of entity microblaze_v11_0_3.PC_Bit [\PC_Bit(c_target=artix7,c_use_sr...]
+Compiling architecture imp of entity microblaze_v11_0_3.PC_Module [\PC_Module(c_data_size=32,c_addr...]
+Compiling architecture imp of entity microblaze_v11_0_3.PVR [\PVR(c_data_size=32,c_daddr_size...]
+Compiling architecture imp of entity microblaze_v11_0_3.Data_Flow [\Data_Flow(c_data_size=32,c_inst...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="100001110111100010...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="011110001000011110...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="001010100010111100...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="000101010001111100...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="000011001100000000...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="10101011")(0,7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT3 [\MB_LUT3(c_target=artix7,init="1...]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1011")(0,3)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT2 [\MB_LUT2(c_target=artix7,init="1...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="000100010001000100...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="111111110000000011...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture imp of entity microblaze_v11_0_3.mux4_8 [\mux4_8(c_allow_lut6=true,c_targ...]
+Compiling architecture imp of entity microblaze_v11_0_3.Byte_Doublet_Handle [\Byte_Doublet_Handle(c_data_size...]
+Compiling architecture imp of entity microblaze_v11_0_3.mux_bus [\mux_bus(c_target=artix7,c_allow...]
+Compiling architecture imp of entity microblaze_v11_0_3.instr_mux [\instr_mux(c_instr_size=32,c_tar...]
+Compiling architecture imp of entity microblaze_v11_0_3.MicroBlaze_Area [\MicroBlaze_Area(c_num_sync_ff_c...]
+Compiling architecture imp of entity microblaze_v11_0_3.mb_sync_bit [mb_sync_bit_default]
+Compiling architecture imp of entity microblaze_v11_0_3.MicroBlaze_Core [\MicroBlaze_Core(c_freq=10000000...]
+Compiling architecture imp of entity microblaze_v11_0_3.MicroBlaze [\MicroBlaze(c_freq=100000000,c_e...]
+Compiling architecture bd_3914_microblaze_i_0_arch of entity xil_defaultlib.bd_3914_microblaze_I_0 [bd_3914_microblaze_i_0_default]
+Compiling architecture fdre_v of entity unisim.FDRE [\FDRE(init='1')\]
+Compiling architecture implementation of entity lib_cdc_v1_0_2.cdc_sync [\cdc_sync(c_vector_width=2,c_mtb...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="1111111111111111")...]
+Compiling architecture srl16_v of entity unisim.SRL16 [\SRL16(init="1111111111111111")(...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.lpf [\lpf(c_ext_rst_width=4,c_aux_rst...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.upcnt_n [\upcnt_n(c_size=6)\]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.sequence_psr [sequence_psr_default]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.proc_sys_reset [\proc_sys_reset(c_family="artix7...]
+Compiling architecture bd_3914_rst_0_0_arch of entity xil_defaultlib.bd_3914_rst_0_0 [bd_3914_rst_0_0_default]
+Compiling module xlconcat_v2_1_3.xlconcat_v2_1_3_xlconcat_default
+Compiling module xil_defaultlib.bd_3914_xlconcat_0_0
+Compiling architecture structure of entity xil_defaultlib.bd_3914 [bd_3914_default]
+Compiling architecture cpu_arch of entity xil_defaultlib.cpu [cpu_default]
+Compiling architecture arch of entity xil_defaultlib.chu_mcs_bridge [chu_mcs_bridge_default]
+Compiling architecture arch of entity xil_defaultlib.chu_mmio_controller [chu_mmio_controller_default]
+Compiling architecture arch of entity xil_defaultlib.chu_timer [chu_timer_default]
+Compiling architecture arch of entity xil_defaultlib.baud_gen [baud_gen_default]
+Compiling architecture arch of entity xil_defaultlib.uart_rx [uart_rx_default]
+Compiling architecture arch of entity xil_defaultlib.uart_tx [uart_tx_default]
+Compiling architecture arch of entity xil_defaultlib.fifo_ctrl [\fifo_ctrl(addr_width=6)\]
+Compiling architecture arch of entity xil_defaultlib.reg_file [\reg_file(addr_width=6)\]
+Compiling architecture reg_file_arch of entity xil_defaultlib.fifo [\fifo(addr_width=6)\]
+Compiling architecture str_arch of entity xil_defaultlib.uart [\uart(fifo_w=6)\]
+Compiling architecture arch of entity xil_defaultlib.chu_uart [\chu_uart(fifo_depth_bit=6)\]
+Compiling architecture arch of entity xil_defaultlib.chu_gpo [\chu_gpo(w=16)\]
+Compiling architecture arch of entity xil_defaultlib.chu_gpi [\chu_gpi(w=16)\]
+Compiling architecture arch of entity xil_defaultlib.rotation_core [rotation_core_default]
+Compiling architecture arch of entity xil_defaultlib.chu_rotation_core [chu_rotation_core_default]
+Compiling architecture xadc_v of entity unisim.XADC [\XADC(init_41="0010000110101111"...]
+Compiling architecture xilinx of entity xil_defaultlib.xadc_fpro_basys3 [xadc_fpro_basys3_default]
+Compiling architecture arch of entity xil_defaultlib.chu_xadc_basys3_core [chu_xadc_basys3_core_default]
+Compiling architecture arch of entity xil_defaultlib.chu_io_pwm_core [\chu_io_pwm_core(r=10)\]
+Compiling architecture arch of entity xil_defaultlib.debounce_fsm [debounce_fsm_default]
+Compiling architecture arch of entity xil_defaultlib.debounce_counter [debounce_counter_default]
+Compiling architecture arch of entity xil_defaultlib.chu_debounce_core [\chu_debounce_core(w=5)\]
+Compiling architecture arch of entity xil_defaultlib.led_mux8 [led_mux8_default]
+Compiling architecture arch of entity xil_defaultlib.chu_led_mux_core [chu_led_mux_core_default]
+Compiling architecture arch of entity xil_defaultlib.spi [spi_default]
+Compiling architecture arch of entity xil_defaultlib.chu_spi_core [\chu_spi_core(s=1)\]
+Compiling architecture arch of entity xil_defaultlib.i2c_master [i2c_master_default]
+Compiling architecture arch of entity xil_defaultlib.chu_i2c_core [chu_i2c_core_default]
+Compiling architecture arch of entity xil_defaultlib.ps2tx [ps2tx_default]
+Compiling architecture arch of entity xil_defaultlib.ps2rx [ps2rx_default]
+Compiling architecture arch of entity xil_defaultlib.ps2_top [\ps2_top(w_size=6)\]
+Compiling architecture arch of entity xil_defaultlib.chu_ps2_core [\chu_ps2_core(w_size=6)\]
+Compiling architecture beh_arch of entity xil_defaultlib.sin_rom [sin_rom_default]
+Compiling architecture arch of entity xil_defaultlib.ddfs [ddfs_default]
+Compiling architecture arch of entity xil_defaultlib.ds_1bit_dac [ds_1bit_dac_default]
+Compiling architecture arch of entity xil_defaultlib.chu_ddfs_core [chu_ddfs_core_default]
+Compiling architecture arch of entity xil_defaultlib.adsr [adsr_default]
+Compiling architecture arch of entity xil_defaultlib.chu_adsr_core [chu_adsr_core_default]
+Compiling architecture arch of entity xil_defaultlib.mmio_sys_sampler_basys3 [mmio_sys_sampler_basys3_default]
+Compiling architecture arch of entity xil_defaultlib.mcs_top_sampler_basys3 [mcs_top_sampler_basys3_default]
+Compiling architecture behavioral of entity xil_defaultlib.test_bench_for_complete_system
+Built simulation snapshot test_bench_for_complete_system_behav
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim/xsim.dir/test_bench_for_complete_system_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Apr 14 00:02:00 2021...
+run_program: Time (s): cpu = 00:00:29 ; elapsed = 00:00:22 . Memory (MB): peak = 7316.102 ; gain = 0.000 ; free physical = 678 ; free virtual = 4063
+INFO: [USF-XSim-69] 'elaborate' step finished in '22' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "test_bench_for_complete_system_behav -key {Behavioral:sim_1:Functional:test_bench_for_complete_system} -tclbatch {test_bench_for_complete_system.tcl} -protoinst "protoinst_files/bd_3914.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/bd_3914.protoinst
+Time resolution is 1 ps
+source test_bench_for_complete_system.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Block Memory Generator module test_bench_for_complete_system.instance0.mcs_0.U0.lmb_bram_I.inst.\native_mem_mapped_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Warning: *** Warning: The analog data file for XADC was not found. Use the SIM_MONITOR_FILE generic to specify the input analog data file name or use default name: design.txt. 
+Time: 0 ps  Iteration: 0  Process: /test_bench_for_complete_system/instance0/mmio_sys_unit/xadc_slot5/xdac_unit/U0/READFILE_P  File: /wrk/2020.1/continuous/2020_05_27_2902540/data/vhdl/src/unisims/primitive/XADC.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_bench_for_complete_system_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:41 ; elapsed = 00:00:32 . Memory (MB): peak = 7382.906 ; gain = 66.805 ; free physical = 613 ; free virtual = 4023
+run all
+WARNING: [Simulator 45-29] Cannot open source file /wrk/2020.1/nightly/2020_05_27_2902540/packages/customer/vivado/data/ip/xilinx/lmb_v10_v3_0/hdl/lmb_v10_v3_0_vh_rfs.vhd: file does not exist.
+run: Time (s): cpu = 00:00:12 ; elapsed = 00:01:48 . Memory (MB): peak = 7382.906 ; gain = 0.000 ; free physical = 584 ; free virtual = 4010
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/tools/Xilinx/Vivado/2020.1/data/xsim/xsim.ini' copied to run dir:'/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-50] Design contains embedded sources, generating MEM files for simulation...
+Generating merged BMM file for the design top 'test_bench_for_complete_system'...
+Generating merged BMM file for the design top 'test_bench_for_complete_system'...
+INFO: [SIM-utils-54] Inspecting design source files for 'test_bench_for_complete_system' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj test_bench_for_complete_system_vlog.prj
+xvhdl --incr --relax -prj test_bench_for_complete_system_vhdl.prj
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim'
+xelab -wto 5e41c5f2cd424ac79760eafb0f34802e --incr --debug typical --relax --mt 8 -L microblaze_v11_0_3 -L xil_defaultlib -L lib_cdc_v1_0_2 -L proc_sys_reset_v5_0_13 -L lmb_v10_v3_0_11 -L lmb_bram_if_cntlr_v4_0_18 -L blk_mem_gen_v8_4_4 -L axi_lite_ipif_v3_0_4 -L mdm_v3_2_18 -L xlconcat_v2_1_3 -L iomodule_v3_1_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_for_complete_system_behav xil_defaultlib.test_bench_for_complete_system xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2020.1/bin/unwrapped/lnx64.o/xelab -wto 5e41c5f2cd424ac79760eafb0f34802e --incr --debug typical --relax --mt 8 -L microblaze_v11_0_3 -L xil_defaultlib -L lib_cdc_v1_0_2 -L proc_sys_reset_v5_0_13 -L lmb_v10_v3_0_11 -L lmb_bram_if_cntlr_v4_0_18 -L blk_mem_gen_v8_4_4 -L axi_lite_ipif_v3_0_4 -L mdm_v3_2_18 -L xlconcat_v2_1_3 -L iomodule_v3_1_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_for_complete_system_behav xil_defaultlib.test_bench_for_complete_system xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2020.1
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/bd_3914.protoinst
+Time resolution is 1 ps
+Block Memory Generator module test_bench_for_complete_system.instance0.mcs_0.U0.lmb_bram_I.inst.\native_mem_mapped_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Warning: *** Warning: The analog data file for XADC was not found. Use the SIM_MONITOR_FILE generic to specify the input analog data file name or use default name: design.txt. 
+Time: 0 ps  Iteration: 0  Process: /test_bench_for_complete_system/instance0/mmio_sys_unit/xadc_slot5/xdac_unit/U0/READFILE_P  File: /wrk/2020.1/continuous/2020_05_27_2902540/data/vhdl/src/unisims/primitive/XADC.vhd
+relaunch_sim: Time (s): cpu = 00:01:58 ; elapsed = 00:00:11 . Memory (MB): peak = 7395.910 ; gain = 13.004 ; free physical = 559 ; free virtual = 3978
+run all
+run: Time (s): cpu = 00:00:32 ; elapsed = 00:03:24 . Memory (MB): peak = 7395.910 ; gain = 0.000 ; free physical = 527 ; free virtual = 3967
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/tools/Xilinx/Vivado/2020.1/data/xsim/xsim.ini' copied to run dir:'/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-50] Design contains embedded sources, generating MEM files for simulation...
+Generating merged BMM file for the design top 'test_bench_for_complete_system'...
+Generating merged BMM file for the design top 'test_bench_for_complete_system'...
+INFO: [SIM-utils-54] Inspecting design source files for 'test_bench_for_complete_system' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj test_bench_for_complete_system_vlog.prj
+xvhdl --incr --relax -prj test_bench_for_complete_system_vhdl.prj
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.srcs/sim_1/new/test_bench_for_complete_system.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test_bench_for_complete_system'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.sim/sim_1/behav/xsim'
+xelab -wto 5e41c5f2cd424ac79760eafb0f34802e --incr --debug typical --relax --mt 8 -L microblaze_v11_0_3 -L xil_defaultlib -L lib_cdc_v1_0_2 -L proc_sys_reset_v5_0_13 -L lmb_v10_v3_0_11 -L lmb_bram_if_cntlr_v4_0_18 -L blk_mem_gen_v8_4_4 -L axi_lite_ipif_v3_0_4 -L mdm_v3_2_18 -L xlconcat_v2_1_3 -L iomodule_v3_1_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_for_complete_system_behav xil_defaultlib.test_bench_for_complete_system xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2020.1/bin/unwrapped/lnx64.o/xelab -wto 5e41c5f2cd424ac79760eafb0f34802e --incr --debug typical --relax --mt 8 -L microblaze_v11_0_3 -L xil_defaultlib -L lib_cdc_v1_0_2 -L proc_sys_reset_v5_0_13 -L lmb_v10_v3_0_11 -L lmb_bram_if_cntlr_v4_0_18 -L blk_mem_gen_v8_4_4 -L axi_lite_ipif_v3_0_4 -L mdm_v3_2_18 -L xlconcat_v2_1_3 -L iomodule_v3_1_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_bench_for_complete_system_behav xil_defaultlib.test_bench_for_complete_system xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.chu_io_map
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package lmb_bram_if_cntlr_v4_0_18.lmb_bram_if_funcs
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package iomodule_v3_1_6.iomodule_funcs
+Compiling package iomodule_v3_1_6.iomodule_vote_pkg
+Compiling package axi_lite_ipif_v3_0_4.ipif_pkg
+Compiling package mdm_v3_2_18.mdm_funcs
+Compiling package microblaze_v11_0_3.microblaze_types
+Compiling package microblaze_v11_0_3.microblaze_isa
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package ieee.std_logic_signed
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture fdse_v of entity unisim.FDSE [fdse_default]
+Compiling architecture fds_v of entity unisim.FDS [fds_default]
+Compiling architecture imp of entity lmb_v10_v3_0_11.lmb_v10 [\lmb_v10(c_lmb_num_slaves=2)\]
+Compiling architecture bd_3914_dlmb_0_arch of entity xil_defaultlib.bd_3914_dlmb_0 [bd_3914_dlmb_0_default]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_18.pselect_mask [\pselect_mask(c_bar="00000000000...]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_18.lmb_mux [\lmb_mux(c_target=artix7,c_basea...]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_18.lmb_bram_if_cntlr [\lmb_bram_if_cntlr(c_family="art...]
+Compiling architecture bd_3914_dlmb_cntlr_0_arch of entity xil_defaultlib.bd_3914_dlmb_cntlr_0 [bd_3914_dlmb_cntlr_0_default]
+Compiling architecture imp of entity lmb_v10_v3_0_11.lmb_v10 [\lmb_v10(c_lmb_num_slaves=1)\]
+Compiling architecture bd_3914_ilmb_0_arch of entity xil_defaultlib.bd_3914_ilmb_0 [bd_3914_ilmb_0_default]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_18.pselect_mask [\pselect_mask(c_bar="00000000000...]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_18.lmb_mux [\lmb_mux(c_target=artix7,c_basea...]
+Compiling architecture imp of entity lmb_bram_if_cntlr_v4_0_18.lmb_bram_if_cntlr [\lmb_bram_if_cntlr(c_family="art...]
+Compiling architecture bd_3914_ilmb_cntlr_0_arch of entity xil_defaultlib.bd_3914_ilmb_cntlr_0 [bd_3914_ilmb_cntlr_0_default]
+Compiling architecture imp of entity iomodule_v3_1_6.pselect_mask [\pselect_mask(c_bar="00000000000...]
+Compiling architecture imp of entity iomodule_v3_1_6.pselect_mask [\pselect_mask(c_bar="00000000000...]
+Compiling architecture imp of entity iomodule_v3_1_6.UART_Core [\UART_Core(c_target=non_rtl,c_vo...]
+Compiling architecture imp of entity iomodule_v3_1_6.UART [\UART(c_target=non_rtl,c_vote_si...]
+Compiling architecture vhdl_rtl of entity iomodule_v3_1_6.FIT_Module [\FIT_Module(c_target=non_rtl,c_v...]
+Compiling architecture imp of entity iomodule_v3_1_6.PIT_Module [\PIT_Module(c_target=non_rtl,c_v...]
+Compiling architecture imp of entity iomodule_v3_1_6.GPO_Module [\GPO_Module(c_vote_size=32,c_use...]
+Compiling architecture imp of entity iomodule_v3_1_6.GPI_Module [\GPI_Module(c_use_gpi=0,c_gpi_si...]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture fdr_v of entity unisim.FDR [fdr_default]
+Compiling architecture imp of entity iomodule_v3_1_6.MB_FDR [\MB_FDR(c_target=non_rtl)\]
+Compiling architecture imp of entity iomodule_v3_1_6.intr_ctrl [\intr_ctrl(c_target=non_rtl,c_vo...]
+Compiling architecture imp of entity iomodule_v3_1_6.Iomodule_core [\Iomodule_core(c_target=non_rtl,...]
+Compiling architecture imp of entity iomodule_v3_1_6.iomodule [\iomodule(c_family="artix7",c_hi...]
+Compiling architecture bd_3914_iomodule_0_0_arch of entity xil_defaultlib.bd_3914_iomodule_0_0 [bd_3914_iomodule_0_0_default]
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.bd_3914_lmb_bram_I_0
+Compiling architecture bscane2_v of entity unisim.BSCANE2 [\BSCANE2(jtag_chain=2)(1,5)\]
+Compiling architecture imp of entity mdm_v3_2_18.MB_BSCANE2 [\MB_BSCANE2(c_target=artix7,jtag...]
+Compiling architecture lut1_v of entity unisim.LUT1 [\LUT1(init="10")(0,1)\]
+Compiling architecture imp of entity mdm_v3_2_18.MB_LUT1 [\MB_LUT1(c_target=artix7,init="1...]
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture imp of entity mdm_v3_2_18.MB_BUFG [\MB_BUFG(c_target=artix7)\]
+Compiling architecture imp of entity mdm_v3_2_18.xil_scan_reset_control [xil_scan_reset_control_default]
+Compiling architecture fdce_v of entity unisim.FDCE [fdce_default]
+Compiling architecture fdc_1_v of entity unisim.FDC_1 [fdc_1_default]
+Compiling architecture imp of entity mdm_v3_2_18.MB_FDC_1 [\MB_FDC_1(c_target=artix7)\]
+Compiling architecture fdre_1_v of entity unisim.FDRE_1 [fdre_1_default]
+Compiling architecture imp of entity mdm_v3_2_18.MB_FDRE_1 [\MB_FDRE_1(c_target=artix7)\]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0000000101100111")...]
+Compiling architecture imp of entity mdm_v3_2_18.MB_SRL16E [\MB_SRL16E(c_target=artix7,c_sta...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0100001010000111")...]
+Compiling architecture imp of entity mdm_v3_2_18.MB_SRL16E [\MB_SRL16E(c_target=artix7,c_sta...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0100010001000011")...]
+Compiling architecture imp of entity mdm_v3_2_18.MB_SRL16E [\MB_SRL16E(c_target=artix7,c_sta...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0101100001001101")...]
+Compiling architecture imp of entity mdm_v3_2_18.MB_SRL16E [\MB_SRL16E(c_target=artix7,c_sta...]
+Compiling architecture imp of entity mdm_v3_2_18.JTAG_CONTROL [\JTAG_CONTROL(c_target=artix7,c_...]
+Compiling architecture imp of entity mdm_v3_2_18.MDM_Core [\MDM_Core(c_target=artix7,c_jtag...]
+Compiling architecture imp of entity mdm_v3_2_18.MDM [\MDM(c_family="artix7",c_bscanid...]
+Compiling architecture bd_3914_mdm_0_0_arch of entity xil_defaultlib.bd_3914_mdm_0_0 [bd_3914_mdm_0_0_default]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="1111111111111111")...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_SRL16E [\MB_SRL16E(c_target=artix7,c_use...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0011111111111111")...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_SRL16E [\MB_SRL16E(c_target=artix7,c_use...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0000000000011011")...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_SRL16E [\MB_SRL16E(c_target=artix7,c_use...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(15,0)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_SRL16E [\MB_SRL16E(c_target=artix7,c_use...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0001000001100000")...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_SRL16E [\MB_SRL16E(c_target=artix7,c_use...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="0010010100000000")...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_SRL16E [\MB_SRL16E(c_target=artix7,c_use...]
+Compiling architecture imp of entity microblaze_v11_0_3.mb_sync_bit [\mb_sync_bit(c_levels=1,c_reset_...]
+Compiling architecture imp of entity microblaze_v11_0_3.mb_sync_vec [\mb_sync_vec(c_levels=1,c_reset_...]
+Compiling architecture imp of entity microblaze_v11_0_3.mb_sync_bit [\mb_sync_bit(c_levels=1)\]
+Compiling architecture imp of entity microblaze_v11_0_3.mb_sync_vec [\mb_sync_vec(c_width=10)\]
+Compiling architecture srlc16e_v of entity unisim.SRLC16E [\SRLC16E(0,15)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_SRLC16E [\MB_SRLC16E(c_target=artix7,c_us...]
+Compiling architecture imp of entity microblaze_v11_0_3.address_hit [\address_hit(c_target=artix7,c_u...]
+Compiling architecture imp of entity microblaze_v11_0_3.xil_scan_reset_control [xil_scan_reset_control_default]
+Compiling architecture imp of entity microblaze_v11_0_3.Debug [\Debug(c_data_size=32,c_instr_si...]
+Compiling architecture imp of entity microblaze_v11_0_3.interrupt_mode_converter [\interrupt_mode_converter(c_edge...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_MUXCY [\MB_MUXCY(c_target=artix7)\]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000000000000000000...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT5 [\MB_LUT5(c_target=artix7,init="0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000000000000000000...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT5 [\MB_LUT5(c_target=artix7,init="0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0010000000000000")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000001000000000")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="0...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="00000100")(0,7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT3 [\MB_LUT3(c_target=artix7,init="0...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="00010101")(0,7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT3 [\MB_LUT3(c_target=artix7,init="0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1000010000100001")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="1...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="10010000")(0,7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT3 [\MB_LUT3(c_target=artix7,init="1...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1000000000000000")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="1...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_FDRE [\MB_FDRE(c_target=artix7)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000000011110000")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="0...]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1000")(0,3)\]
+Compiling architecture mult_and_v of entity unisim.MULT_AND [mult_and_default]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_MULT_AND [\MB_MULT_AND(c_target=artix7)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111111001010")(0...]
+Compiling architecture fdrse_v of entity unisim.FDRSE [fdrse_default]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_FDRSE [\MB_FDRSE(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_FDSE [\MB_FDSE(c_target=artix7)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="10110100")(0,7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT3 [\MB_LUT3(c_target=artix7,init="1...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1010101010111010")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="1...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(0,15)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_SRL16E [\MB_SRL16E(c_target=artix7,c_use...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture muxcy_l_v of entity unisim.MUXCY_L [muxcy_l_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_MUXCY_XORCY [\MB_MUXCY_XORCY(c_target=artix7)...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_FDS [\MB_FDS(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_FDR [\MB_FDR(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.PreFetch_Buffer [\PreFetch_Buffer(c_instr_size=32...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111100000000000")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="1...]
+Compiling architecture imp of entity microblaze_v11_0_3.Decode [\Decode(c_data_size=32,c_instr_s...]
+Compiling architecture ram32x1d_v of entity unisim.RAM32X1D [ram32x1d_default]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_RAM32X1D [\MB_RAM32X1D(c_target=artix7,c_u...]
+Compiling architecture imp of entity microblaze_v11_0_3.Register_File_Bit [\Register_File_Bit(c_target=arti...]
+Compiling architecture imp of entity microblaze_v11_0_3.Register_File [\Register_File(c_data_size=32,c_...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="111111110000000011...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture fde_v of entity unisim.FDE [fde_default]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_FDE [\MB_FDE(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.Operand_Select_Bit [\Operand_Select_Bit(c_target=art...]
+Compiling architecture imp of entity microblaze_v11_0_3.Operand_Select_Bit [\Operand_Select_Bit(c_target=art...]
+Compiling architecture imp of entity microblaze_v11_0_3.Operand_Select_Bit [\Operand_Select_Bit(c_target=art...]
+Compiling architecture imp of entity microblaze_v11_0_3.Operand_Select_Bit [\Operand_Select_Bit(c_target=art...]
+Compiling architecture imp of entity microblaze_v11_0_3.Operand_Select_Bit [\Operand_Select_Bit(c_target=art...]
+Compiling architecture imp of entity microblaze_v11_0_3.Operand_Select_Bit [\Operand_Select_Bit(c_target=art...]
+Compiling architecture imp of entity microblaze_v11_0_3.Operand_Select_Bit [\Operand_Select_Bit(c_target=art...]
+Compiling architecture imp of entity microblaze_v11_0_3.Operand_Select [\Operand_Select(c_data_size=32,c...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(0,7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT3 [\MB_LUT3(c_target=artix7)(0,7)\]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="011000000111101010...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture imp of entity microblaze_v11_0_3.ALU_Bit [\ALU_Bit(c_target=artix7,c_allow...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="01100000011110101010...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT6 [\MB_LUT6(c_target=artix7,init="0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111101000001010")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="1...]
+Compiling architecture imp of entity microblaze_v11_0_3.ALU_Bit [\ALU_Bit(c_target=artix7,c_allow...]
+Compiling architecture imp of entity microblaze_v11_0_3.ALU [\ALU(c_data_size=32,c_area_optim...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0100011010001110")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111110010101010")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="1...]
+Compiling architecture muxf7_v of entity unisim.MUXF7 [muxf7_default]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_MUXF7 [\MB_MUXF7(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.Shift_Logic_Bit [\Shift_Logic_Bit(c_target=artix7...]
+Compiling architecture imp of entity microblaze_v11_0_3.Shift_Logic_Module [\Shift_Logic_Module(c_use_pcmp_i...]
+Compiling architecture imp of entity microblaze_v11_0_3.mul_unit [\mul_unit(c_data_size=32,c_targe...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1110111111100000")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="1...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11100000010000001110...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT6 [\MB_LUT6(c_target=artix7,init="1...]
+Compiling architecture fd_v of entity unisim.FD [fd_default]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_FD [\MB_FD(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.Result_Mux_Bit [\Result_Mux_Bit(c_target=artix7)...]
+Compiling architecture imp of entity microblaze_v11_0_3.Result_Mux [\Result_Mux(c_data_size=32,c_tar...]
+Compiling architecture imp of entity microblaze_v11_0_3.Zero_Detect [\Zero_Detect(c_data_size=32,c_ta...]
+Compiling architecture imp of entity microblaze_v11_0_3.MSR_Reg_Bit [\MSR_Reg_Bit(c_target=artix7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MSR_Reg [\MSR_Reg(c_target=artix7,c_data_...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111000001100110")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="1...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1010101011001010")(0...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT4 [\MB_LUT4(c_target=artix7,init="1...]
+Compiling architecture imp of entity microblaze_v11_0_3.PC_Bit [\PC_Bit(c_target=artix7,c_use_sr...]
+Compiling architecture imp of entity microblaze_v11_0_3.PC_Module [\PC_Module(c_data_size=32,c_addr...]
+Compiling architecture imp of entity microblaze_v11_0_3.PVR [\PVR(c_data_size=32,c_daddr_size...]
+Compiling architecture imp of entity microblaze_v11_0_3.Data_Flow [\Data_Flow(c_data_size=32,c_inst...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="100001110111100010...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="011110001000011110...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="001010100010111100...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="000101010001111100...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="000011001100000000...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="10101011")(0,7)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT3 [\MB_LUT3(c_target=artix7,init="1...]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1011")(0,3)\]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT2 [\MB_LUT2(c_target=artix7,init="1...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="000100010001000100...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture lut6_2_v of entity unisim.LUT6_2 [\LUT6_2(init="111111110000000011...]
+Compiling architecture imp of entity microblaze_v11_0_3.MB_LUT6_2 [\MB_LUT6_2(c_target=artix7,init=...]
+Compiling architecture imp of entity microblaze_v11_0_3.mux4_8 [\mux4_8(c_allow_lut6=true,c_targ...]
+Compiling architecture imp of entity microblaze_v11_0_3.Byte_Doublet_Handle [\Byte_Doublet_Handle(c_data_size...]
+Compiling architecture imp of entity microblaze_v11_0_3.mux_bus [\mux_bus(c_target=artix7,c_allow...]
+Compiling architecture imp of entity microblaze_v11_0_3.instr_mux [\instr_mux(c_instr_size=32,c_tar...]
+Compiling architecture imp of entity microblaze_v11_0_3.MicroBlaze_Area [\MicroBlaze_Area(c_num_sync_ff_c...]
+Compiling architecture imp of entity microblaze_v11_0_3.mb_sync_bit [mb_sync_bit_default]
+Compiling architecture imp of entity microblaze_v11_0_3.MicroBlaze_Core [\MicroBlaze_Core(c_freq=10000000...]
+Compiling architecture imp of entity microblaze_v11_0_3.MicroBlaze [\MicroBlaze(c_freq=100000000,c_e...]
+Compiling architecture bd_3914_microblaze_i_0_arch of entity xil_defaultlib.bd_3914_microblaze_I_0 [bd_3914_microblaze_i_0_default]
+Compiling architecture fdre_v of entity unisim.FDRE [\FDRE(init='1')\]
+Compiling architecture implementation of entity lib_cdc_v1_0_2.cdc_sync [\cdc_sync(c_vector_width=2,c_mtb...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="1111111111111111")...]
+Compiling architecture srl16_v of entity unisim.SRL16 [\SRL16(init="1111111111111111")(...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.lpf [\lpf(c_ext_rst_width=4,c_aux_rst...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.upcnt_n [\upcnt_n(c_size=6)\]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.sequence_psr [sequence_psr_default]
+Compiling architecture imp of entity proc_sys_reset_v5_0_13.proc_sys_reset [\proc_sys_reset(c_family="artix7...]
+Compiling architecture bd_3914_rst_0_0_arch of entity xil_defaultlib.bd_3914_rst_0_0 [bd_3914_rst_0_0_default]
+Compiling module xlconcat_v2_1_3.xlconcat_v2_1_3_xlconcat_default
+Compiling module xil_defaultlib.bd_3914_xlconcat_0_0
+Compiling architecture structure of entity xil_defaultlib.bd_3914 [bd_3914_default]
+Compiling architecture cpu_arch of entity xil_defaultlib.cpu [cpu_default]
+Compiling architecture arch of entity xil_defaultlib.chu_mcs_bridge [chu_mcs_bridge_default]
+Compiling architecture arch of entity xil_defaultlib.chu_mmio_controller [chu_mmio_controller_default]
+Compiling architecture arch of entity xil_defaultlib.chu_timer [chu_timer_default]
+Compiling architecture arch of entity xil_defaultlib.baud_gen [baud_gen_default]
+Compiling architecture arch of entity xil_defaultlib.uart_rx [uart_rx_default]
+Compiling architecture arch of entity xil_defaultlib.uart_tx [uart_tx_default]
+Compiling architecture arch of entity xil_defaultlib.fifo_ctrl [\fifo_ctrl(addr_width=6)\]
+Compiling architecture arch of entity xil_defaultlib.reg_file [\reg_file(addr_width=6)\]
+Compiling architecture reg_file_arch of entity xil_defaultlib.fifo [\fifo(addr_width=6)\]
+Compiling architecture str_arch of entity xil_defaultlib.uart [\uart(fifo_w=6)\]
+Compiling architecture arch of entity xil_defaultlib.chu_uart [\chu_uart(fifo_depth_bit=6)\]
+Compiling architecture arch of entity xil_defaultlib.chu_gpo [\chu_gpo(w=16)\]
+Compiling architecture arch of entity xil_defaultlib.chu_gpi [\chu_gpi(w=16)\]
+Compiling architecture arch of entity xil_defaultlib.rotation_core [rotation_core_default]
+Compiling architecture arch of entity xil_defaultlib.chu_rotation_core [chu_rotation_core_default]
+Compiling architecture xadc_v of entity unisim.XADC [\XADC(init_41="0010000110101111"...]
+Compiling architecture xilinx of entity xil_defaultlib.xadc_fpro_basys3 [xadc_fpro_basys3_default]
+Compiling architecture arch of entity xil_defaultlib.chu_xadc_basys3_core [chu_xadc_basys3_core_default]
+Compiling architecture arch of entity xil_defaultlib.chu_io_pwm_core [\chu_io_pwm_core(r=10)\]
+Compiling architecture arch of entity xil_defaultlib.debounce_fsm [debounce_fsm_default]
+Compiling architecture arch of entity xil_defaultlib.debounce_counter [debounce_counter_default]
+Compiling architecture arch of entity xil_defaultlib.chu_debounce_core [\chu_debounce_core(w=5)\]
+Compiling architecture arch of entity xil_defaultlib.led_mux8 [led_mux8_default]
+Compiling architecture arch of entity xil_defaultlib.chu_led_mux_core [chu_led_mux_core_default]
+Compiling architecture arch of entity xil_defaultlib.spi [spi_default]
+Compiling architecture arch of entity xil_defaultlib.chu_spi_core [\chu_spi_core(s=1)\]
+Compiling architecture arch of entity xil_defaultlib.i2c_master [i2c_master_default]
+Compiling architecture arch of entity xil_defaultlib.chu_i2c_core [chu_i2c_core_default]
+Compiling architecture arch of entity xil_defaultlib.ps2tx [ps2tx_default]
+Compiling architecture arch of entity xil_defaultlib.ps2rx [ps2rx_default]
+Compiling architecture arch of entity xil_defaultlib.ps2_top [\ps2_top(w_size=6)\]
+Compiling architecture arch of entity xil_defaultlib.chu_ps2_core [\chu_ps2_core(w_size=6)\]
+Compiling architecture beh_arch of entity xil_defaultlib.sin_rom [sin_rom_default]
+Compiling architecture arch of entity xil_defaultlib.ddfs [ddfs_default]
+Compiling architecture arch of entity xil_defaultlib.ds_1bit_dac [ds_1bit_dac_default]
+Compiling architecture arch of entity xil_defaultlib.chu_ddfs_core [chu_ddfs_core_default]
+Compiling architecture arch of entity xil_defaultlib.adsr [adsr_default]
+Compiling architecture arch of entity xil_defaultlib.chu_adsr_core [chu_adsr_core_default]
+Compiling architecture arch of entity xil_defaultlib.mmio_sys_sampler_basys3 [mmio_sys_sampler_basys3_default]
+Compiling architecture arch of entity xil_defaultlib.mcs_top_sampler_basys3 [mcs_top_sampler_basys3_default]
+Compiling architecture behavioral of entity xil_defaultlib.test_bench_for_complete_system
+Built simulation snapshot test_bench_for_complete_system_behav
+run_program: Time (s): cpu = 00:00:28 ; elapsed = 00:00:20 . Memory (MB): peak = 7427.926 ; gain = 0.000 ; free physical = 644 ; free virtual = 3984
+INFO: [USF-XSim-69] 'elaborate' step finished in '21' seconds
+launch_simulation: Time (s): cpu = 00:00:28 ; elapsed = 00:00:21 . Memory (MB): peak = 7427.926 ; gain = 0.000 ; free physical = 644 ; free virtual = 3984
+Vivado Simulator 2020.1
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/bd_3914.protoinst
+Time resolution is 1 ps
+Block Memory Generator module test_bench_for_complete_system.instance0.mcs_0.U0.lmb_bram_I.inst.\native_mem_mapped_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Warning: *** Warning: The analog data file for XADC was not found. Use the SIM_MONITOR_FILE generic to specify the input analog data file name or use default name: design.txt. 
+Time: 0 ps  Iteration: 0  Process: /test_bench_for_complete_system/instance0/mmio_sys_unit/xadc_slot5/xdac_unit/U0/READFILE_P  File: /wrk/2020.1/continuous/2020_05_27_2902540/data/vhdl/src/unisims/primitive/XADC.vhd
+relaunch_sim: Time (s): cpu = 00:04:01 ; elapsed = 00:00:27 . Memory (MB): peak = 7427.926 ; gain = 24.004 ; free physical = 639 ; free virtual = 3975
+run all
+run: Time (s): cpu = 00:01:33 ; elapsed = 00:10:01 . Memory (MB): peak = 7427.926 ; gain = 0.000 ; free physical = 547 ; free virtual = 3943
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Apr 14 00:29:14 2021] Launched synth_1...
+Run output will be captured here: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/synth_1/runme.log
+[Wed Apr 14 00:29:14 2021] Launched impl_1...
+Run output will be captured here: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Apr 14 01:19:56 2021] Launched impl_1...
+Run output will be captured here: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Apr 14 01:23:40 2021] Launched impl_1...
+Run output will be captured here: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Apr 14 01:29:17 2021] Launched impl_1...
+Run output will be captured here: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Apr 14 01:32:56 2021] Launched impl_1...
+Run output will be captured here: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Apr 14 02:00:02 2021] Launched synth_1...
+Run output will be captured here: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/synth_1/runme.log
+[Wed Apr 14 02:00:02 2021] Launched impl_1...
+Run output will be captured here: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/impl_1/runme.log

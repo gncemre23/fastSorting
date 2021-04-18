@@ -1,0 +1,509 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Apr 18 16:24:51 2021
+# Process ID: 13672
+# Current directory: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/synth_1
+# Command line: vivado -log swapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source swapper.tcl
+# Log file: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/synth_1/swapper.vds
+# Journal file: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source swapper.tcl -notrace
+Command: synth_design -top swapper -part xc7a35tcpg236-1 -directive AreaOptimized_high -control_set_opt_threshold 1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 13698
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2117.168 ; gain = 0.000 ; free physical = 716 ; free virtual = 2154
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'swapper' [/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.srcs/sources_1/new/swapper.vhd:108]
+INFO: [Synth 8-256] done synthesizing module 'swapper' (1#1) [/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.srcs/sources_1/new/swapper.vhd:108]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 2119.059 ; gain = 1.891 ; free physical = 808 ; free virtual = 2247
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2133.902 ; gain = 16.734 ; free physical = 802 ; free virtual = 2241
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2133.902 ; gain = 16.734 ; free physical = 802 ; free virtual = 2241
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2133.902 ; gain = 0.000 ; free physical = 795 ; free virtual = 2234
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:6]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:6]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[4]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[4]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[4]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[4]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[0]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[0]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[3]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[3]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[1]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[1]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[2]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[2]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:93]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:93]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:94]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:94]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:95]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:95]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[0]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[0]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[1]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[1]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:105]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:105]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[2]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[2]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:107]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:107]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[3]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[3]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[4]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:110]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:110]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[4]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:111]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[5]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[5]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:113]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:113]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[6]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:114]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:114]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[6]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:115]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:115]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[7]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:116]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:116]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sseg[7]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:117]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:117]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[0]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:118]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:118]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[0]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:119]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:119]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[1]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:120]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:120]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[1]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:121]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:121]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[2]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:122]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:122]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[2]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:123]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:123]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an[3]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:124]
+INFO: [Common 17-14] Message 'Vivado 12-584' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:124]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:124]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:125]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2253.668 ; gain = 0.000 ; free physical = 719 ; free virtual = 2157
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.06 . Memory (MB): peak = 2256.637 ; gain = 2.969 ; free physical = 718 ; free virtual = 2157
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2256.637 ; gain = 139.469 ; free physical = 778 ; free virtual = 2216
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2256.637 ; gain = 139.469 ; free physical = 777 ; free virtual = 2216
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 2256.637 ; gain = 139.469 ; free physical = 777 ; free virtual = 2216
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2256.637 ; gain = 139.469 ; free physical = 779 ; free virtual = 2218
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 64    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 2256.637 ; gain = 139.469 ; free physical = 749 ; free virtual = 2192
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 2256.637 ; gain = 139.469 ; free physical = 635 ; free virtual = 2078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 2256.637 ; gain = 139.469 ; free physical = 634 ; free virtual = 2078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 2256.637 ; gain = 139.469 ; free physical = 634 ; free virtual = 2077
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 2256.637 ; gain = 139.469 ; free physical = 633 ; free virtual = 2077
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 2256.637 ; gain = 139.469 ; free physical = 633 ; free virtual = 2077
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 2256.637 ; gain = 139.469 ; free physical = 633 ; free virtual = 2077
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 2256.637 ; gain = 139.469 ; free physical = 633 ; free virtual = 2077
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 2256.637 ; gain = 139.469 ; free physical = 633 ; free virtual = 2077
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 2256.637 ; gain = 139.469 ; free physical = 633 ; free virtual = 2077
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    64|
+|2     |LUT3   |   512|
+|3     |LUT4   |   512|
+|4     |LUT5   |   512|
+|5     |LUT6   |    64|
+|6     |MUXF7  |   288|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 2256.637 ; gain = 139.469 ; free physical = 633 ; free virtual = 2077
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 2256.637 ; gain = 16.734 ; free physical = 685 ; free virtual = 2129
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 2256.645 ; gain = 139.469 ; free physical = 685 ; free virtual = 2129
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2256.645 ; gain = 0.000 ; free physical = 757 ; free virtual = 2200
+INFO: [Netlist 29-17] Analyzing 352 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'swapper' is not ideal for floorplanning, since the cellview 'swapper' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+WARNING: [Memdata 28-146] Could not find a netlist instance for the specified SCOPED_TO_REF value of: cpu
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2256.645 ; gain = 0.000 ; free physical = 705 ; free virtual = 2148
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+17 Infos, 102 Warnings, 101 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:41 . Memory (MB): peak = 2256.645 ; gain = 139.586 ; free physical = 834 ; free virtual = 2278
+INFO: [Common 17-1381] The checkpoint '/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/synth_1/swapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file swapper_utilization_synth.rpt -pb swapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 18 16:25:45 2021...

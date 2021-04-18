@@ -28,8 +28,6 @@ vhdl xil_defaultlib  \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/pwm/chu_io_pwm_core.vhd" \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/led_mux/led_mux8.vhd" \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/led_mux/chu_led_mux_core.vhd" \
-"../../../../../../hw/hdl/lfsr.vhd" \
-"../../../../../../hw/hdl/chu_lfsr.vhd" \
 "../../../../../../hw/hdl/fpro_src/hdl/sys/bridge/chu_mcs_bridge.vhd" \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/mmio_support/chu_mmio_controller.vhd" \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/ps2/ps2tx.vhd" \
@@ -39,6 +37,12 @@ vhdl xil_defaultlib  \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/mmio_support/fifo/fifo.vhd" \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/ps2/ps2_top.vhd" \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/ps2/chu_ps2_core.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../../../hw/hdl/rotation_core.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../../../hw/hdl/chu_rotation_core.vhd" \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/spi/spi.vhd" \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/spi/chu_spi_core.vhd" \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/mmio_basic/chu_timer.vhd" \

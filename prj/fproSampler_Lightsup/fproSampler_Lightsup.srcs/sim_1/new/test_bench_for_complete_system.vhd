@@ -113,19 +113,16 @@ instance0: entity work.mcs_top_sampler_basys3
    begin
    reset <= '1';
    btn <= "00000";
-   sw  <= x"0000";
    wait for 1000 ns;
    reset <= '0';
    wait for 1 ms;
-   btn <= "10000"; -- btnc is pressed
-   wait for 1 ms;
-   btn <= "00000";
-   wait for 10 ms;
+   btn <= "00010"; -- btnr is pressed
+   wait for 5 ms;
    btn <= "00001"; -- btnu is pressed
-   wait for 1 ms;
-   btn <= "00000";
-   
-   wait for 10 ms;
+   wait for 10 ns;
+   btn <= "00000"; -- btnu is pressed
+   wait for 5 ms;
+  
    
    wait;
    
