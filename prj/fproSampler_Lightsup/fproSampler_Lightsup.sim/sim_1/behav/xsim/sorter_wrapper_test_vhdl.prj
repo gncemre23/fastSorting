@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../hw/hdl/bram_.vhd" \
+"../../../../../../hw/hdl/counter.vhd" \
+"../../../../../../hw/hdl/sorter_data_path.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../../../hw/hdl/sorter_ctrl.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../../../hw/hdl/sorter_top.vhd" \
+"../../../../../../hw/hdl/sorter_wrapper.vhd" \
+"../../../../../../hw/hdl/sorter_wrapper_test.vhd" \
+
+# Do not sort compile order
+nosort

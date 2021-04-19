@@ -1,0 +1,4 @@
+Running: xsim.dir/sorter_wrapper_test_behav/xsimk -simmode gui -wdb sorter_wrapper_test_behav.wdb -simrunnum 0 -socket 39857
+Design successfully loaded
+Design Loading Memory Usage: 33740 KB (Peak: 33740 KB)
+Design Loading CPU Usage: 40 ms

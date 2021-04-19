@@ -1,0 +1,12 @@
+
+{ 
+    crc :  5389868096596993341  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 5e41c5f2cd424ac79760eafb0f34802e --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip -L xpm --snapshot sorter_wrapper_test_behav xil_defaultlib.sorter_wrapper_test" , 
+    buildDate : "May 27 2020" , 
+    buildTime : "19:59:15" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/sorter_wrapper_test_behav/xsimk\"   \"xsim.dir/sorter_wrapper_test_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/sorter_wrapper_test_behav/obj/xsim_1.lnx64.o\" -L\"/tools/Xilinx/Vivado/2020.1/lib/lnx64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 
