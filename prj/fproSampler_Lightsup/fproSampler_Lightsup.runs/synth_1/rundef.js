@@ -27,7 +27,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log swapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source swapper.tcl" );
+         "-log mcs_top_sampler_basys3.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mcs_top_sampler_basys3.tcl" );
 
 
 

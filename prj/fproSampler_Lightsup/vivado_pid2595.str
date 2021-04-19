@@ -9745,3 +9745,105 @@ selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitle
 // HMemoryUtils.trashcanNow. Engine heap size: 4,264 MB. GUI used memory: 429 MB. Current time: 4/19/21, 12:42:58 PM EET
 // WARNING: HEventQueue.dispatchEvent() is taking  1167 ms.
 // TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// WARNING: HEventQueue.dispatchEvent() is taking  1173 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,264 MB. GUI used memory: 429 MB. Current time: 4/19/21, 1:13:02 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 4,264 MB. GUI used memory: 428 MB. Current time: 4/19/21, 1:43:02 PM EET
+// WARNING: HEventQueue.dispatchEvent() is taking  1159 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,264 MB. GUI used memory: 428 MB. Current time: 4/19/21, 2:13:02 PM EET
+// WARNING: HEventQueue.dispatchEvent() is taking  1116 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,264 MB. GUI used memory: 428 MB. Current time: 4/19/21, 2:43:03 PM EET
+// WARNING: HEventQueue.dispatchEvent() is taking  1110 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,264 MB. GUI used memory: 428 MB. Current time: 4/19/21, 3:13:03 PM EET
+// WARNING: HEventQueue.dispatchEvent() is taking  1111 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,264 MB. GUI used memory: 428 MB. Current time: 4/19/21, 3:43:03 PM EET
+// WARNING: HEventQueue.dispatchEvent() is taking  1118 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,264 MB. GUI used memory: 428 MB. Current time: 4/19/21, 4:13:03 PM EET
+// WARNING: HEventQueue.dispatchEvent() is taking  1113 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,264 MB. GUI used memory: 428 MB. Current time: 4/19/21, 4:43:03 PM EET
+// WARNING: HEventQueue.dispatchEvent() is taking  1105 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,264 MB. GUI used memory: 428 MB. Current time: 4/19/21, 5:13:03 PM EET
+// WARNING: HEventQueue.dispatchEvent() is taking  1102 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,264 MB. GUI used memory: 428 MB. Current time: 4/19/21, 5:43:03 PM EET
+// WARNING: HEventQueue.dispatchEvent() is taking  1113 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,264 MB. GUI used memory: 428 MB. Current time: 4/19/21, 6:13:03 PM EET
+// WARNING: HEventQueue.dispatchEvent() is taking  1113 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,264 MB. GUI used memory: 428 MB. Current time: 4/19/21, 6:43:03 PM EET
+// WARNING: HEventQueue.dispatchEvent() is taking  1112 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,264 MB. GUI used memory: 428 MB. Current time: 4/19/21, 7:13:04 PM EET
+// WARNING: HEventQueue.dispatchEvent() is taking  1104 ms.
+// Elapsed time: 24029 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (J, cs) - Node
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation]", 5); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // i (N, cs)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cs)
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ELF]", 6, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ELF]", 6, true, false, false, false, true, false); // B (F, cs) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, cs)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // af (ao, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ELF]", 6); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ELF, exercise5.elf]", 7, false); // B (F, cs)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cs)
+// Tcl Message: export_ip_user_files -of_objects  [get_files /home/egoncu/Desktop/github/fastSorting/prj/exercise5/Debug/exercise5.elf] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  /home/egoncu/Desktop/github/fastSorting/prj/exercise5/Debug/exercise5.elf 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ELF]", 14); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ELF, exercise5.elf]", 13, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ELF, lights_app2.elf]", 14, false, true, false, false, false, false); // B (F, cs) - Shift Key
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cs): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cs)
+// Tcl Message: export_ip_user_files -of_objects  [get_files /home/egoncu/Desktop/github/fastSorting/prj/exercise5/Debug/exercise5.elf] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files /home/egoncu/Desktop/github/lightsup/prj/vitis/lights_app2/Debug/lights_app2.elf] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  -fileset sim_1 {/home/egoncu/Desktop/github/fastSorting/prj/exercise5/Debug/exercise5.elf /home/egoncu/Desktop/github/lightsup/prj/vitis/lights_app2/Debug/lights_app2.elf} 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd)]", 1, true); // B (F, cs) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd)]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd)]", 4, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd), gpo_slot2 : chu_gpo(arch) (chu_gpo.vhd)]", 8, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 12 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd), mmio_sys_unit : mmio_sys_sampler_basys3(arch) (mmio_sys_sampler_basys3.vhd)]", 4); // B (F, cs)
+selectCodeEditor("mmio_sys_sampler_basys3.vhd", 190, 75); // bP (w, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 30 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mcs_top_sampler_basys3(arch) (mcs_top_sampler_basys3.vhd)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 30, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cs)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cD' command handler elapsed time: 4 seconds
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// bz (cs):  Generate Bitstream : addNotify
+// Tcl Message: [Mon Apr 19 19:25:06 2021] Launched synth_1... Run output will be captured here: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/synth_1/runme.log [Mon Apr 19 19:25:06 2021] Launched impl_1... Run output will be captured here: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE

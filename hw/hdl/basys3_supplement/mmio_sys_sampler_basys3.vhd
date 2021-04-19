@@ -143,7 +143,7 @@ begin
          din     => sw
       );
    -- slot 4: reserved for user defined    
-   user_slot4: entity work.chu_rotation_core
+   user_slot4: entity work.sorter_wrapper
    port map(
          clk     => clk,
          reset   => reset,

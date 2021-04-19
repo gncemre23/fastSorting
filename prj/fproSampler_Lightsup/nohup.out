@@ -65,3 +65,11 @@ start_gui
     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 
 start_gui
+/tools/Xilinx/Vivado/2020.1/bin/rdiArgs.sh: line 286:  2595 Killed                  "$RDI_PROG" "$@"
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+start_gui
