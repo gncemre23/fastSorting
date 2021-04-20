@@ -1,0 +1,1452 @@
+TRACE::2021-04-19.23:44:35::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:35::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:35::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Do not have an existing db opened. 
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened new HwDB with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWWriter::formatted JSON is {
+	"platformName":	"sort_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sort_platform",
+	"platHandOff":	"/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/mcs_top_sampler_basys3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mcs_top_sampler_basys3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2021-04-19.23:44:39::SCWWriter::formatted JSON is {
+	"platformName":	"sort_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sort_platform",
+	"platHandOff":	"/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/mcs_top_sampler_basys3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mcs_top_sampler_basys3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"sort_platform",
+	"systems":	[{
+			"systemName":	"sort_platform",
+			"systemDesc":	"sort_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"sort_platform"
+		}]
+}
+TRACE::2021-04-19.23:44:39::SCWPlatform::Boot application domains not present, creating them
+TRACE::2021-04-19.23:44:39::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2021-04-19.23:44:39::SCWWriter::formatted JSON is {
+	"platformName":	"sort_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sort_platform",
+	"platHandOff":	"/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/mcs_top_sampler_basys3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mcs_top_sampler_basys3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"sort_platform",
+	"systems":	[{
+			"systemName":	"sort_platform",
+			"systemDesc":	"sort_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"sort_platform"
+		}]
+}
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWDomain::checking for install qemu data   : 
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-04-19.23:44:39::SCWMssOS::No sw design opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::mss does not exists at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::Creating sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::Adding the swdes entry, created swdb /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss with des name /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::updating the scw layer changes to swdes at   /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::Writing mss at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::Completed writing the mss file at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp
+TRACE::2021-04-19.23:44:39::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2021-04-19.23:44:39::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2021-04-19.23:44:39::SCWMssOS::Completed writing the mss file at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp
+TRACE::2021-04-19.23:44:39::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2021-04-19.23:44:39::SCWMssOS::Saving the mss changes /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-04-19.23:44:39::SCWMssOS::Running validate of swdbs.
+KEYINFO::2021-04-19.23:44:39::SCWMssOS::Could not open the swdb for /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+KEYINFO::2021-04-19.23:44:39::SCWMssOS::Could not open the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss is not found
+
+TRACE::2021-04-19.23:44:39::SCWMssOS::Cleared the swdb table entry
+TRACE::2021-04-19.23:44:39::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss with des name system
+TRACE::2021-04-19.23:44:39::SCWMssOS::Writing the mss file completed /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::Commit changes completed.
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:44:39::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:44:39::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:44:39::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWWriter::formatted JSON is {
+	"platformName":	"sort_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sort_platform",
+	"platHandOff":	"/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/mcs_top_sampler_basys3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mcs_top_sampler_basys3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"sort_platform",
+	"systems":	[{
+			"systemName":	"sort_platform",
+			"systemDesc":	"sort_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"sort_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_I",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"537122bb64680395e095154cb42a8678",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2021-04-19.23:44:39::SCWPlatform::Started generating the artifacts platform sort_platform
+TRACE::2021-04-19.23:44:39::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-04-19.23:44:39::SCWPlatform::Started generating the artifacts for system configuration sort_platform
+LOG::2021-04-19.23:44:39::SCWSystem::Checking the domain standalone_domain
+LOG::2021-04-19.23:44:39::SCWSystem::Not a boot domain 
+LOG::2021-04-19.23:44:39::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2021-04-19.23:44:39::SCWDomain::Generating domain artifcats
+TRACE::2021-04-19.23:44:39::SCWMssOS::Generating standalone artifcats
+TRACE::2021-04-19.23:44:39::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:44:39::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::Completed writing the mss file at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp
+TRACE::2021-04-19.23:44:39::SCWMssOS::Mss edits present, copying mssfile into export location /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-04-19.23:44:39::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-04-19.23:44:39::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2021-04-19.23:44:39::SCWMssOS::skipping the bsp build ... 
+TRACE::2021-04-19.23:44:39::SCWMssOS::Copying to export directory.
+TRACE::2021-04-19.23:44:39::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-04-19.23:44:39::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2021-04-19.23:44:39::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2021-04-19.23:44:39::SCWSystem::Completed Processing the sysconfig sort_platform
+LOG::2021-04-19.23:44:39::SCWPlatform::Completed generating the artifacts for system configuration sort_platform
+TRACE::2021-04-19.23:44:39::SCWPlatform::Started preparing the platform 
+TRACE::2021-04-19.23:44:39::SCWSystem::Writing the bif file for system config sort_platform
+TRACE::2021-04-19.23:44:39::SCWSystem::dir created 
+TRACE::2021-04-19.23:44:39::SCWSystem::Writing the bif 
+TRACE::2021-04-19.23:44:39::SCWPlatform::Started writing the spfm file 
+TRACE::2021-04-19.23:44:39::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-04-19.23:44:39::SCWPlatform::Completed generating the platform
+TRACE::2021-04-19.23:44:39::SCWMssOS::Saving the mss changes /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-04-19.23:44:39::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-04-19.23:44:39::SCWMssOS::Commit changes completed.
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:44:39::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:44:39::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:44:39::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWWriter::formatted JSON is {
+	"platformName":	"sort_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sort_platform",
+	"platHandOff":	"/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/mcs_top_sampler_basys3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mcs_top_sampler_basys3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"sort_platform",
+	"systems":	[{
+			"systemName":	"sort_platform",
+			"systemDesc":	"sort_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"sort_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_I",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"537122bb64680395e095154cb42a8678",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-04-19.23:44:39::SCWPlatform::updated the xpfm file.
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:44:39::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::Saving the mss changes /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-04-19.23:44:39::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-04-19.23:44:39::SCWMssOS::Commit changes completed.
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:44:39::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:44:39::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:44:39::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWWriter::formatted JSON is {
+	"platformName":	"sort_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sort_platform",
+	"platHandOff":	"/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/mcs_top_sampler_basys3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mcs_top_sampler_basys3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"sort_platform",
+	"systems":	[{
+			"systemName":	"sort_platform",
+			"systemDesc":	"sort_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"sort_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_I",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"537122bb64680395e095154cb42a8678",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:44:39::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:44:39::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:44:39::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::Saving the mss changes /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-04-19.23:44:39::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-04-19.23:44:39::SCWMssOS::Commit changes completed.
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:44:39::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:44:39::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:44:39::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWWriter::formatted JSON is {
+	"platformName":	"sort_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sort_platform",
+	"platHandOff":	"/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/mcs_top_sampler_basys3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mcs_top_sampler_basys3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"sort_platform",
+	"systems":	[{
+			"systemName":	"sort_platform",
+			"systemDesc":	"sort_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"sort_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_I",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_I",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"537122bb64680395e095154cb42a8678",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2021-04-19.23:44:39::SCWMssOS::Saving the mss changes /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-04-19.23:44:39::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-04-19.23:44:39::SCWMssOS::Commit changes completed.
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:44:39::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:44:39::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-19.23:44:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:44:39::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:39::SCWWriter::formatted JSON is {
+	"platformName":	"sort_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sort_platform",
+	"platHandOff":	"/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/mcs_top_sampler_basys3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mcs_top_sampler_basys3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"sort_platform",
+	"systems":	[{
+			"systemName":	"sort_platform",
+			"systemDesc":	"sort_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"sort_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_I",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_I",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"537122bb64680395e095154cb42a8678",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2021-04-19.23:44:40::SCWPlatform::Clearing the existing platform
+TRACE::2021-04-19.23:44:40::SCWSystem::Clearing the existing sysconfig
+TRACE::2021-04-19.23:44:40::SCWMssOS::Removing the swdes entry for  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:40::SCWSystem::Clearing the domains completed.
+TRACE::2021-04-19.23:44:40::SCWPlatform::Clearing the opened hw db.
+TRACE::2021-04-19.23:44:40::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform:: Platform location is /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:40::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:40::SCWPlatform::Removing the HwDB with name /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:40::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:40::SCWPlatform::Do not have an existing db opened. 
+TRACE::2021-04-19.23:44:40::SCWPlatform::Opened new HwDB with name mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:44:40::SCWReader::Active system found as  sort_platform
+TRACE::2021-04-19.23:44:40::SCWReader::Handling sysconfig sort_platform
+TRACE::2021-04-19.23:44:40::SCWDomain::checking for install qemu data   : 
+TRACE::2021-04-19.23:44:40::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:40::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:40::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:44:40::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:44:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:40::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:40::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:40::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:44:40::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:44:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:40::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:40::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:40::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:44:40::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:44:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:40::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:40::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:40::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:44:40::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:44:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:40::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:40::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-04-19.23:44:40::SCWMssOS::No sw design opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:40::SCWMssOS::mss exists loading the mss file  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:40::SCWMssOS::Opened the sw design from mss  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:40::SCWMssOS::Adding the swdes entry /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss with des name system
+TRACE::2021-04-19.23:44:40::SCWMssOS::updating the scw layer about changes
+TRACE::2021-04-19.23:44:40::SCWMssOS::Opened the sw design.  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:40::SCWMssOS::Saving the mss changes /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:40::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-04-19.23:44:40::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-04-19.23:44:40::SCWMssOS::Commit changes completed.
+TRACE::2021-04-19.23:44:40::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2021-04-19.23:44:40::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2021-04-19.23:44:40::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:44:40::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:44:40::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:44:40::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:44:40::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:44:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:44:40::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:40::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:44:40::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:44:40::SCWReader::No isolation master present  
+LOG::2021-04-19.23:46:15::SCWPlatform::Started generating the artifacts platform sort_platform
+TRACE::2021-04-19.23:46:15::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-04-19.23:46:15::SCWPlatform::Started generating the artifacts for system configuration sort_platform
+LOG::2021-04-19.23:46:15::SCWSystem::Checking the domain standalone_domain
+LOG::2021-04-19.23:46:15::SCWSystem::Not a boot domain 
+LOG::2021-04-19.23:46:15::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2021-04-19.23:46:15::SCWDomain::Generating domain artifcats
+TRACE::2021-04-19.23:46:15::SCWMssOS::Generating standalone artifcats
+TRACE::2021-04-19.23:46:15::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-04-19.23:46:15::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:46:15::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:46:15::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:46:15::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:46:15::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:46:15::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:46:15::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:46:15::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:46:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:46:15::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:46:15::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:46:15::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:46:15::SCWMssOS::Completed writing the mss file at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp
+TRACE::2021-04-19.23:46:15::SCWMssOS::Mss edits present, copying mssfile into export location /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:46:15::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-04-19.23:46:15::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-04-19.23:46:15::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2021-04-19.23:46:15::SCWMssOS::doing bsp build ... 
+TRACE::2021-04-19.23:46:15::SCWMssOS::System Command Ran  cd  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp ; bash -c "make  " 
+TRACE::2021-04-19.23:46:15::SCWMssOS::Running Make include in microblaze_I/libsrc/standalone_v7_2/src
+
+TRACE::2021-04-19.23:46:15::SCWMssOS::make -C microblaze_I/libsrc/standalone_v7_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2021-04-19.23:46:15::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-secti
+TRACE::2021-04-19.23:46:15::SCWMssOS::ons -fdata-sections -Wall -Wextra"
+
+TRACE::2021-04-19.23:46:15::SCWMssOS::Running Make include in microblaze_I/libsrc/cpu_v2_11/src
+
+TRACE::2021-04-19.23:46:15::SCWMssOS::make -C microblaze_I/libsrc/cpu_v2_11/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-04-19.23:46:15::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -f
+TRACE::2021-04-19.23:46:15::SCWMssOS::data-sections -Wall -Wextra"
+
+TRACE::2021-04-19.23:46:15::SCWMssOS::Running Make include in microblaze_I/libsrc/iomodule_v2_8/src
+
+TRACE::2021-04-19.23:46:15::SCWMssOS::make -C microblaze_I/libsrc/iomodule_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2021-04-19.23:46:15::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-section
+TRACE::2021-04-19.23:46:15::SCWMssOS::s -fdata-sections -Wall -Wextra"
+
+TRACE::2021-04-19.23:46:15::SCWMssOS::Running Make include in microblaze_I/libsrc/bram_v4_4/src
+
+TRACE::2021-04-19.23:46:15::SCWMssOS::make -C microblaze_I/libsrc/bram_v4_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-04-19.23:46:15::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -f
+TRACE::2021-04-19.23:46:15::SCWMssOS::data-sections -Wall -Wextra"
+
+TRACE::2021-04-19.23:46:15::SCWMssOS::Running Make libs in microblaze_I/libsrc/standalone_v7_2/src
+
+TRACE::2021-04-19.23:46:15::SCWMssOS::make -C microblaze_I/libsrc/standalone_v7_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2021-04-19.23:46:15::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections
+TRACE::2021-04-19.23:46:15::SCWMssOS:: -fdata-sections -Wall -Wextra"
+
+TRACE::2021-04-19.23:46:15::SCWMssOS::Compiling standalone
+
+TRACE::2021-04-19.23:46:19::SCWMssOS::Running Make libs in microblaze_I/libsrc/cpu_v2_11/src
+
+TRACE::2021-04-19.23:46:19::SCWMssOS::make -C microblaze_I/libsrc/cpu_v2_11/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-04-19.23:46:19::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2021-04-19.23:46:19::SCWMssOS::a-sections -Wall -Wextra"
+
+TRACE::2021-04-19.23:46:19::SCWMssOS::Compiling cpu
+
+TRACE::2021-04-19.23:46:19::SCWMssOS::Running Make libs in microblaze_I/libsrc/iomodule_v2_8/src
+
+TRACE::2021-04-19.23:46:19::SCWMssOS::make -C microblaze_I/libsrc/iomodule_v2_8/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2021-04-19.23:46:19::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2021-04-19.23:46:19::SCWMssOS::fdata-sections -Wall -Wextra"
+
+TRACE::2021-04-19.23:46:19::SCWMssOS::Compiling iomodule
+
+TRACE::2021-04-19.23:46:20::SCWMssOS::Running Make libs in microblaze_I/libsrc/bram_v4_4/src
+
+TRACE::2021-04-19.23:46:20::SCWMssOS::make -C microblaze_I/libsrc/bram_v4_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-04-19.23:46:20::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2021-04-19.23:46:20::SCWMssOS::a-sections -Wall -Wextra"
+
+TRACE::2021-04-19.23:46:20::SCWMssOS::Compiling bram
+
+TRACE::2021-04-19.23:46:20::SCWMssOS::Finished building libraries
+
+TRACE::2021-04-19.23:46:20::SCWMssOS::Copying to export directory.
+TRACE::2021-04-19.23:46:20::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-04-19.23:46:20::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2021-04-19.23:46:20::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2021-04-19.23:46:20::SCWSystem::Completed Processing the sysconfig sort_platform
+LOG::2021-04-19.23:46:20::SCWPlatform::Completed generating the artifacts for system configuration sort_platform
+TRACE::2021-04-19.23:46:20::SCWPlatform::Started preparing the platform 
+TRACE::2021-04-19.23:46:20::SCWSystem::Writing the bif file for system config sort_platform
+TRACE::2021-04-19.23:46:20::SCWSystem::dir created 
+TRACE::2021-04-19.23:46:20::SCWSystem::Writing the bif 
+TRACE::2021-04-19.23:46:20::SCWPlatform::Started writing the spfm file 
+TRACE::2021-04-19.23:46:20::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-04-19.23:46:20::SCWPlatform::Completed generating the platform
+TRACE::2021-04-19.23:46:20::SCWMssOS::Saving the mss changes /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:46:20::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-04-19.23:46:20::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-04-19.23:46:20::SCWMssOS::Commit changes completed.
+TRACE::2021-04-19.23:46:20::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:46:20::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:46:20::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:46:20::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:46:20::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:46:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:46:20::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:46:20::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:46:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:46:20::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:46:20::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:46:20::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:46:20::SCWWriter::formatted JSON is {
+	"platformName":	"sort_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sort_platform",
+	"platHandOff":	"/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/mcs_top_sampler_basys3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mcs_top_sampler_basys3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"sort_platform",
+	"systems":	[{
+			"systemName":	"sort_platform",
+			"systemDesc":	"sort_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"sort_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_I",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_I",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"537122bb64680395e095154cb42a8678",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-04-19.23:46:20::SCWPlatform::updated the xpfm file.
+TRACE::2021-04-19.23:46:20::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:46:20::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:46:20::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:46:20::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:46:20::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:46:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:46:20::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:46:20::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:46:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:46:20::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:46:20::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:46:20::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:50:35::SCWMssOS::cleaning the bsp 
+TRACE::2021-04-19.23:50:35::SCWMssOS::System Command Ran  cd  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp ; bash -c "make  clean " 
+TRACE::2021-04-19.23:50:35::SCWMssOS::make -C microblaze_I/libsrc/standalone_v7_2/src -s clean 
+
+TRACE::2021-04-19.23:50:35::SCWMssOS::make -C microblaze_I/libsrc/cpu_v2_11/src -s clean 
+
+TRACE::2021-04-19.23:50:35::SCWMssOS::make -C microblaze_I/libsrc/iomodule_v2_8/src -s clean 
+
+TRACE::2021-04-19.23:50:35::SCWMssOS::make -C microblaze_I/libsrc/bram_v4_4/src -s clean 
+
+TRACE::2021-04-19.23:50:35::SCWMssOS::rm -f microblaze_I/lib/libxil.a
+
+LOG::2021-04-19.23:50:42::SCWPlatform::Started generating the artifacts platform sort_platform
+TRACE::2021-04-19.23:50:42::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-04-19.23:50:42::SCWPlatform::Started generating the artifacts for system configuration sort_platform
+LOG::2021-04-19.23:50:42::SCWSystem::Checking the domain standalone_domain
+LOG::2021-04-19.23:50:42::SCWSystem::Not a boot domain 
+LOG::2021-04-19.23:50:42::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2021-04-19.23:50:42::SCWDomain::Generating domain artifcats
+TRACE::2021-04-19.23:50:42::SCWMssOS::Generating standalone artifcats
+TRACE::2021-04-19.23:50:42::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-04-19.23:50:42::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:50:42::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:50:42::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:50:42::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:50:42::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:50:42::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:50:42::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:50:42::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:50:42::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:50:42::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:50:42::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:50:42::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:50:42::SCWMssOS::Completed writing the mss file at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp
+TRACE::2021-04-19.23:50:42::SCWMssOS::Mss edits present, copying mssfile into export location /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:50:42::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-04-19.23:50:42::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-04-19.23:50:42::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2021-04-19.23:50:42::SCWMssOS::doing bsp build ... 
+TRACE::2021-04-19.23:50:42::SCWMssOS::System Command Ran  cd  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp ; bash -c "make  " 
+TRACE::2021-04-19.23:50:42::SCWMssOS::Running Make include in microblaze_I/libsrc/standalone_v7_2/src
+
+TRACE::2021-04-19.23:50:42::SCWMssOS::make -C microblaze_I/libsrc/standalone_v7_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2021-04-19.23:50:42::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-secti
+TRACE::2021-04-19.23:50:42::SCWMssOS::ons -fdata-sections -Wall -Wextra"
+
+TRACE::2021-04-19.23:50:42::SCWMssOS::Running Make include in microblaze_I/libsrc/cpu_v2_11/src
+
+TRACE::2021-04-19.23:50:42::SCWMssOS::make -C microblaze_I/libsrc/cpu_v2_11/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-04-19.23:50:42::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -f
+TRACE::2021-04-19.23:50:42::SCWMssOS::data-sections -Wall -Wextra"
+
+TRACE::2021-04-19.23:50:42::SCWMssOS::Running Make include in microblaze_I/libsrc/iomodule_v2_8/src
+
+TRACE::2021-04-19.23:50:42::SCWMssOS::make -C microblaze_I/libsrc/iomodule_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2021-04-19.23:50:42::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-section
+TRACE::2021-04-19.23:50:42::SCWMssOS::s -fdata-sections -Wall -Wextra"
+
+TRACE::2021-04-19.23:50:42::SCWMssOS::Running Make include in microblaze_I/libsrc/bram_v4_4/src
+
+TRACE::2021-04-19.23:50:42::SCWMssOS::make -C microblaze_I/libsrc/bram_v4_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-04-19.23:50:42::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -f
+TRACE::2021-04-19.23:50:42::SCWMssOS::data-sections -Wall -Wextra"
+
+TRACE::2021-04-19.23:50:42::SCWMssOS::Running Make libs in microblaze_I/libsrc/standalone_v7_2/src
+
+TRACE::2021-04-19.23:50:42::SCWMssOS::make -C microblaze_I/libsrc/standalone_v7_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2021-04-19.23:50:42::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections
+TRACE::2021-04-19.23:50:42::SCWMssOS:: -fdata-sections -Wall -Wextra"
+
+TRACE::2021-04-19.23:50:42::SCWMssOS::Compiling standalone
+
+TRACE::2021-04-19.23:50:45::SCWMssOS::Running Make libs in microblaze_I/libsrc/cpu_v2_11/src
+
+TRACE::2021-04-19.23:50:45::SCWMssOS::make -C microblaze_I/libsrc/cpu_v2_11/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-04-19.23:50:45::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2021-04-19.23:50:45::SCWMssOS::a-sections -Wall -Wextra"
+
+TRACE::2021-04-19.23:50:45::SCWMssOS::Compiling cpu
+
+TRACE::2021-04-19.23:50:45::SCWMssOS::Running Make libs in microblaze_I/libsrc/iomodule_v2_8/src
+
+TRACE::2021-04-19.23:50:45::SCWMssOS::make -C microblaze_I/libsrc/iomodule_v2_8/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2021-04-19.23:50:45::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2021-04-19.23:50:45::SCWMssOS::fdata-sections -Wall -Wextra"
+
+TRACE::2021-04-19.23:50:45::SCWMssOS::Compiling iomodule
+
+TRACE::2021-04-19.23:50:46::SCWMssOS::Running Make libs in microblaze_I/libsrc/bram_v4_4/src
+
+TRACE::2021-04-19.23:50:46::SCWMssOS::make -C microblaze_I/libsrc/bram_v4_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-04-19.23:50:46::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2021-04-19.23:50:46::SCWMssOS::a-sections -Wall -Wextra"
+
+TRACE::2021-04-19.23:50:46::SCWMssOS::Compiling bram
+
+TRACE::2021-04-19.23:50:47::SCWMssOS::Finished building libraries
+
+TRACE::2021-04-19.23:50:47::SCWMssOS::Copying to export directory.
+TRACE::2021-04-19.23:50:47::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-04-19.23:50:47::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2021-04-19.23:50:47::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2021-04-19.23:50:47::SCWSystem::Completed Processing the sysconfig sort_platform
+LOG::2021-04-19.23:50:47::SCWPlatform::Completed generating the artifacts for system configuration sort_platform
+TRACE::2021-04-19.23:50:47::SCWPlatform::Started preparing the platform 
+TRACE::2021-04-19.23:50:47::SCWSystem::Writing the bif file for system config sort_platform
+TRACE::2021-04-19.23:50:47::SCWSystem::dir created 
+TRACE::2021-04-19.23:50:47::SCWSystem::Writing the bif 
+TRACE::2021-04-19.23:50:47::SCWPlatform::Started writing the spfm file 
+TRACE::2021-04-19.23:50:47::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-04-19.23:50:47::SCWPlatform::Completed generating the platform
+TRACE::2021-04-19.23:50:47::SCWMssOS::Saving the mss changes /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:50:47::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-04-19.23:50:47::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-04-19.23:50:47::SCWMssOS::Commit changes completed.
+TRACE::2021-04-19.23:50:47::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:50:47::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:50:47::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:50:47::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:50:47::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:50:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:50:47::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:50:47::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:50:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:50:47::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:50:47::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:50:47::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:50:47::SCWWriter::formatted JSON is {
+	"platformName":	"sort_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sort_platform",
+	"platHandOff":	"/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/mcs_top_sampler_basys3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mcs_top_sampler_basys3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"sort_platform",
+	"systems":	[{
+			"systemName":	"sort_platform",
+			"systemDesc":	"sort_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"sort_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_I",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_I",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"537122bb64680395e095154cb42a8678",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-04-19.23:50:47::SCWPlatform::updated the xpfm file.
+TRACE::2021-04-19.23:50:47::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:50:47::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:50:47::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:50:47::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-19.23:50:47::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-19.23:50:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-19.23:50:47::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:50:47::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_1
+TRACE::2021-04-19.23:50:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-19.23:50:47::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-19.23:50:47::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-19.23:50:47::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-20.03:46:22::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:22::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:22::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:30::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-20.03:46:30::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:30::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-20.03:46:30::SCWPlatform::Do not have an existing db opened. 
+TRACE::2021-04-20.03:46:30::SCWPlatform::Opened new HwDB with name mcs_top_sampler_basys3_0
+TRACE::2021-04-20.03:46:30::SCWReader::Active system found as  sort_platform
+TRACE::2021-04-20.03:46:30::SCWReader::Handling sysconfig sort_platform
+TRACE::2021-04-20.03:46:30::SCWDomain::checking for install qemu data   : 
+TRACE::2021-04-20.03:46:30::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:30::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:30::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:30::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-20.03:46:30::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:30::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-20.03:46:30::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-20.03:46:30::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-20.03:46:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-20.03:46:30::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:30::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:30::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:30::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-20.03:46:30::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:30::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-20.03:46:30::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-20.03:46:30::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-20.03:46:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-20.03:46:30::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:30::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:30::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:30::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-20.03:46:30::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:30::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-20.03:46:30::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-20.03:46:30::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-20.03:46:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-20.03:46:30::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:30::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:30::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:30::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-20.03:46:30::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:30::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-20.03:46:30::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-20.03:46:30::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-20.03:46:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-20.03:46:30::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-20.03:46:30::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-04-20.03:46:30::SCWMssOS::No sw design opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-20.03:46:30::SCWMssOS::mss exists loading the mss file  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-20.03:46:30::SCWMssOS::Opened the sw design from mss  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-20.03:46:30::SCWMssOS::Adding the swdes entry /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss with des name system
+TRACE::2021-04-20.03:46:30::SCWMssOS::updating the scw layer about changes
+TRACE::2021-04-20.03:46:30::SCWMssOS::Opened the sw design.  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-20.03:46:30::SCWMssOS::Saving the mss changes /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-20.03:46:30::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-04-20.03:46:30::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-04-20.03:46:30::SCWMssOS::Commit changes completed.
+TRACE::2021-04-20.03:46:30::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2021-04-20.03:46:30::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2021-04-20.03:46:30::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:30::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:30::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:30::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-20.03:46:30::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:30::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-20.03:46:30::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-20.03:46:30::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-20.03:46:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-20.03:46:30::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-20.03:46:30::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-20.03:46:30::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-20.03:46:30::SCWReader::No isolation master present  
+LOG::2021-04-20.03:46:30::SCWPlatform::Started generating the artifacts platform sort_platform
+TRACE::2021-04-20.03:46:30::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-04-20.03:46:31::SCWPlatform::Started generating the artifacts for system configuration sort_platform
+LOG::2021-04-20.03:46:31::SCWSystem::Checking the domain standalone_domain
+LOG::2021-04-20.03:46:31::SCWSystem::Not a boot domain 
+LOG::2021-04-20.03:46:31::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2021-04-20.03:46:31::SCWDomain::Generating domain artifcats
+TRACE::2021-04-20.03:46:31::SCWMssOS::Generating standalone artifcats
+TRACE::2021-04-20.03:46:31::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-04-20.03:46:31::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:31::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:31::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:31::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-20.03:46:31::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:31::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-20.03:46:31::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-20.03:46:31::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-20.03:46:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-20.03:46:31::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-20.03:46:31::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-20.03:46:31::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-20.03:46:31::SCWMssOS::Completed writing the mss file at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp
+TRACE::2021-04-20.03:46:31::SCWMssOS::Mss edits present, copying mssfile into export location /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-20.03:46:31::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-04-20.03:46:31::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-04-20.03:46:31::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2021-04-20.03:46:31::SCWMssOS::doing bsp build ... 
+TRACE::2021-04-20.03:46:31::SCWMssOS::System Command Ran  cd  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp ; bash -c "make  " 
+TRACE::2021-04-20.03:46:31::SCWMssOS::Running Make include in microblaze_I/libsrc/standalone_v7_2/src
+
+TRACE::2021-04-20.03:46:31::SCWMssOS::make -C microblaze_I/libsrc/standalone_v7_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2021-04-20.03:46:31::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-secti
+TRACE::2021-04-20.03:46:31::SCWMssOS::ons -fdata-sections -Wall -Wextra"
+
+TRACE::2021-04-20.03:46:31::SCWMssOS::Running Make include in microblaze_I/libsrc/cpu_v2_11/src
+
+TRACE::2021-04-20.03:46:31::SCWMssOS::make -C microblaze_I/libsrc/cpu_v2_11/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-04-20.03:46:31::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -f
+TRACE::2021-04-20.03:46:31::SCWMssOS::data-sections -Wall -Wextra"
+
+TRACE::2021-04-20.03:46:31::SCWMssOS::Running Make include in microblaze_I/libsrc/iomodule_v2_8/src
+
+TRACE::2021-04-20.03:46:31::SCWMssOS::make -C microblaze_I/libsrc/iomodule_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+TRACE::2021-04-20.03:46:31::SCWMssOS::"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-section
+TRACE::2021-04-20.03:46:31::SCWMssOS::s -fdata-sections -Wall -Wextra"
+
+TRACE::2021-04-20.03:46:31::SCWMssOS::Running Make include in microblaze_I/libsrc/bram_v4_4/src
+
+TRACE::2021-04-20.03:46:31::SCWMssOS::make -C microblaze_I/libsrc/bram_v4_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-04-20.03:46:31::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -f
+TRACE::2021-04-20.03:46:31::SCWMssOS::data-sections -Wall -Wextra"
+
+TRACE::2021-04-20.03:46:31::SCWMssOS::Running Make libs in microblaze_I/libsrc/standalone_v7_2/src
+
+TRACE::2021-04-20.03:46:31::SCWMssOS::make -C microblaze_I/libsrc/standalone_v7_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2021-04-20.03:46:31::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections
+TRACE::2021-04-20.03:46:31::SCWMssOS:: -fdata-sections -Wall -Wextra"
+
+TRACE::2021-04-20.03:46:31::SCWMssOS::Compiling standalone
+
+TRACE::2021-04-20.03:46:36::SCWMssOS::Running Make libs in microblaze_I/libsrc/cpu_v2_11/src
+
+TRACE::2021-04-20.03:46:36::SCWMssOS::make -C microblaze_I/libsrc/cpu_v2_11/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-04-20.03:46:36::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2021-04-20.03:46:36::SCWMssOS::a-sections -Wall -Wextra"
+
+TRACE::2021-04-20.03:46:36::SCWMssOS::Compiling cpu
+
+TRACE::2021-04-20.03:46:36::SCWMssOS::Running Make libs in microblaze_I/libsrc/iomodule_v2_8/src
+
+TRACE::2021-04-20.03:46:36::SCWMssOS::make -C microblaze_I/libsrc/iomodule_v2_8/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2021-04-20.03:46:36::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2021-04-20.03:46:36::SCWMssOS::fdata-sections -Wall -Wextra"
+
+TRACE::2021-04-20.03:46:36::SCWMssOS::Compiling iomodule
+
+TRACE::2021-04-20.03:46:38::SCWMssOS::Running Make libs in microblaze_I/libsrc/bram_v4_4/src
+
+TRACE::2021-04-20.03:46:38::SCWMssOS::make -C microblaze_I/libsrc/bram_v4_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-04-20.03:46:38::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdat
+TRACE::2021-04-20.03:46:38::SCWMssOS::a-sections -Wall -Wextra"
+
+TRACE::2021-04-20.03:46:38::SCWMssOS::Compiling bram
+
+TRACE::2021-04-20.03:46:39::SCWMssOS::Finished building libraries
+
+TRACE::2021-04-20.03:46:39::SCWMssOS::Copying to export directory.
+TRACE::2021-04-20.03:46:39::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-04-20.03:46:39::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2021-04-20.03:46:39::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2021-04-20.03:46:39::SCWSystem::Completed Processing the sysconfig sort_platform
+LOG::2021-04-20.03:46:39::SCWPlatform::Completed generating the artifacts for system configuration sort_platform
+TRACE::2021-04-20.03:46:39::SCWPlatform::Started preparing the platform 
+TRACE::2021-04-20.03:46:39::SCWSystem::Writing the bif file for system config sort_platform
+TRACE::2021-04-20.03:46:39::SCWSystem::dir created 
+TRACE::2021-04-20.03:46:39::SCWSystem::Writing the bif 
+TRACE::2021-04-20.03:46:39::SCWPlatform::Started writing the spfm file 
+TRACE::2021-04-20.03:46:39::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-04-20.03:46:39::SCWPlatform::Completed generating the platform
+TRACE::2021-04-20.03:46:39::SCWMssOS::Saving the mss changes /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-20.03:46:39::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-04-20.03:46:39::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-04-20.03:46:39::SCWMssOS::Commit changes completed.
+TRACE::2021-04-20.03:46:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-20.03:46:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-20.03:46:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-20.03:46:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-20.03:46:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-20.03:46:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-20.03:46:39::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-20.03:46:39::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-20.03:46:39::SCWWriter::formatted JSON is {
+	"platformName":	"sort_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"sort_platform",
+	"platHandOff":	"/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/mcs_top_sampler_basys3.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mcs_top_sampler_basys3.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"sort_platform",
+	"systems":	[{
+			"systemName":	"sort_platform",
+			"systemDesc":	"sort_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"sort_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_I",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_I",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"537122bb64680395e095154cb42a8678",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-04-20.03:46:39::SCWPlatform::updated the xpfm file.
+TRACE::2021-04-20.03:46:39::SCWPlatform::Trying to open the hw design at /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:39::SCWPlatform::DSA given /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:39::SCWPlatform::DSA absoulate path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:39::SCWPlatform::DSA directory /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw
+TRACE::2021-04-20.03:46:39::SCWPlatform:: Platform Path /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/hw/mcs_top_sampler_basys3.xsa
+TRACE::2021-04-20.03:46:39::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2021-04-20.03:46:39::SCWPlatform::Trying to set the existing hwdb with name mcs_top_sampler_basys3_0
+TRACE::2021-04-20.03:46:39::SCWPlatform::Opened existing hwdb mcs_top_sampler_basys3_0
+TRACE::2021-04-20.03:46:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-04-20.03:46:39::SCWMssOS::Checking the sw design at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2021-04-20.03:46:39::SCWMssOS::DEBUG:  swdes dump  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-04-20.03:46:39::SCWMssOS::Sw design exists and opened at  /home/egoncu/Desktop/github/fastSorting/prj/sort_platform/microblaze_I/standalone_domain/bsp/system.mss

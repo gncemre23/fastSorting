@@ -1,0 +1,105 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Apr 19 19:35:19 2021
+# Process ID: 2807
+# Current directory: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup
+# Command line: vivado fproSampler_Lightsup.xpr
+# Log file: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/vivado.log
+# Journal file: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project fproSampler_Lightsup.xpr
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property {STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS} {} [get_runs synth_1]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property pfm_name {} [get_files -all {}]
+write_hw_platform -fixed -include_bit -force -file /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/mcs_top_sampler_basys3.xsa
+add_files -norecurse /home/egoncu/Desktop/github/fastSorting/prj/sort_application/Debug/sort_application.elf
+add_files -fileset cpu -norecurse /home/egoncu/Desktop/github/fastSorting/prj/sort_application/Debug/sort_application.elf
+set_property SCOPED_TO_REF cpu [get_files -all -of_objects [get_fileset sources_1] {/home/egoncu/Desktop/github/fastSorting/prj/sort_application/Debug/sort_application.elf}]
+set_property SCOPED_TO_CELLS { U0/microblaze_I } [get_files -all -of_objects [get_fileset sources_1] {/home/egoncu/Desktop/github/fastSorting/prj/sort_application/Debug/sort_application.elf}]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse /home/egoncu/Desktop/github/fastSorting/prj/sort_application/Debug/sort_application.elf
+set_property SCOPED_TO_REF cpu [get_files -all -of_objects [get_fileset sim_1] {/home/egoncu/Desktop/github/fastSorting/prj/sort_application/Debug/sort_application.elf}]
+set_property SCOPED_TO_CELLS { U0/microblaze_I } [get_files -all -of_objects [get_fileset sim_1] {/home/egoncu/Desktop/github/fastSorting/prj/sort_application/Debug/sort_application.elf}]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top test_bench_for_complete_system [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source test_bench_for_complete_system.tcl
+run all
+relaunch_sim
+run all
+restart
+run all
+restart
+run all
+restart
+run all
+restart
+add_force {/test_bench_for_complete_system/instance0/mmio_sys_unit/user_slot4/wr_init_r} -radix hex {1 0ns}
+add_force {/test_bench_for_complete_system/instance0/mmio_sys_unit/user_slot4/wr_init_r} -radix hex {0 0ns}
+run all
+remove_forces { {/test_bench_for_complete_system/instance0/mmio_sys_unit/user_slot4/wr_init_r} }
+run all
+restart
+add_force {/test_bench_for_complete_system/instance0/mmio_sys_unit/user_slot4/wr_init_r} -radix hex {0 0ns}
+run all
+remove_forces { {/test_bench_for_complete_system/instance0/mmio_sys_unit/user_slot4/wr_init_r} }
+relaunch_sim
+run all
+remove_forces { {/test_bench_for_complete_system/instance0/mmio_sys_unit/user_slot4/wr_init_r} }
+restart
+run all
+add_bp {/home/egoncu/Desktop/github/fastSorting/hw/hdl/sorter_wrapper.vhd} 126
+restart
+restart
+run all
+run all
+remove_bps -file {/home/egoncu/Desktop/github/fastSorting/hw/hdl/sorter_wrapper.vhd} -line 126
+relaunch_sim
+relaunch_sim
+run all
+restart
+run all
+relaunch_sim
+run all
+current_wave_config {Untitled 1}
+add_wave {{/test_bench_for_complete_system/instance0/mmio_sys_unit/user_slot4/sorter_unit/ctrl_ins/state_reg}} 
+restart
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+run all
+run all
+run all
+relaunch_sim
+run all
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

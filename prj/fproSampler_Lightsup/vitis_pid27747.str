@@ -1,0 +1,172 @@
+/*
+
+Xilinx Vitis v2020.1.0 (64-bit) [Major: 2020, Minor: 1]
+SW Build 2902540 on Wed May 27 19:55:13 MDT 2020
+
+Process ID (PID): 27747
+License: Customer
+
+Current time: 	Mon Apr 19 23:42:51 EET 2021
+Time zone: 	Eastern European Standard Time (Europe/Istanbul)
+
+OS: Ubuntu
+OS Version: 5.8.0-50-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0
+Screen size: 1366x768
+Available screens: 1
+Available disk space: 61 GB
+
+Java version: 	9.0.4 64-bit
+Java home: 	/tools/Xilinx/Vitis/2020.1/tps/lnx64/jre9.0.4
+Java executable location: 	/tools/Xilinx/Vitis/2020.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	64 MB
+Java maximum memory (-Xmx):	 4 GB
+
+Java library paths: /tools/Xilinx/Vitis/2020.1/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2020.1/lib/lnx64.o:/tools/Xilinx/Vitis/2020.1/tps/lnx64/jre9.0.4/lib/:/tools/Xilinx/Vitis/2020.1/tps/lnx64/jre9.0.4/lib//server:/tools/Xilinx/Vitis/2020.1/lib/lnx64.o:/tools/Xilinx/Vitis/2020.1/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2020.1/lib/lnx64.o:/tools/Xilinx/Vivado/2020.1/bin/../lnx64/tools/dot/lib:/tools/Xilinx/Vitis/2020.1/bin/../lnx64/tools/dot/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+
+Java class paths: /tools/Xilinx/Vitis/2020.1/eclipse/lnx64.o//plugins/org.eclipse.equinox.launcher_1.5.0.v20180512-1130.jar
+LD_LIBRARY_PATH: /tools/Xilinx/Vitis
+
+User name: 	egoncu
+User home directory: /home/egoncu
+User working directory: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vitis
+HDI_APPROOT: /tools/Xilinx/Vitis/2020.1
+RDI_DATADIR: /tools/Xilinx/Vitis/2020.1/data
+RDI_BINDIR: /tools/Xilinx/Vitis/2020.1/bin
+
+Vitis preferences directory: /home/egoncu/.Xilinx/Vitis/2020.1/
+Vitis workspace directory: /home/egoncu/Desktop/github/fastSorting/prj
+Vitis workspace log file location: /home/egoncu/Desktop/github/fastSorting/prj/.metadata/.log
+Engine tmp dir: 	
+
+Xilinx Environment Variables
+----------------------------
+XILINX_DSP: 
+XILINX_HLS: /tools/Xilinx/Vitis/2020.1
+XILINX_PLANAHEAD: /tools/Xilinx/Vitis/2020.1
+XILINX_SDK: /tools/Xilinx/Vitis/2020.1
+XILINX_VITIS: /tools/Xilinx/Vitis/2020.1
+XILINX_VIVADO: /tools/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2020.1
+_RDI_DONT_SET_XILINX_AS_PATH: True
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+closeView("rotation_core.cpp", "exercise5/src/drv/rotation_core.cpp", "CEditor", "CTabItem.ROTATION_CORE_CPP");
+activateView("rotation_core.h", "exercise5/src/drv/rotation_core.h", "CEditor", "CTabItem.ROTATION_CORE_H");
+closeView("rotation_core.h", "exercise5/src/drv/rotation_core.h", "CEditor", "CTabItem.ROTATION_CORE_H");
+closeView("test_platform", "test_platform/platform.spr", "ErrorEditorPart", "CTabItem.TEST_PLATFORM");
+closeView("exercise5_system", "exercise5_system/exercise5_system.sprj", "SystemSettingsEditor", "CTabItem.EXERCISE5_SYSTEM");
+selectMenuItem("File", "WorkbenchWindow", "MenuItem.FILE");
+selectMenuItem("New", "WorkbenchWindow", "MenuItem.NEW");
+selectMenuItem("Platform Project", "WorkbenchWindow", "MenuItem.PLATFORM_PROJECT");
+setTextField("sort_platform", "New Platform Project (Create new platform project)", "NewPlatformProjectWizard", "Text.PLATFORM_PROJECT_NAME");
+selectButton("Next", "New Platform Project (Create new platform project)", "NewPlatformProjectWizard", "Button.NEXT");
+selectButton("Browse", "New Platform Project (Platform)", "NewPlatformProjectWizard", "Button.BROWSE");
+setFileDialog("/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/mcs_top_sampler_basys3.xsa", "Create Platform from XSA", "SDXFileDialog", "Button.OK");
+selectButton("Finish", "New Platform Project (Platform)", "NewPlatformProjectWizard", "Button.FINISH");
+selectMenuItem("File", "sort_platform", "WorkbenchWindow", "MenuItem.FILE");
+selectMenuItem("New", "sort_platform", "WorkbenchWindow", "MenuItem.NEW");
+selectMenuItem("Application Project", "sort_platform", "WorkbenchWindow", "MenuItem.APPLICATION_PROJECT");
+selectButton("Next", "New Application Project (Create a New Application Project)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Next", "New Application Project (Platform)", "NewAppProjectWizard", "Button.NEXT");
+setTextField("sort_application", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Text.APPLICATION_PROJECT_NAME");
+selectButton("Next", "New Application Project (Application Project Details)", "NewAppProjectWizard", "Button.NEXT");
+selectButton("Next", "New Application Project (Domain)", "NewAppProjectWizard", "Button.NEXT");
+selectTreeTable("Empty Application", "SW development templates", "New Application Project (Templates)", "NewAppProjectWizard", "TreeViewer.TemplateContentProvider");
+selectButton("Finish", "New Application Project (Templates)", "NewAppProjectWizard", "Button.FINISH");
+selectTree("sort_application_system", "sort_application_system", "SystemSettingsEditor", "Tree");
+selectTree("src", "sort_application_system > sort_application", "Explorer", "ProjectExplorer", "Tree");
+selectTree("microblaze_I", "sort_platform", "Explorer", "ProjectExplorer", "Tree");
+selectTree("src", "sort_application_system > sort_application", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Paste", "Explorer", "ProjectExplorer", "MenuItem.PASTE");
+selectTree("sort_application", "sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("main_sort.cpp", "sort_application_system > sort_application > src > app", "Explorer", "ProjectExplorer", "Tree");
+activateView("Problems", "ProblemsView", "CTabItem.PROBLEMS");
+selectProblemsView("undefined reference to `gettimeofday", "Errors", EventType.POPUP_TRIGGER_CLICK, "ProblemsView", "TreeViewer.MarkerViewerContentProvider");
+selectMenuItem("©", "Problems", "ProblemsView", "MenuItem.©");
+selectProblemsView("undefined reference to `gettimeofday", "Errors", EventType.POPUP_TRIGGER_CLICK, "ProblemsView", "TreeViewer.MarkerViewerContentProvider");
+selectTree("sorting_core.cpp", "sort_application_system > sort_application > src > drv", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectTree("Includes", "sort_application_system > sort_application", "Explorer", "ProjectExplorer", "Tree");
+selectTree("sort_application_system", "sort_application_system > sort_application", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+activateView("Problems", "2 errors 10 warnings 3 others", "ProblemsView", "CTabItem.PROBLEMS");
+selectProblemsView("undefined reference to `gettimeofday", "Errors", "ProblemsView", "TreeViewer.MarkerViewerContentProvider");
+selectMenuItem("Search", "sort_application", "WorkbenchWindow", "MenuItem.SEARCH");
+selectMenuItem("File", "sort_application", "WorkbenchWindow", "MenuItem.FILE");
+selectButton("Search", "Search", "SearchDialog", "Button.SEARCH");
+selectTree("main_sort.cpp", "sort_application_system > sort_application > src > app", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectTree("sort_application_system", "sort_application_system > sort_application > src > app", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+activateView("Problems", "2 errors 10 warnings 3 others", "ProblemsView", "CTabItem.PROBLEMS");
+selectTree("sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Clean Project", "Explorer", "ProjectExplorer", "MenuItem.CLEAN_PROJECT");
+selectTree("sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+activateView("Problems", "2 errors 11 warnings 3 others", "ProblemsView", "CTabItem.PROBLEMS");
+selectTree("sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+activateView("Problems", "0 errors 10 warnings 3 others", "ProblemsView", "CTabItem.PROBLEMS");
+selectTree("sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectTree("sort_application", "sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("sort_application", "sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectTree("sort_application_system", "sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("sorting_core.cpp", "sort_application_system > sort_application > src > drv", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "Tree");
+activateView("main_sort.cpp", "sort_application/src/app/main_sort.cpp", "CEditor", "CTabItem.MAIN_SORT_CPP");
+activateView("sorting_core.cpp", "sort_application/src/drv/sorting_core.cpp", "CEditor", "CTabItem.SORTING_CORE_CPP");
+selectTree("sorting_core.h", "sort_application_system > sort_application > src > drv", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "Tree");
+activateView("sorting_core.cpp", "sort_application/src/drv/sorting_core.cpp", "CEditor", "CTabItem.SORTING_CORE_CPP");
+selectTree("sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectTree("sort_application", "sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+setText("01:28:42 **** Incremental Build of configuration De", "Console", "ConsoleView", "StyledText");
+activateView("main_sort.cpp", "sort_application/src/app/main_sort.cpp", "CEditor", "CTabItem.MAIN_SORT_CPP");
+activateView("sorting_core.cpp", "sort_application/src/drv/sorting_core.cpp", "CEditor", "CTabItem.SORTING_CORE_CPP");
+activateView("main_sort.cpp", "sort_application/src/app/main_sort.cpp", "CEditor", "CTabItem.MAIN_SORT_CPP");
+activateView("sorting_core.cpp", "sort_application/src/drv/sorting_core.cpp", "CEditor", "CTabItem.SORTING_CORE_CPP");
+activateView("sorting_core.h", "sort_application/src/drv/sorting_core.h", "CEditor", "CTabItem.SORTING_CORE_H");
+selectTree("sort_application", "sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+activateView("main_sort.cpp", "sort_application/src/app/main_sort.cpp", "CEditor", "CTabItem.MAIN_SORT_CPP");
+activateView("sorting_core.cpp", "sort_application/src/drv/sorting_core.cpp", "CEditor", "CTabItem.SORTING_CORE_CPP");
+activateView("main_sort.cpp", "sort_application/src/app/main_sort.cpp", "CEditor", "CTabItem.MAIN_SORT_CPP");
+selectTree("sort_application", "sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTable("sleep_us", "sort_application", "Table", "Table");
+selectTree("sort_application", "sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("sort_application", "sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("sort_application_system", "sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("sort_application_system", "sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+activateView("sorting_core.cpp", "sort_application/src/drv/sorting_core.cpp", "CEditor", "CTabItem.SORTING_CORE_CPP");
+activateView("sorting_core.h", "sort_application/src/drv/sorting_core.h", "CEditor", "CTabItem.SORTING_CORE_H");
+activateView("sorting_core.cpp", "sort_application/src/drv/sorting_core.cpp", "CEditor", "CTabItem.SORTING_CORE_CPP");
+activateView("sorting_core.h", "sort_application/src/drv/sorting_core.h", "CEditor", "CTabItem.SORTING_CORE_H");
+activateView("sorting_core.cpp", "sort_application/src/drv/sorting_core.cpp", "CEditor", "CTabItem.SORTING_CORE_CPP");
+activateView("main_sort.cpp", "sort_application/src/app/main_sort.cpp", "CEditor", "CTabItem.MAIN_SORT_CPP");
+activateView("sorting_core.h", "sort_application/src/drv/sorting_core.h", "CEditor", "CTabItem.SORTING_CORE_H");
+activateView("sorting_core.cpp", "sort_application/src/drv/sorting_core.cpp", "CEditor", "CTabItem.SORTING_CORE_CPP");
+selectTree("timer_core.cpp", "sort_application_system > sort_application > src > drv", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "Tree");
+activateView("sorting_core.cpp", "sort_application/src/drv/sorting_core.cpp", "CEditor", "CTabItem.SORTING_CORE_CPP");
+selectTree("sort_application", "sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+activateView("main_sort.cpp", "sort_application/src/app/main_sort.cpp", "CEditor", "CTabItem.MAIN_SORT_CPP");
+activateView("sorting_core.cpp", "sort_application/src/drv/sorting_core.cpp", "CEditor", "CTabItem.SORTING_CORE_CPP");
+activateView("sorting_core.h", "sort_application/src/drv/sorting_core.h", "CEditor", "CTabItem.SORTING_CORE_H");

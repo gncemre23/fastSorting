@@ -112,16 +112,19 @@ instance0: entity work.mcs_top_sampler_basys3
    stimuli_process: process
    begin
    reset <= '1';
-   btn <= "00000";
-   wait for 1000 ns;
+   wait for 1 us;
    reset <= '0';
-   wait for 1 ms;
-   btn <= "00010"; -- btnr is pressed
-   wait for 5 ms;
-   btn <= "00001"; -- btnu is pressed
-   wait for 10 ns;
-   btn <= "00000"; -- btnu is pressed
-   wait for 5 ms;
+   wait for 10000 us;
+--   btn <= "00000";
+--   wait for 1000 ns;
+--   reset <= '0';
+--   wait for 1 ms;
+--   btn <= "00010"; -- btnr is pressed
+--   wait for 5 ms;
+--   btn <= "00001"; -- btnu is pressed
+--   wait for 10 ns;
+--   btn <= "00000"; -- btnu is pressed
+--   wait for 5 ms;
   
    
    wait;

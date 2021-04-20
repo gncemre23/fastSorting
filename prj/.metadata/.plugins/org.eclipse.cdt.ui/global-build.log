@@ -1,5 +1,23 @@
-Nothing to build in platform 'test_platform'
+Nothing to build in platform 'sort_platform'
 
-01:32:49 **** Incremental Build of configuration Debug for project exercise5 ****
+05:33:07 **** Incremental Build of configuration Debug for project sort_application ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/app/main_sort.cpp
+Invoking: MicroBlaze g++ compiler
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app/main_sort.o" -I/home/egoncu/Desktop/github/fastSorting/prj/sort_platform/export/sort_platform/sw/sort_platform/standalone_domain/bspinclude/include -mno-xl-reorder -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/app/main_sort.d" -MT"src/app/main_sort.o" -o "src/app/main_sort.o" "../src/app/main_sort.cpp"
+Finished building: ../src/app/main_sort.cpp
+ 
+Building target: sort_application.elf
+Invoking: MicroBlaze g++ linker
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L/home/egoncu/Desktop/github/fastSorting/prj/sort_platform/export/sort_platform/sw/sort_platform/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "sort_application.elf"  ./src/drv/adsr_core.o ./src/drv/chu_init.o ./src/drv/ddfs_core.o ./src/drv/gpio_cores.o ./src/drv/i2c_core.o ./src/drv/lfsr_core.o ./src/drv/ps2_core.o ./src/drv/rotation_core.o ./src/drv/sorting_core.o ./src/drv/spi_core.o ./src/drv/sseg_core.o ./src/drv/timer_core.o ./src/drv/uart_core.o ./src/drv/xadc_core.o  ./src/app/main_sort.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: sort_application.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size sort_application.elf  |tee "sort_application.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  39244	   1292	   3224	  43760	   aaf0	sort_application.elf
+Finished building: sort_application.elf.size
+ 
+05:33:08 **** Incremental Build of configuration Debug for project sort_application_system ****
+make all 
+Skipping SD card image generation. Reason: The system project only has applications for microblaze processors.

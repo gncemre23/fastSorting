@@ -1,110 +1,60 @@
-/*****************************************************************/ /**
- * @file sorting_core.h
+/*****************************************************************//**
+ * @file sorting_core.cpp
  *
- * @brief Driver for the sortşng core
+ * @brief implementation of SortingCore class
  *
  * @author Ali Alsayed
  * @version v1.0: initial release
  ********************************************************************/
 
-#ifndef _SORTING_H_INCLUDED
-#define _SORTING_H_INCLUDED
+#include "sorting_core.h"
 
-#include "chu_io_rw.h"
+SortingCore::SortingCore(uint32_t core_base_addr) {
+   base_addr = core_base_addr;
+}
 
-/**
- * sorting core driver:
- *  it sorts a given array which is unsorted in the ascending manner
- *
- */
-class SortingCore
+SortingCore::~SortingCore() {
+}
+
+void SortingCore::init() {
+   ctrl = 0;
+   io_write(base_addr, CTRL_REG, ctrl);
+}
+
+
+void SortingCore::set_N(uint32_t N) {
+    io_write(base_addr, N_REG, N);
+}
+
+void SortingCore::sort()
 {
-public:
-    /**
-    * register map
-    *
-    */
-    enum
-    {
-        MEM_IN_REG = 0,
-        MEM_OUT_REG = 1,
-        N_REG = 2,
-        CTRL_REG = 3,
-        STATUS_REG = 4,
-    };
-    /**
-   * field masks
-   *
-   */
-    enum
-    {
-        S_FIELD = 0x00000001,    /**< bit 0 of CTRL_REG  */
-        INIT_FIELD = 0x00000002, /**< bit 1 of CTRL_REG  */
-        RW_FIELD = 0x00000003,   /**< bit 2 of CTRL_REG  */
-    };
-    /* methods */
-    /**
-    * constructor.
-    *
-    */
-    SortingCore(uint32_t core_base_addr);
-    ~SortingCore(); // not used
+    ctrl = S_FIELD;
+    io_write(base_addr, CTRL_REG, ctrl);
+}
 
-    /**
-    * initialize the sorting_core
-    * rw = 0 init = 0 s = 0
-    */
-    void init();
+void SortingCore::init_write() {
+    init();
+    ctrl = RW_FIELD | INIT_FIELD;
+    io_write(base_addr, CTRL_REG, ctrl);
+}
 
-    /**
-    * setting N count which is number of elements
-    * going to be in the memory
-    */
-    void set_N(uint32_t N);
-    /**
-    * Activate 
-    * sorting operation on the core
-    * rw = 0 init = 0 s = 1
-    */
-    void set_computation();
+void SortingCore::init_read() {
+    init();
+    ctrl = INIT_FIELD;
+    io_write(base_addr, CTRL_REG, ctrl);
+}
 
-    /**
-    * init for writing to the core consequently
-    * rw = 1 init = 1 s = 0
-    */
-    void init_write();
+void SortingCore::write_mem(uint32_t data) {
+    io_write(base_addr, MEM_IN_REG, data);
+}
 
+uint32_t SortingCore::read_mem()
+{
+    return io_read(base_addr,MEM_OUT_REG);
+}
 
-    /**
-    * init for reading from the core consequently
-    * rw = 0 init = 1 s = 0
-    */
-    void init_read();
+uint32_t SortingCore::read_status()
+{
+    return io_read(base_addr,STATUS_REG);
+}
 
-    /**
-    * writing 16-bit to the internal memory
-    *
-    */
-    void write_mem(uint32_t data);
-
-
-    /**
-    * Reading 16-bit from the core
-    *
-    */
-    uint32_t read_mem();
-
-
-    /**
-    * Reading done bit from the core
-    *
-    */
-    uint32_t read_status();
-
-
-private:
-    uint32_t base_addr;
-    uint32_t ctrl;
-};
-
-#endif // _SORTING_H_INCLUDED

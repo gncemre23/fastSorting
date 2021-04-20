@@ -1,0 +1,117 @@
+/*
+
+Xilinx Vitis v2020.1.0 (64-bit) [Major: 2020, Minor: 1]
+SW Build 2902540 on Wed May 27 19:55:13 MDT 2020
+
+Process ID (PID): 6705
+License: Customer
+
+Current time: 	Tue Apr 20 03:44:25 EET 2021
+Time zone: 	Eastern European Standard Time (Europe/Istanbul)
+
+OS: Ubuntu
+OS Version: 5.8.0-50-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0
+Screen size: 1366x768
+Available screens: 1
+Available disk space: 61 GB
+
+Java version: 	9.0.4 64-bit
+Java home: 	/tools/Xilinx/Vitis/2020.1/tps/lnx64/jre9.0.4
+Java executable location: 	/tools/Xilinx/Vitis/2020.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	64 MB
+Java maximum memory (-Xmx):	 4 GB
+
+Java library paths: /tools/Xilinx/Vitis/2020.1/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2020.1/lib/lnx64.o:/tools/Xilinx/Vitis/2020.1/tps/lnx64/jre9.0.4/lib/:/tools/Xilinx/Vitis/2020.1/tps/lnx64/jre9.0.4/lib//server:/tools/Xilinx/Vitis/2020.1/lib/lnx64.o:/tools/Xilinx/Vitis/2020.1/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2020.1/lib/lnx64.o:/tools/Xilinx/Vivado/2020.1/bin/../lnx64/tools/dot/lib:/tools/Xilinx/Vitis/2020.1/bin/../lnx64/tools/dot/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+
+Java class paths: /tools/Xilinx/Vitis/2020.1/eclipse/lnx64.o//plugins/org.eclipse.equinox.launcher_1.5.0.v20180512-1130.jar
+LD_LIBRARY_PATH: /tools/Xilinx/Vitis
+
+User name: 	egoncu
+User home directory: /home/egoncu
+User working directory: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vitis
+HDI_APPROOT: /tools/Xilinx/Vitis/2020.1
+RDI_DATADIR: /tools/Xilinx/Vitis/2020.1/data
+RDI_BINDIR: /tools/Xilinx/Vitis/2020.1/bin
+
+Vitis preferences directory: /home/egoncu/.Xilinx/Vitis/2020.1/
+Vitis workspace directory: /home/egoncu/Desktop/github/fastSorting/prj
+Vitis workspace log file location: /home/egoncu/Desktop/github/fastSorting/prj/.metadata/.log
+Engine tmp dir: 	
+
+Xilinx Environment Variables
+----------------------------
+XILINX_DSP: 
+XILINX_HLS: /tools/Xilinx/Vitis/2020.1
+XILINX_PLANAHEAD: /tools/Xilinx/Vitis/2020.1
+XILINX_SDK: /tools/Xilinx/Vitis/2020.1
+XILINX_VITIS: /tools/Xilinx/Vitis/2020.1
+XILINX_VIVADO: /tools/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2020.1
+_RDI_DONT_SET_XILINX_AS_PATH: True
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+selectTree("Debug", "sort_application_system > sort_application", "Explorer", "ProjectExplorer", "Tree");
+selectTree("sort_application_system", "sort_application_system > sort_application", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("sort_application_system", "sort_application_system > sort_application", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+activateView("sort_application", "sort_application/sort_application.prj", "SDXSettingsEditor", "CTabItem.SORT_APPLICATION");
+activateView("sorting_core.cpp", "sort_application/src/drv/sorting_core.cpp", "CEditor", "CTabItem.SORTING_CORE_CPP");
+selectTree("main_sort.cpp", "sort_application_system > sort_application > src > app", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectTree("sort_application", "sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectButton("Find", "Find/Replace", "FindReplaceDialog", "Button.FIND");
+selectTree("sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectButton("Find", "Find/Replace", "FindReplaceDialog", "Button.FIND");
+selectButton("Find", "Find/Replace", "FindReplaceDialog", "Button.FIND");
+selectButton("Find", "Find/Replace", "FindReplaceDialog", "Button.FIND");
+selectButton("Close", "Find/Replace", "FindReplaceDialog", "Button.CLOSE");
+selectTree("sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("uart_core.h", "sort_application_system > sort_application > src > drv", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectTree("uart_core.cpp", "sort_application_system > sort_application > src > drv", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "Tree");
+activateView("main_sort.cpp", "sort_application/src/app/main_sort.cpp", "CEditor", "CTabItem.MAIN_SORT_CPP");
+activateView("uart_core.cpp", "sort_application/src/drv/uart_core.cpp", "CEditor", "CTabItem.UART_CORE_CPP");
+activateView("main_sort.cpp", "sort_application/src/app/main_sort.cpp", "CEditor", "CTabItem.MAIN_SORT_CPP");
+selectTree("chu_init.h", "sort_application_system > sort_application > src > drv", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "Tree");
+activateView("*main_sort.cpp", "sort_application/src/app/main_sort.cpp", "Editor", "CTabItem.*MAIN_SORT_CPP");
+selectTree("sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectMenuItem("Build Project", "Explorer", "ProjectExplorer", "MenuItem.BUILD_PROJECT");
+selectTree("sort_application_system", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "Tree");
+selectToolBarButton("Show List", "main_sort.cpp", "CEditor", "ToolItem.SHOW_LIST");
+selectTable("sorting_core.h", "sort_application", "Table", "Table");
+selectToolBarButton("Show List", "sorting_core.h", "CEditor", "ToolItem.SHOW_LIST");
+selectTable("sorting_core.cpp", "sort_application", "Table", "Table");

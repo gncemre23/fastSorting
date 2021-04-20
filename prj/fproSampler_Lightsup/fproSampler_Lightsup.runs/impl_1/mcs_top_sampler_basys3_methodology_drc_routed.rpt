@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.1 (lin64) Build 2902540 Wed May 27 19:54:35 MDT 2020
-| Date         : Mon Apr 19 19:42:25 2021
+| Date         : Tue Apr 20 03:50:32 2021
 | Host         : egoncu-Lenovo-IdeaPad-L340-15API running 64-bit Ubuntu 20.04.1 LTS
 | Command      : report_methodology -file mcs_top_sampler_basys3_methodology_drc_routed.rpt -pb mcs_top_sampler_basys3_methodology_drc_routed.pb -rpx mcs_top_sampler_basys3_methodology_drc_routed.rpx
 | Design       : mcs_top_sampler_basys3

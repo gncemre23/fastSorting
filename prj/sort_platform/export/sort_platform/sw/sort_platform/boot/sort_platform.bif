@@ -1,0 +1,6 @@
+/*sort_platform*/
+the_ROM_image:
+{
+   <bitstream> 
+   <elf> 
+}

@@ -89,6 +89,9 @@ set_property ip_output_repo /home/egoncu/Desktop/github/fastSorting/prj/fproSamp
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
+add_files /home/egoncu/Desktop/github/fastSorting/prj/sort_application/Debug/sort_application.elf
+set_property SCOPED_TO_REF cpu [get_files -all /home/egoncu/Desktop/github/fastSorting/prj/sort_application/Debug/sort_application.elf]
+set_property SCOPED_TO_CELLS U0/microblaze_I [get_files -all /home/egoncu/Desktop/github/fastSorting/prj/sort_application/Debug/sort_application.elf]
 read_vhdl -library xil_defaultlib {
   /home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/adsr/adsr.vhd
   /home/egoncu/Desktop/github/fastSorting/hw/hdl/fpro_src/hdl/mmio/uart/baud_gen.vhd

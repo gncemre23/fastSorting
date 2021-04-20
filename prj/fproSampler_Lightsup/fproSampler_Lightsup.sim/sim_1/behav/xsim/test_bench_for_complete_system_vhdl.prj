@@ -12,6 +12,7 @@ vhdl xil_defaultlib  \
 "../../../../../../hw/ip/sim/cpu.vhd" \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/adsr/adsr.vhd" \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/uart/baud_gen.vhd" \
+"../../../../../../hw/hdl/bram_.vhd" \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/adsr/chu_adsr_core.vhd" \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/ddfs/sin_rom.vhd" \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/ddfs/ddfs.vhd" \
@@ -37,12 +38,6 @@ vhdl xil_defaultlib  \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/mmio_support/fifo/fifo.vhd" \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/ps2/ps2_top.vhd" \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/ps2/chu_ps2_core.vhd" \
-
-vhdl2008 xil_defaultlib  \
-"../../../../../../hw/hdl/rotation_core.vhd" \
-
-vhdl xil_defaultlib  \
-"../../../../../../hw/hdl/chu_rotation_core.vhd" \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/spi/spi.vhd" \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/spi/chu_spi_core.vhd" \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/mmio_basic/chu_timer.vhd" \
@@ -51,6 +46,15 @@ vhdl xil_defaultlib  \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/uart/uart.vhd" \
 "../../../../../../hw/hdl/fpro_src/hdl/mmio/uart/chu_uart.vhd" \
 "../../../../../../hw/hdl/basys3_supplement/xadc_basys3/chu_xadc_core_basys3.vhd" \
+"../../../../../../hw/hdl/counter.vhd" \
+"../../../../../../hw/hdl/sorter_data_path.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../../../hw/hdl/sorter_ctrl.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../../../hw/hdl/sorter_top.vhd" \
+"../../../../../../hw/hdl/sorter_wrapper.vhd" \
 "../../../../../../hw/hdl/basys3_supplement/mmio_sys_sampler_basys3.vhd" \
 "../../../../../../hw/hdl/basys3_supplement/mcs_top_sampler_basys3.vhd" \
 "../../../../../../hw/hdl/basys3_supplement/xadc_basys3/xadc_fpro_basys3.vhd" \

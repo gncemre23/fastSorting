@@ -1,0 +1,152 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:35 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 57917
+License: Customer
+
+Current time: 	Tue Apr 20 03:30:25 EET 2021
+Time zone: 	Eastern European Standard Time (Europe/Istanbul)
+
+OS: Ubuntu
+OS Version: 5.8.0-50-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0
+Screen size: 1366x768
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/tools/Xilinx/Vivado/2020.1/tps/lnx64/jre9.0.4
+Java executable location: 	/tools/Xilinx/Vivado/2020.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	egoncu
+User home directory: /home/egoncu
+User working directory: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2020.1
+RDI_DATADIR: /tools/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: /tools/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: /home/egoncu/.Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: /home/egoncu/.Xilinx/Vivado/2020.1/
+Vivado layouts directory: /home/egoncu/.Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	/tools/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/vivado.log
+Vivado journal file location: 	/home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-57917-egoncu-Lenovo-IdeaPad-L340-15API
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /tools/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: /tools/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: /tools/Xilinx/Vivado/2020.1
+XILINX_SDK: /tools/Xilinx/Vitis/2020.1
+XILINX_VITIS: /tools/Xilinx/Vitis/2020.1
+XILINX_VIVADO: /tools/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	211 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,389 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 66 MB (+67190kb) [00:00:18]
+// [Engine Memory]: 1,368 MB (+1282521kb) [00:00:18]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: fproSampler_Lightsup.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project fproSampler_Lightsup.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,350 MB. GUI used memory: 50 MB. Current time: 4/20/21, 3:30:26 AM EET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 77 MB (+8018kb) [00:00:30]
+// [GUI Memory]: 94 MB (+13739kb) [00:00:31]
+// [GUI Memory]: 111 MB (+12848kb) [00:00:33]
+// WARNING: HEventQueue.dispatchEvent() is taking  6474 ms.
+// Tcl Message: open_project fproSampler_Lightsup.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.1/data/ip'. 
+// [GUI Memory]: 127 MB (+10063kb) [00:00:36]
+// Tcl Message: open_project: Time (s): cpu = 00:00:34 ; elapsed = 00:00:17 . Memory (MB): peak = 7002.551 ; gain = 30.066 ; free physical = 109 ; free virtual = 1172 
+// Project name: fproSampler_Lightsup; location: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bz (cs)
+// [Engine Memory]: 1,445 MB (+8956kb) [00:00:38]
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,447 MB. GUI used memory: 69 MB. Current time: 4/20/21, 3:30:46 AM EET
+// Elapsed time: 19 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, cs)
+// aU (cs): Cancel Implementation: addNotify
+selectButton(PAResourceQtoS.StateMonitor_RESET_RUN, "Reset Run"); // a (aU)
+// TclEventType: RUN_STEP_COMPLETED
+// bz (cs):  Resetting Runs : addNotify
+dismissDialog("Cancel Implementation"); // aU (cs)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bz (cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,491 MB. GUI used memory: 70 MB. Current time: 4/20/21, 3:31:06 AM EET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (J, cs)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cs): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bz (cs):  Resetting Runs : addNotify
+// f (cs): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (cs)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cs)
+// TclEventType: RUN_LAUNCH
+// bz (cs):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Tue Apr 20 03:31:12 2021] Launched impl_1... Run output will be captured here: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz (cs)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED

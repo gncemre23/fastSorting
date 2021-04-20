@@ -1,0 +1,240 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Apr 20 03:31:15 2021
+# Process ID: 58284
+# Current directory: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/impl_1
+# Command line: vivado -log mcs_top_sampler_basys3.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mcs_top_sampler_basys3.tcl -notrace
+# Log file: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/impl_1/mcs_top_sampler_basys3.vdi
+# Journal file: /home/egoncu/Desktop/github/fastSorting/prj/fproSampler_Lightsup/fproSampler_Lightsup.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source mcs_top_sampler_basys3.tcl -notrace
+Command: link_design -top mcs_top_sampler_basys3 -part xc7a35tcpg236-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-454] Reading design checkpoint '/home/egoncu/Desktop/github/fastSorting/hw/ip/cpu.dcp' for cell 'mcs_0'
+Netlist sorting complete. Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.13 . Memory (MB): peak = 2068.543 ; gain = 0.000 ; free physical = 113 ; free virtual = 975
+INFO: [Netlist 29-17] Analyzing 474 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_0/bd_3914_microblaze_I_0.xdc] for cell 'mcs_0/U0/microblaze_I/U0'
+Finished Parsing XDC File [/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_0/bd_3914_microblaze_I_0.xdc] for cell 'mcs_0/U0/microblaze_I/U0'
+Parsing XDC File [/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_1/bd_3914_rst_0_0_board.xdc] for cell 'mcs_0/U0/rst_0/U0'
+Finished Parsing XDC File [/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_1/bd_3914_rst_0_0_board.xdc] for cell 'mcs_0/U0/rst_0/U0'
+Parsing XDC File [/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_1/bd_3914_rst_0_0.xdc] for cell 'mcs_0/U0/rst_0/U0'
+Finished Parsing XDC File [/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_1/bd_3914_rst_0_0.xdc] for cell 'mcs_0/U0/rst_0/U0'
+Parsing XDC File [/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_3/bd_3914_dlmb_0.xdc] for cell 'mcs_0/U0/dlmb/U0'
+Finished Parsing XDC File [/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_3/bd_3914_dlmb_0.xdc] for cell 'mcs_0/U0/dlmb/U0'
+Parsing XDC File [/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_7/bd_3914_mdm_0_0.xdc] for cell 'mcs_0/U0/mdm_0/U0'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_7/bd_3914_mdm_0_0.xdc:50]
+get_clocks: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2524.281 ; gain = 431.836 ; free physical = 166 ; free virtual = 471
+Finished Parsing XDC File [/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_7/bd_3914_mdm_0_0.xdc] for cell 'mcs_0/U0/mdm_0/U0'
+Parsing XDC File [/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_9/bd_3914_iomodule_0_0_board.xdc] for cell 'mcs_0/U0/iomodule_0/U0'
+Finished Parsing XDC File [/home/egoncu/Desktop/github/fastSorting/hw/ip/bd_0/ip/ip_9/bd_3914_iomodule_0_0_board.xdc] for cell 'mcs_0/U0/iomodule_0/U0'
+Parsing XDC File [/home/egoncu/Desktop/github/fastSorting/hw/ip/cpu_board.xdc] for cell 'mcs_0/U0'
+Finished Parsing XDC File [/home/egoncu/Desktop/github/fastSorting/hw/ip/cpu_board.xdc] for cell 'mcs_0/U0'
+Parsing XDC File [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc]
+WARNING: [Vivado 12-584] No ports matched 'PS2Clk'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:142]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:142]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[8]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:151]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:151]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[8]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:152]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:152]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[9]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:153]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:153]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[9]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:154]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:154]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[10]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:155]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:155]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[10]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:156]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:156]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[11]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:157]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:157]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[11]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:158]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:158]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[4]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:159]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:159]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[4]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:160]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:160]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[5]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:161]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:161]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[5]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:162]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:162]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[6]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:163]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:163]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[6]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:164]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:164]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[7]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:165]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:165]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[7]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:166]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:166]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[0]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:167]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:167]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[0]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:168]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:168]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[1]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:169]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:169]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[1]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:170]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:170]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[2]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:171]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:171]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[2]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:172]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:172]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[3]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:173]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:173]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb[3]'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:174]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:174]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hsync'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:175]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:175]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hsync'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:176]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:176]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vsync'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:177]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:177]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vsync'. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:178]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc:178]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/egoncu/Desktop/github/fastSorting/hw/constraints/basys3_chu.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Generating merged BMM file for the design top 'mcs_top_sampler_basys3'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: /home/egoncu/Desktop/github/fastSorting/prj/sort_application/Debug/sort_application.elf 
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2548.293 ; gain = 0.000 ; free physical = 112 ; free virtual = 462
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 173 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 3 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 97 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 64 instances
+  RAM64M => RAM64M (RAMD64E(x4)): 9 instances
+
+10 Infos, 29 Warnings, 29 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 2548.293 ; gain = 479.859 ; free physical = 112 ; free virtual = 463
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 4 threads
+WARNING: [DRC RPBF-3] IO port buffering is incomplete: Device port jb_top[1] expects both input and output buffering but the buffers are incomplete.
+WARNING: [DRC RPBF-3] IO port buffering is incomplete: Device port jb_top[2] expects both input and output buffering but the buffers are incomplete.
+WARNING: [DRC RPBF-3] IO port buffering is incomplete: Device port jb_top[3] expects both input and output buffering but the buffers are incomplete.
+WARNING: [DRC RPBF-3] IO port buffering is incomplete: Device port jb_top[4] expects both input and output buffering but the buffers are incomplete.
+WARNING: [DRC RPBF-3] IO port buffering is incomplete: Device port jc_btm[10] expects both input and output buffering but the buffers are incomplete.
+WARNING: [DRC RPBF-3] IO port buffering is incomplete: Device port jc_btm[7] expects both input and output buffering but the buffers are incomplete.
+WARNING: [DRC RPBF-3] IO port buffering is incomplete: Device port jc_btm[8] expects both input and output buffering but the buffers are incomplete.
+WARNING: [DRC RPBF-3] IO port buffering is incomplete: Device port jc_top[2] expects both input and output buffering but the buffers are incomplete.
+INFO: [Project 1-461] DRC finished with 0 Errors, 8 Warnings
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2556.297 ; gain = 8.004 ; free physical = 112 ; free virtual = 455
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 18b259139
+
+Time (s): cpu = 00:00:00.57 ; elapsed = 00:00:00.38 . Memory (MB): peak = 2578.109 ; gain = 21.812 ; free physical = 110 ; free virtual = 454
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 17 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1c91670d9
+
+Time (s): cpu = 00:00:00.84 ; elapsed = 00:00:00.96 . Memory (MB): peak = 2728.109 ; gain = 0.000 ; free physical = 123 ; free virtual = 296
+INFO: [Opt 31-389] Phase Retarget created 113 cells and removed 152 cells
+INFO: [Opt 31-1021] In phase Retarget, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 194979181
+
+Time (s): cpu = 00:00:00.95 ; elapsed = 00:00:01 . Memory (MB): peak = 2728.109 ; gain = 0.000 ; free physical = 119 ; free virtual = 296
+INFO: [Opt 31-389] Phase Constant propagation created 13 cells and removed 43 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 1aa607e07
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2728.109 ; gain = 0.000 ; free physical = 115 ; free virtual = 296
+INFO: [Opt 31-389] Phase Sweep created 1 cells and removed 502 cells
+INFO: [Opt 31-1021] In phase Sweep, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG mcs_0/U0/mdm_0/U0/Use_E2.BSCAN_I/Ext_JTAG_UPDATE_BUFG_inst to drive 40 load(s) on clock net mcs_0/U0/mdm_0/U0/Use_E2.BSCAN_I/Ext_JTAG_UPDATE_BUFG
+INFO: [Opt 31-193] Inserted 1 BUFG(s) on clock nets
+Phase 4 BUFG optimization | Checksum: 1f92219b2
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2728.109 ; gain = 0.000 ; free physical = 110 ; free virtual = 295
+INFO: [Opt 31-662] Phase BUFG optimization created 1 cells of which 1 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 1f92219b2
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2728.109 ; gain = 0.000 ; free physical = 107 ; free virtual = 293
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 20b660267
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2728.109 ; gain = 0.000 ; free physical = 119 ; free virtual = 294
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |             113  |             152  |                                              1  |
+|  Constant propagation         |              13  |              43  |                                              1  |
+|  Sweep                        |               1  |             502  |                                              1  |
+|  BUFG optimization            |               1  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              1  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2728.109 ; gain = 0.000 ; free physical = 115 ; free virtual = 293
+Ending Logic Optimization Task | Checksum: 79fcd120
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2728.109 ; gain = 0.000 ; free physical = 115 ; free virtual = 293
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.

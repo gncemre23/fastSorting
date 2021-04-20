@@ -1,8 +1,8 @@
-Tue Apr 13 23:42:04 2021: Server was asked to start on port: '43411'
-Tue Apr 13 23:42:04 2021: Server is using token UUID: 'c3289e47-64a5-4365-8747-34b194d6714b'
-Tue Apr 13 23:42:04 2021: Attempting to start server on port '43411'
-Tue Apr 13 23:42:04 2021: XRC main fifo: created main fifo '/tmp/xrcmainc3289e47-64a5-4365-8747-34b194d6714b', fd read = 11
-Tue Apr 13 23:42:04 2021: Running Rule Check Server
-Tue Apr 13 23:42:04 2021: Version 1.6.1
-Tue Apr 13 23:42:04 2021: Rule Check Server: Accepted socket connection from client
-Tue Apr 13 23:42:04 2021: EXCHANGE_TOKEN received, server token: c3289e47-64a5-4365-8747-34b194d6714b, passed token: c3289e47-64a5-4365-8747-34b194d6714b
+Tue Apr 20 03:44:25 2021: Server was asked to start on port: '45847'
+Tue Apr 20 03:44:25 2021: Server is using token UUID: '3cb4078f-d541-4e5b-93fc-405a04dfaac6'
+Tue Apr 20 03:44:25 2021: Attempting to start server on port '45847'
+Tue Apr 20 03:44:25 2021: XRC main fifo: created main fifo '/tmp/xrcmain3cb4078f-d541-4e5b-93fc-405a04dfaac6', fd read = 11
+Tue Apr 20 03:44:25 2021: Running Rule Check Server
+Tue Apr 20 03:44:25 2021: Version 1.6.1
+Tue Apr 20 03:44:27 2021: Rule Check Server: Accepted socket connection from client
+Tue Apr 20 03:44:27 2021: EXCHANGE_TOKEN received, server token: 3cb4078f-d541-4e5b-93fc-405a04dfaac6, passed token: 3cb4078f-d541-4e5b-93fc-405a04dfaac6
