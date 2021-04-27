@@ -115,3 +115,7 @@ selectToolBarButton("Show List", "main_sort.cpp", "CEditor", "ToolItem.SHOW_LIST
 selectTable("sorting_core.h", "sort_application", "Table", "Table");
 selectToolBarButton("Show List", "sorting_core.h", "CEditor", "ToolItem.SHOW_LIST");
 selectTable("sorting_core.cpp", "sort_application", "Table", "Table");
+selectButton("Exit", "Confirm Exit", "MessageDialogWithToggle", "Button.EXIT");
+// Exiting Xilinx Vitis with a status code '0' at 4/20/21, 10:09:55 PM EET
+// Elapsed time: 18:25:32
+
